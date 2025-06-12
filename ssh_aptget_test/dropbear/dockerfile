@@ -1,0 +1,17 @@
+FROM debian:buster
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Install Dropbear SSH server
+RUN apt-get update -y && \
+    apt-get install -y dropbear && \
+    mkdir /var/run/dropbear
+
+# Create a test user
+RUN useradd -m -s /bin/bash testuser && \
+    echo "testuser:root" | chpasswd
+
+# Expose SSH port
+EXPOSE 22
+
+# Start Dropbear in foreground mode
+CMD ["/usr/sbin/dropbear", "-F"]

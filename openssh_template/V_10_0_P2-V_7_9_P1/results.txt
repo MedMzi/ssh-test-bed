@@ -1,0 +1,26 @@
+OpenSSH Versions:
+V_10_0_P2: OpenSSH_10.0p2, OpenSSL 1.1.1n  15 Mar 2022
+V_10_0_P1: OpenSSH_10.0p2, OpenSSL 1.1.1n  15 Mar 2022
+V_9_9_P2: OpenSSH_9.9p2, OpenSSL 1.1.1n  15 Mar 2022
+V_9_9_P1: OpenSSH_9.9p1, OpenSSL 1.1.1n  15 Mar 2022
+V_9_8_P1: OpenSSH_9.8p1, OpenSSL 1.1.1n  15 Mar 2022
+V_9_7_P1: OpenSSH_9.7p1, OpenSSL 1.1.1n  15 Mar 2022
+V_9_6_P1: OpenSSH_9.6p1, OpenSSL 1.1.1n  15 Mar 2022
+V_9_5_P1: OpenSSH_9.5p1, OpenSSL 1.1.1n  15 Mar 2022
+V_9_4_P1: OpenSSH_9.4p1, OpenSSL 1.1.1n  15 Mar 2022
+V_9_3_P2: OpenSSH_9.3p2, OpenSSL 1.1.1n  15 Mar 2022
+V_9_3_P1: OpenSSH_9.3p1, OpenSSL 1.1.1n  15 Mar 2022
+V_9_2_P1: OpenSSH_9.2p1, OpenSSL 1.1.1n  15 Mar 2022
+V_9_1_P1: OpenSSH_9.1p1, OpenSSL 1.1.1n  15 Mar 2022
+V_9_0_P1: OpenSSH_9.0p1, OpenSSL 1.1.1n  15 Mar 2022
+V_8_9_P1: OpenSSH_8.9p1, OpenSSL 1.1.1n  15 Mar 2022
+V_8_8_P1: OpenSSH_8.8p1, OpenSSL 1.1.1n  15 Mar 2022
+V_8_7_P1: OpenSSH_8.7p1, OpenSSL 1.1.1n  15 Mar 2022
+V_8_6_P1: OpenSSH_8.6p1, OpenSSL 1.1.1n  15 Mar 2022
+V_8_5_P1: OpenSSH_8.5p1, OpenSSL 1.1.1n  15 Mar 2022
+V_8_4_P1: OpenSSH_8.4p1, OpenSSL 1.1.1n  15 Mar 2022
+V_8_3_P1: OpenSSH_8.3p1, OpenSSL 1.1.1n  15 Mar 2022
+V_8_2_P1: OpenSSH_8.2p1, OpenSSL 1.1.1n  15 Mar 2022
+V_8_1_P1: OpenSSH_8.1p1, OpenSSL 1.1.1n  15 Mar 2022
+V_8_0_P1: OpenSSH_8.0p1, OpenSSL 1.1.1n  15 Mar 2022
+V_7_9_P1: OpenSSH_7.9p1, OpenSSL 1.1.1n  15 Mar 2022

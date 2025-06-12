@@ -1,0 +1,71 @@
+# Same setup as V_7_8_P1, but the -A option in ssh-keygen is removed as it wasnt supported yet, it is now done manually 
+FROM debian:buster AS builder
+
+# Set environment variable to disable interactive prompts
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Install dependencies for building OpenSSH
+RUN echo "deb http://archive.debian.org/debian stretch main" > /etc/apt/sources.list.d/stretch.list && \
+    echo "Acquire::Check-Valid-Until false;" > /etc/apt/apt.conf.d/99no-check-valid && \
+    apt-get update && apt-get install -y --no-install-recommends \
+    git build-essential zlib1g-dev libssl1.0-dev libpam0g-dev libselinux1-dev ca-certificates \
+    autoconf automake gawk sed && \
+    apt-get clean
+
+# Set working directory
+WORKDIR /openssh
+
+# Build argument for OpenSSH version (commit or tag)
+#ARG COMMIT=V_5_8_P2
+ARG COMMIT=V_5_3_P1
+#ARG COMMIT=V_9_9_P2
+
+# Clone OpenSSH repository and checkout the specified version
+RUN git clone https://github.com/openssh/openssh-portable --depth=1 -b ${COMMIT} . 
+
+
+# Apply patch to fix conflicting function signature, fix for an issue specific to V_6_4_P1 
+#RUN sed -i 's/int do_rename(struct sftp_conn \*, char \*, char \*m, int force_legacy);/int do_rename(struct sftp_conn *, char *, char *, int force_legacy);/' sftp-client.h && \
+#    sed -i 's/do_rename(struct sftp_conn \*conn, char \*oldpath, char \*newpath)/do_rename(struct sftp_conn *conn, char *oldpath, char *newpath, int force_legacy)/' sftp-client.c
+
+# Configure and build OpenSSH
+RUN touch moduli.0 scp.0 ssh-add.0 ssh-agent.0 ssh-keygen.0 ssh-keyscan.0 ssh.0 sshd.0 \
+    sftp-server.0 sftp.0 ssh-keysign.0 ssh-pkcs11-helper.0 sshd_config.0 ssh_config.0 moduli.0 \
+    ssh-rand-helper.0 && \
+    ./configure && make && make install && \
+
+# Minimal runtime environment
+FROM debian:buster
+
+# Copy OpenSSL libraries from the builder stage
+COPY --from=builder /usr/lib/x86_64-linux-gnu/libcrypto.so.1.0.2 /usr/lib/x86_64-linux-gnu/
+COPY --from=builder /usr/lib/x86_64-linux-gnu/libssl.so.1.0.2 /usr/lib/x86_64-linux-gnu/
+
+# Install runtime dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    libpam0g libselinux1 && \
+    apt-get clean
+
+# Fix privilege separation issue
+RUN useradd -r -d /var/empty -s /usr/sbin/nologin sshd && \
+    mkdir -p /var/empty
+
+# Copy OpenSSH binaries from the builder stage
+COPY --from=builder /usr/local /usr/local
+
+# Create SSH host keys
+RUN mkdir -p /etc/ssh && \
+    (ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key -N "" || echo "RSA not supported") && \
+    (ssh-keygen -t dsa -f /etc/ssh/ssh_host_dsa_key -N "" || echo "DSA not supported") && \
+    (ssh-keygen -t ecdsa -f /etc/ssh/ssh_host_ecdsa_key -N "" || echo "ECDSA not supported") && \
+    (ssh-keygen -t ed25519 -f /etc/ssh/ssh_host_ed25519_key -N "" || echo "Ed25519 not supported")
+
+# Create a test user
+RUN useradd -m -s /bin/bash testuser && \
+    echo "testuser:root" | chpasswd
+
+# Expose SSH port
+EXPOSE 22
+
+# Start OpenSSH server in foreground mode
+CMD ["/usr/local/sbin/sshd", "-D"]

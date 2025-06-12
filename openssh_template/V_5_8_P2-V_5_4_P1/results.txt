@@ -1,0 +1,9 @@
+OpenSSH Versions:
+V_5_9_P1: OpenSSH_5.9p1, OpenSSL 1.0.2u  20 Dec 2019
+V_5_8_P2: OpenSSH_5.8p2, OpenSSL 1.0.2u  20 Dec 2019
+V_5_8_P1: OpenSSH_5.8p1, OpenSSL 1.0.2u  20 Dec 2019
+V_5_7_P1: OpenSSH_5.7p1, OpenSSL 1.0.2u  20 Dec 2019
+V_5_6_P1: OpenSSH_5.6p1, OpenSSL 1.0.2u  20 Dec 2019
+V_5_5_P1: OpenSSH_5.5p1, OpenSSL 1.0.2u  20 Dec 2019
+V_5_4_P1: OpenSSH_5.4p1, OpenSSL 1.0.2u  20 Dec 2019
+V_5_3_P1: Connection reset by 127.0.0.1 port 2222
