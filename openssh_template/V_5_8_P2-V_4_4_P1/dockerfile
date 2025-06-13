@@ -9,7 +9,7 @@ RUN echo "deb http://archive.debian.org/debian stretch main" > /etc/apt/sources.
     echo "Acquire::Check-Valid-Until false;" > /etc/apt/apt.conf.d/99no-check-valid && \
     apt-get update && apt-get install -y --no-install-recommends \
     git build-essential zlib1g-dev libssl1.0-dev libpam0g-dev libselinux1-dev ca-certificates \
-    autoconf automake gawk sed && \
+    autoconf automake gawk sed groff libtool && \
     apt-get clean
 
 # Set working directory
@@ -21,18 +21,41 @@ ARG COMMIT=V_5_3_P1
 #ARG COMMIT=V_9_9_P2
 
 # Clone OpenSSH repository and checkout the specified version
-RUN git clone https://github.com/openssh/openssh-portable --depth=1 -b ${COMMIT} . 
+RUN git clone https://github.com/openssh/openssh-portable --depth=1 -b ${COMMIT} . && \
+    autoreconf -fvi
 
 
 # Apply patch to fix conflicting function signature, fix for an issue specific to V_6_4_P1 
 #RUN sed -i 's/int do_rename(struct sftp_conn \*, char \*, char \*m, int force_legacy);/int do_rename(struct sftp_conn *, char *, char *, int force_legacy);/' sftp-client.h && \
 #    sed -i 's/do_rename(struct sftp_conn \*conn, char \*oldpath, char \*newpath)/do_rename(struct sftp_conn *conn, char *oldpath, char *newpath, int force_legacy)/' sftp-client.c
 
-# Configure and build OpenSSH
+# Configure and build OpenSSH (starting V5_3P1, we do the make install manually)
 RUN touch moduli.0 scp.0 ssh-add.0 ssh-agent.0 ssh-keygen.0 ssh-keyscan.0 ssh.0 sshd.0 \
     sftp-server.0 sftp.0 ssh-keysign.0 ssh-pkcs11-helper.0 sshd_config.0 ssh_config.0 moduli.0 \
     ssh-rand-helper.0 && \
-    ./configure && make && make install && \
+    ./configure \
+    --without-opensc \          
+    --without-pkcs11-helper \   
+    --without-hardening   && \
+    sed -i '/^SUBDIRS/s/ scard//' Makefile && \ 
+    make && \
+    sed -i '/scard/d' Makefile && \
+    mkdir -p /usr/local/bin \
+    && mkdir -p /usr/local/sbin \
+    && mkdir -p /usr/local/libexec \
+    && mkdir -p /usr/local/etc \
+    && mkdir -p /usr/local/share/man/man1 \
+    && mkdir -p /usr/local/share/man/man5 \
+    && mkdir -p /usr/local/share/man/man8 \
+    && cp sshd /usr/local/sbin/ \
+    && cp ssh /usr/local/bin/ \
+    && cp scp sftp ssh-add ssh-agent ssh-keygen ssh-keyscan ssh-keysign /usr/local/bin/ \
+    && cp sftp-server /usr/local/libexec/ \
+    && cp sshd_config ssh_config /usr/local/etc/ \
+    && cp moduli /usr/local/etc/ \
+    && for f in *.1; do [ -f "$f" ] && cp "$f" /usr/local/share/man/man1/ || true; done \
+    && for f in *.5; do [ -f "$f" ] && cp "$f" /usr/local/share/man/man5/ || true; done \
+    && for f in *.8; do [ -f "$f" ] && cp "$f" /usr/local/share/man/man8/ || true; done
 
 # Minimal runtime environment
 FROM debian:buster
@@ -64,8 +87,15 @@ RUN mkdir -p /etc/ssh && \
 RUN useradd -m -s /bin/bash testuser && \
     echo "testuser:root" | chpasswd
 
-# Expose SSH port
-EXPOSE 22
+# manually configuring ssh
+RUN echo "Port 22" > /etc/ssh/sshd_config \
+    && echo "Protocol 2" >> /etc/ssh/sshd_config \
+    && echo "HostKey /etc/ssh/ssh_host_rsa_key" >> /etc/ssh/sshd_config \
+    && echo "HostKey /etc/ssh/ssh_host_dsa_key" >> /etc/ssh/sshd_config \
+    && echo "UsePrivilegeSeparation no" >> /etc/ssh/sshd_config \
+    && echo "PermitRootLogin yes" >> /etc/ssh/sshd_config \
+    && echo "PasswordAuthentication yes" >> /etc/ssh/sshd_config \
+    && echo "PidFile /var/run/sshd.pid" >> /etc/ssh/sshd_config
 
-# Start OpenSSH server in foreground mode
-CMD ["/usr/local/sbin/sshd", "-D"]
+EXPOSE 22
+CMD ["/usr/local/sbin/sshd", "-D", "-f", "/etc/ssh/sshd_config"]

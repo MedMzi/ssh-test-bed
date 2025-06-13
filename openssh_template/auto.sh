@@ -22,7 +22,7 @@ echo "OpenSSH Versions:" > $RESULT_FILE
 for COMMIT in "${COMMITS[@]}"; do
     echo "Processing COMMIT: $COMMIT"
 
-    # Convert COMMIT to lowercase (avoid errors)
+    # Convert COMMIT to lowercase (avoid errors when naming Docker images)
     COMMIT_LOWER=$(echo "$COMMIT" | tr '[:upper:]' '[:lower:]')
 
     # Build the Docker image with the current COMMIT passed as a build argument
