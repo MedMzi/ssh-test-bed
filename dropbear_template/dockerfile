@@ -4,16 +4,8 @@ ARG COMMIT=DROPBEAR_2025.88
 
 # Install required packages
 RUN apt-get update && apt-get install -y \
-    git \
-    autoconf \
-    automake \
-    build-essential \
-    zlib1g-dev \
-    libtool \
-    pkg-config \
-    wget \
-    ca-certificates \
-    && rm -rf /var/lib/apt/lists/*
+    git autoconf automake build-essential zlib1g-dev libtool pkg-config wget ca-certificates && \
+    rm -rf /var/lib/apt/lists/*
 
 # Clone and build Dropbear
 RUN git clone --depth 1 --branch ${COMMIT} https://github.com/mkj/dropbear.git /dropbear && \
