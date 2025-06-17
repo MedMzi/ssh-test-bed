@@ -1,0 +1,44 @@
+FROM debian:buster
+
+# Set environment variable to disable interactive prompts
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Build arguments with defaults
+ARG WOLFSSL_VERSION=v5.7.6-stable
+ARG COMMIT=v1.4.20-stable
+
+RUN apt-get update && apt-get install -y \
+    git \
+    build-essential \
+    autoconf \
+    automake \
+    libtool \
+    pkg-config \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /opt
+
+# Clone and build wolfSSL at WOLFSSL_VERSION
+RUN git clone --depth 1 --branch ${WOLFSSL_VERSION} https://github.com/wolfSSL/wolfssl.git && \
+    cd wolfssl && \
+    ./autogen.sh && \
+    ./configure --enable-wolfssh --enable-keygen --enable-shared && \
+    make && make install && ldconfig
+
+# Clone and build wolfSSH at COMMIT
+RUN git clone --depth 1 --branch ${COMMIT} https://github.com/wolfSSL/wolfssh.git && \
+    cd wolfssh && \
+    ./autogen.sh && \
+    ./configure && \
+    make && make install && ldconfig
+
+EXPOSE 22222
+
+WORKDIR /opt/wolfssh
+
+CMD ["./examples/echoserver/echoserver", "-f"]
+
+
+
+
+

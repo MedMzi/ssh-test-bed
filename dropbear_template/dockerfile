@@ -1,0 +1,40 @@
+FROM debian:bookworm
+
+ARG COMMIT=DROPBEAR_2025.88
+
+# Install required packages
+RUN apt-get update && apt-get install -y \
+    git \
+    autoconf \
+    automake \
+    build-essential \
+    zlib1g-dev \
+    libtool \
+    pkg-config \
+    wget \
+    ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
+# Clone and build Dropbear
+RUN git clone --depth 1 --branch ${COMMIT} https://github.com/mkj/dropbear.git /dropbear && \
+    cd /dropbear && \
+    autoconf && autoheader && \
+    ./configure && \
+    make clean && \
+    make PROGRAMS="dropbear dbclient dropbearkey dropbearconvert scp" && \
+    make PROGRAMS="dropbear dbclient dropbearkey dropbearconvert scp" install
+
+RUN mkdir -p /etc/dropbear && \
+    /usr/local/bin/dropbearkey -t rsa -f /etc/dropbear/dropbear_rsa_host_key && \
+    /usr/local/bin/dropbearkey -t ecdsa -f /etc/dropbear/dropbear_ecdsa_host_key
+
+    # Create a test user
+RUN useradd -m -s /bin/bash testuser && \
+    echo "testuser:root" | chpasswd
+
+# Expose SSH port
+EXPOSE 22
+
+# Create a default run command
+CMD ["/usr/local/sbin/dropbear", "-F", "-E", "-p", "22"]
+    
