@@ -1,4 +1,4 @@
-FROM debian:bookworm
+FROM debian:buster
 
 ARG COMMIT=DROPBEAR_2025.88
 
@@ -9,24 +9,42 @@ RUN apt-get update && apt-get install -y \
 
 # Clone and build Dropbear
 RUN git clone --depth 1 --branch ${COMMIT} https://github.com/mkj/dropbear.git /dropbear && \
+    (git clone --depth 1 --branch LTC_DB_0.44 https://github.com/mkj/dropbear.git /dropbear/libtomcrypt || echo "libtomcrypt already installed" ) && \
+    (git clone --depth 1 --branch LTM_DB_0.44 https://github.com/mkj/dropbear.git /dropbear/libtommath || echo "libtommath already installed" ) && \
     cd /dropbear && \
     autoconf && autoheader && \
     ./configure && \
     make clean && \
-    make PROGRAMS="dropbear dbclient dropbearkey dropbearconvert scp" && \
-    make PROGRAMS="dropbear dbclient dropbearkey dropbearconvert scp" install
+    make PROGRAMS="dropbear dbclient dropbearkey dropbearconvert" && \
+    make PROGRAMS="dropbear dbclient dropbearkey dropbearconvert" install
 
-RUN mkdir -p /etc/dropbear && \
-    /usr/local/bin/dropbearkey -t rsa -f /etc/dropbear/dropbear_rsa_host_key && \
-    /usr/local/bin/dropbearkey -t ecdsa -f /etc/dropbear/dropbear_ecdsa_host_key
+# In case dbclient is installed in a different location, create a symlink    
+RUN (ln -sf "$(command -v dbclient)" /usr/local/bin/dbclient || echo "already there")
 
-    # Create a test user
+# Create host keys for Dropbear
+RUN DROPBEARKEY=$(command -v dropbearkey) && \
+    mkdir -p /etc/dropbear && \
+    ("$DROPBEARKEY" -t rsa -f /etc/dropbear/dropbear_rsa_host_key || echo "Dropbear RSA not supported") && \
+    ("$DROPBEARKEY" -t dss -f /etc/dropbear/dropbear_dss_host_key || echo "Dropbear DSS not supported") && \
+    ("$DROPBEARKEY" -t ecdsa -f /etc/dropbear/dropbear_ecdsa_host_key || echo "Dropbear ECDSA not supported")
+
+# Create a test user
 RUN useradd -m -s /bin/bash testuser && \
     echo "testuser:root" | chpasswd
+
+# Fix for password authentication broken on Linux for v2015.69 switching to private key authentication
+COPY id_rsa_testuser.pub /tmp/id_rsa_testuser.pub
+RUN if [ "$COMMIT" = "DROPBEAR_2015.69" ]; then \
+      mkdir -p /home/testuser/.ssh && \
+      cat /tmp/id_rsa_testuser.pub >> /home/testuser/.ssh/authorized_keys && \
+      chmod 700 /home/testuser/.ssh && \
+      chmod 600 /home/testuser/.ssh/authorized_keys && \
+      chown -R testuser:testuser /home/testuser/.ssh && \
+      rm /tmp/id_rsa_testuser.pub; \
+    fi
 
 # Expose SSH port
 EXPOSE 22
 
 # Create a default run command
-CMD ["/usr/local/sbin/dropbear", "-F", "-E", "-p", "22"]
-    
+CMD sh -c "$(command -v dropbear) -F -E -p 22"

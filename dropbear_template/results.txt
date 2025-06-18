@@ -1,66 +1,50 @@
 Dropbear Versions:
-DROPBEAR_2025.88: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2025.87: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2024.86: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2024.85: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2024.84: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2022.83: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-maemo-0.52-2: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2022.82: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2020.81: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2020.80: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2020.79: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2019.78: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2019.77: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2018.76: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2017.75: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2016.74: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2016.73: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2016.72: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2015.71: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2015.70: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2015.69: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2015.68: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2015.67: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2014.66: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2014.65: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2014.64: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2014.63: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2013.62: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2013.61test: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2013.60: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2013.59: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2013.58: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2013.57: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2013.56: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2012.55: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_2011.54: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_0.53.1: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_0.53: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_0.52: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_0.51: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_0.50: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_0.49: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-libtommath-0.40: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-libtomcrypt-1.16: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_0.48.1: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_0.48: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-libtommath-0.35: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-libtomcrypt-1.05: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_0.47: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-LTC_DB_0.47: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-LTC_DB_0.46: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_0.46: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-LTC_1.05: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-LTM_DB_0.47: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-LTM_DB_0.46: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-LTM_0.35: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_0.45: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_0.44: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-LTM_DB_0.44: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-LTC_DB_0.44: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_0.44test4: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_0.44test3: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_0.44test2: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-DROPBEAR_0.44test1: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
-ltm-0.30-orig: OpenSSH_9.2p1 Debian-2+deb12u6, OpenSSL 3.0.16 11 Feb 2025
+DROPBEAR_2025.88: Dropbear SSH client v2025.88 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2025.87: Dropbear SSH client v2025.87 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2024.86: Dropbear SSH client v2024.86 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2024.85: Dropbear SSH client v2024.85 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2024.84: Dropbear SSH client v2024.84 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2022.83: Dropbear SSH client v2022.83 https://matt.ucc.asn.au/dropbear/dropbear.html
+maemo-0.52-2: Dropbear client v0.52
+DROPBEAR_2022.82: Dropbear SSH client v2022.82 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2020.81: Dropbear SSH client v2020.81 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2020.80: Dropbear SSH client v2020.80 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2020.79: Dropbear SSH client v2020.79 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2019.78: Dropbear SSH client v2019.78 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2019.77: Dropbear SSH client v2019.77 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2018.76: Dropbear SSH client v2018.76 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2017.75: Dropbear SSH client v2017.75 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2016.74: Dropbear SSH client v2016.74 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2016.73: Dropbear SSH client v2016.73 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2016.72: Dropbear SSH client v2016.72 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2015.71: Dropbear SSH client v2015.71 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2015.70: Dropbear SSH client v2015.70 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2015.69: Dropbear SSH client v2015.69 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2015.68: Dropbear SSH client v2015.68 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2015.67: Dropbear SSH client v2014.66 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2014.66: Dropbear SSH client v2014.66 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2014.65: Dropbear SSH client v2014.65 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2014.64: Dropbear SSH client v2014.64 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2014.63: Dropbear SSH client v2014.63 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2013.62: Dropbear SSH client v2013.62 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2013.61test: Dropbear SSH client v2013.61test https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2013.60: Dropbear SSH client v2013.60 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2013.59: Dropbear SSH client v2013.59 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2013.58: Dropbear SSH client v2013.58 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2013.57: Dropbear SSH client v2013.57 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2013.56: Dropbear SSH client v2013.56 https://matt.ucc.asn.au/dropbear/dropbear.html
+DROPBEAR_2012.55: Dropbear client v2012.55
+DROPBEAR_2011.54: Dropbear client v2011.54
+DROPBEAR_0.53.1: Dropbear client v0.53.1
+DROPBEAR_0.53: Dropbear client v0.53
+DROPBEAR_0.52: Dropbear client v0.52
+DROPBEAR_0.51: Dropbear client v0.51
+DROPBEAR_0.50: Dropbear client v0.50
+DROPBEAR_0.49: Dropbear client v0.49
+DROPBEAR_0.48.1: Dropbear client v0.48
+DROPBEAR_0.48: Dropbear client v0.48
+DROPBEAR_0.47: Dropbear client v0.47
+DROPBEAR_0.46: Dropbear client v0.46
+DROPBEAR_0.45: Dropbear client v0.45
+DROPBEAR_0.44: Dropbear client v0.44
+: 

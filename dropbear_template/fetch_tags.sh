@@ -26,8 +26,11 @@ while true; do
         break
     fi
 
-    # Append tags to the output file
-    echo "$TAGS" | uniq >> $TAG_FILE
+    # Filter out tags containing 't' or 'T' anywhere in the string (remove ltc ltm and tests)
+    FILTERED_TAGS=$(echo "$TAGS" | grep -viE '(ltc|ltm|lib|DROPBEAR_0.44test)')
+
+    # Append filtered tags to the output file
+    echo "$FILTERED_TAGS" | uniq >> $TAG_FILE
 
     # Update the 'after' parameter to the last tag fetched
     AFTER=$(echo "$TAGS" | tail -n 1)

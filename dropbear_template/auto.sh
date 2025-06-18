@@ -38,7 +38,8 @@ for COMMIT in "${COMMITS[@]}"; do
     OUTPUT=$(./login.sh $HOST $SSH_USER $SSH_PASSWORD)
 
     # Extract the last line of the output
-    LAST_LINE=$(echo "$OUTPUT" | tail -n 1)
+    LAST_LINE=$(echo "$OUTPUT" | grep -m 1 -E 'Dropbear (SSH )?client v[0-9]+(\.[0-9]+)*')
+    #LAST_LINE="$OUTPUT"
 
     # Save the result to the file
     echo "$COMMIT: $LAST_LINE" >> $RESULT_FILE
