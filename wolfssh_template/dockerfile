@@ -4,7 +4,7 @@ FROM debian:buster
 ENV DEBIAN_FRONTEND=noninteractive
 
 # Build arguments with defaults
-ARG WOLFSSL_VERSION=v5.7.6-stable
+ARG WOLFSSL_VERSION=v5.8.0-stable
 ARG COMMIT=v1.4.20-stable
 
 RUN apt-get update && apt-get install -y \
@@ -25,20 +25,26 @@ RUN git clone --depth 1 --branch ${WOLFSSL_VERSION} https://github.com/wolfSSL/w
     ./configure --enable-wolfssh --enable-keygen --enable-shared && \
     make && make install && ldconfig
 
-# Clone and build wolfSSH at COMMIT
-RUN git clone --depth 1 --branch ${COMMIT} https://github.com/wolfSSL/wolfssh.git && \
-    cd wolfssh && \
+# Clone wolfSSH at COMMIT
+RUN git clone --depth 1 --branch ${COMMIT} https://github.com/wolfSSL/wolfssh.git
+    
+# Copy echoserver.c to the wolfSSH examples directory
+#COPY echoserver.c /opt/wolfssh/examples/echoserver/echoserver.c
+
+# Build wolfSSH
+RUN cd wolfssh && \
     ./autogen.sh && \
-    ./configure && \
+    ./configure --enable-shell --enable-sshd && \
     make && make install && ldconfig
 
-EXPOSE 22222
+RUN printf 'Port 11111\nPermitRootLogin yes\n' > /opt/wolfssh/sshd_config
+
+RUN useradd -m sshd && echo "sshd:sshd" | chpasswd
+RUN useradd -m testuser && echo "testuser:root" | chpasswd
+
+EXPOSE 11111
 
 WORKDIR /opt/wolfssh
 
-CMD ["./examples/echoserver/echoserver", "-f"]
 
-
-
-
-
+CMD ["./apps/wolfsshd/wolfsshd", "-D", "-f", "sshd_config", "-h", "keys/gretel-key-ecc.pem", "-p", "11111"]
