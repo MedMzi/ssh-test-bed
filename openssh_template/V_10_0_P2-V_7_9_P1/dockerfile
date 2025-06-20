@@ -20,6 +20,7 @@ ARG COMMIT=V_10_0_P2
 # Clone OpenSSH repository and checkout the specified version
 RUN git clone https://github.com/openssh/openssh-portable --depth=1 -b ${COMMIT} . && \
     sed -i 's/^#define SSH_VERSION.*/#define SSH_VERSION "TotallyNotOpenSSH"/' version.h && \
+    sed -i 's/^#define SSH_RELEASE.*/#define SSH_RELEASE "TotallyNotOpenSSH"/' version.h && \
     autoreconf -i
 
 # Configure and build OpenSSH
