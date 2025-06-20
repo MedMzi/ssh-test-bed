@@ -15,4 +15,3 @@ V_4_7_P1: OpenSSH_4.7p1, OpenSSL 1.0.2u  20 Dec 2019
 V_4_6_P1: OpenSSH_4.6p1, OpenSSL 1.0.2u  20 Dec 2019
 V_4_5_P1: OpenSSH_4.5p1, OpenSSL 1.0.2u  20 Dec 2019
 V_4_4_P1: OpenSSH_4.4p1, OpenSSL 1.0.2u  20 Dec 2019
-V_4_3_P2: ssh: connect to host 127.0.0.1 port 2222: Connection refused

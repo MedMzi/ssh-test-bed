@@ -4,7 +4,7 @@
 
 set timeout 60
 
-spawn ssh -p2222 [lindex $argv 1]@[lindex $argv 0] ssh -V
+spawn ssh -oHostKeyAlgorithms=+ssh-rsa,ssh-dss -p2222 [lindex $argv 1]@[lindex $argv 0] ssh -V
 
 expect "yes/no" { 
 	send "yes\r"

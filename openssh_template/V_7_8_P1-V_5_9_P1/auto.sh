@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo "Please enter your sudo password to begin (necessary for capture)..."
+sudo -v
+
 # List of COMMIT versions
 COMMIT_FILE="commits.txt"
 mapfile -t COMMITS < $COMMIT_FILE
@@ -33,6 +36,12 @@ for COMMIT in "${COMMITS[@]}"; do
     echo "Removing old host key for $HOST:2222..."
     ssh-keygen -f ~/.ssh/known_hosts -R "[${HOST}]:2222"
 
+    # Run tcpdump in background
+    PCAP_FILE="capture/${COMMIT_LOWER}.pcap"
+    echo "Starting tcpdump, saving to $PCAP_FILE..."
+    sudo tcpdump -i lo port 2222 -w "$PCAP_FILE" &
+    TCPDUMP_PID=$!
+
     # Run the container
     echo "Running container for $COMMIT..."
     CONTAINER_ID=$(docker run --rm -d -p 2222:22 openssh-$COMMIT_LOWER)
@@ -50,6 +59,12 @@ for COMMIT in "${COMMITS[@]}"; do
     # Kill the container
     echo "Stopping container for $COMMIT..."
     docker kill $CONTAINER_ID
+
+    # Stop tcpdump
+    echo "Stopping tcpdump..."
+    sleep 2
+    sudo kill -SIGINT $TCPDUMP_PID
+    wait $TCPDUMP_PID 2>/dev/null
 
     echo "Finished processing $COMMIT."
     echo "-----------------------------------"
