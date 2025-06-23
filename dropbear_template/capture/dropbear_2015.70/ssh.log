@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssh
+#open	2025-06-23-13-42-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	auth_success	auth_attempts	direction	client	server	cipher_alg	mac_alg	compression_alg	kex_alg	host_key_alg	host_key	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude	hasshVersion	hassh	hasshServer	cshka	hasshAlgorithms	sshka	hasshServerAlgorithms
+#types	time	string	addr	port	addr	port	count	bool	count	enum	string	string	string	string	string	string	string	string	string	string	string	double	double	string	string	string	string	string	string	string
+1750421333.148244	C7jSPF2Xu7fmpjVkPb	127.0.0.1	53192	127.0.0.1	2222	2	T	2	-	SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.11	SSH-2.0-dropbear_2015.70	aes128-cbc	hmac-sha1	none	diffie-hellman-group1-sha1	ssh-dss	75:d2:a3:24:46:85:20:a0:69:55:68:36:b0:23:67:5d	-	-	-	-	-	1.0	dc46a01e60bde9d15a33e63d16741f05	d93f46d063c4382b6232a4d77db532b2	ssh-dss,ssh-rsa,ecdsa-sha2-nistp256,rsa-sha2-256	diffie-hellman-group1-sha1,diffie-hellman-group14-sha256,curve25519-sha256,ext-info-c,kex-strict-c-v00@openssh.com;aes128-cbc,chacha20-poly1305@openssh.com,aes256-ctr,aes128-ctr;hmac-sha1;none,zlib@openssh.com,zlib	ecdsa-sha2-nistp521,ssh-rsa,ssh-dss	curve25519-sha256@libssh.org,ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1,kexguess2@matt.ucc.asn.au;aes128-ctr,aes256-ctr,aes128-cbc,aes256-cbc,twofish256-cbc,twofish-cbc,twofish128-cbc,3des-ctr,3des-cbc;hmac-sha1-96,hmac-sha1,hmac-sha2-256,hmac-sha2-512,hmac-md5;zlib@openssh.com,none
+#close	2025-06-23-13-42-56

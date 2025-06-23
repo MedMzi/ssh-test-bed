@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	software
+#open	2025-06-23-13-40-49
+#fields	ts	host	host_p	software_type	name	version.major	version.minor	version.minor2	version.minor3	version.addl	unparsed_version
+#types	time	addr	port	enum	string	count	count	count	count	string	string
+1750418459.857881	127.0.0.1	-	SSH::CLIENT	OpenSSH	9	6	-	-	p1	OpenSSH_9.6p1 Ubuntu-3ubuntu13.11
+1750418459.857881	127.0.0.1	2222	SSH::SERVER	OpenSSH	10	0	-	-	-	OpenSSH_10.0
+#close	2025-06-23-13-40-49
