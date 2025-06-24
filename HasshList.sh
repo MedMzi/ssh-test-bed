@@ -2,7 +2,7 @@
 
 # Create or clear the output files (text and CSV)
 > HasshList.txt
-echo "Server,HasshServer,KEX,Encryption,MAC,Compression" > HasshList.csv
+echo "Server,HasshServer,KEX,Encryption,MAC,Compression,Host Key Algorithms" > HasshList.csv
 
 # Find all directories named "capture"
 find . -type d -name "capture" | sort | while read capture_dir; do
@@ -20,9 +20,10 @@ find . -type d -name "capture" | sort | while read capture_dir; do
             server_list=$(zeek-cut server < "$ssh_log")
             hassh_list=$(zeek-cut hasshServer < "$ssh_log")
             algos_list=$(zeek-cut hasshServerAlgorithms < "$ssh_log")
+            sshka_list=$(zeek-cut sshka < "$ssh_log")
 
             # Combine all three outputs line by line
-            paste <(echo "$server_list") <(echo "$hassh_list") <(echo "$algos_list") | while IFS=$'\t' read -r server hasshServer algos; do
+            paste <(echo "$server_list") <(echo "$hassh_list") <(echo "$algos_list") <(echo "$sshka_list") | while IFS=$'\t' read -r server hasshServer algos sshka; do
                 IFS=";" read -r kex enc mac comp <<< "$algos"
 
                 # Write to plain text file
@@ -32,11 +33,12 @@ find . -type d -name "capture" | sort | while read capture_dir; do
                     echo "Encryption: $enc"
                     echo "MAC: $mac"
                     echo "Compression: $comp"
+                    echo "Host Key Algorithms: $sshka"
                     echo ""
                 } >> HasshList.txt
 
                 # Write to CSV file
-                echo "\"$server\",\"$hasshServer\",\"$kex\",\"$enc\",\"$mac\",\"$comp\"" >> HasshList.csv
+                echo "\"$server\",\"$hasshServer\",\"$kex\",\"$enc\",\"$mac\",\"$comp\",\"$sshka\"" >> HasshList.csv
             done
 
         else
