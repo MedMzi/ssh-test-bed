@@ -1,7 +1,8 @@
 #!/bin/bash
 
-# Create or clear the output file
+# Create or clear the output files (text and CSV)
 > HasshList.txt
+echo "Server,HasshServer,KEX,Encryption,MAC,Compression" > HasshList.csv
 
 # Find all directories named "capture"
 find . -type d -name "capture" | sort | while read capture_dir; do
@@ -15,10 +16,29 @@ find . -type d -name "capture" | sort | while read capture_dir; do
         if [[ -f "$ssh_log" ]]; then
             echo "Processing: $ssh_log"
 
-            # Extract hasshServer values using zeek-cut and append to output
-            zeek-cut server hasshServer < "$ssh_log" >> HasshList.txt
-            zeek-cut hasshServerAlgorithms < "$ssh_log" >> HasshList.txt
-            echo "" >> HasshList.txt
+            # Extract fields
+            server_list=$(zeek-cut server < "$ssh_log")
+            hassh_list=$(zeek-cut hasshServer < "$ssh_log")
+            algos_list=$(zeek-cut hasshServerAlgorithms < "$ssh_log")
+
+            # Combine all three outputs line by line
+            paste <(echo "$server_list") <(echo "$hassh_list") <(echo "$algos_list") | while IFS=$'\t' read -r server hasshServer algos; do
+                IFS=";" read -r kex enc mac comp <<< "$algos"
+
+                # Write to plain text file
+                {
+                    echo "$server   $hasshServer"
+                    echo "KEX: $kex"
+                    echo "Encryption: $enc"
+                    echo "MAC: $mac"
+                    echo "Compression: $comp"
+                    echo ""
+                } >> HasshList.txt
+
+                # Write to CSV file
+                echo "\"$server\",\"$hasshServer\",\"$kex\",\"$enc\",\"$mac\",\"$comp\"" >> HasshList.csv
+            done
+
         else
             echo "No ssh.log in $sub_dir, skipping."
         fi
@@ -27,4 +47,4 @@ find . -type d -name "capture" | sort | while read capture_dir; do
 
 done
 
-echo "Done. Output saved to HasshList.txt"
+echo "Done. Outputs saved to HasshList.txt and HasshList.csv"
