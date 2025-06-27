@@ -3,8 +3,8 @@
 #empty_field	(empty)
 #unset_field	-
 #path	known_hosts
-#open	2025-06-27-15-27-58
+#open	2025-06-27-15-58-10
 #fields	ts	host
 #types	time	addr
-1751030813.911848	127.0.0.1
-#close	2025-06-27-15-27-58
+1751032637.258835	127.0.0.1
+#close	2025-06-27-15-58-10

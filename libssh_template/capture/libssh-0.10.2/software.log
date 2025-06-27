@@ -3,9 +3,9 @@
 #empty_field	(empty)
 #unset_field	-
 #path	software
-#open	2025-06-27-15-27-55
+#open	2025-06-27-15-58-07
 #fields	ts	host	host_p	software_type	name	version.major	version.minor	version.minor2	version.minor3	version.addl	unparsed_version
 #types	time	addr	port	enum	string	count	count	count	count	string	string
-1751030776.509138	127.0.0.1	-	SSH::CLIENT	OpenSSH	9	6	-	-	p1	OpenSSH_9.6p1 Ubuntu-3ubuntu13.11
-1751030776.509138	127.0.0.1	2222	SSH::SERVER	libssh	0	10	2	-	-	libssh_0.10.2
-#close	2025-06-27-15-27-55
+1751032588.843615	127.0.0.1	-	SSH::CLIENT	OpenSSH	9	6	-	-	p1	OpenSSH_9.6p1 Ubuntu-3ubuntu13.11
+1751032588.843615	127.0.0.1	2222	SSH::SERVER	libssh	0	10	2	-	-	libssh_0.10.2
+#close	2025-06-27-15-58-07

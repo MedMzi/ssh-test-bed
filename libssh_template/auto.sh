@@ -48,7 +48,7 @@ for COMMIT in "${COMMITS[@]}"; do
     OUTPUT=$(./login.sh $HOST $SSH_USER $SSH_PASSWORD)
 
     # Extract the last line of the output
-    LAST_LINE=$(echo "$OUTPUT" | tail -n 3 | head -n 1)
+    LAST_LINE=$(echo "$OUTPUT" | tail -n 5 | head -n 1)
     #LAST_LINE="$OUTPUT"
 
     # Save the result to the file

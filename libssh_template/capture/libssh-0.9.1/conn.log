@@ -3,8 +3,8 @@
 #empty_field	(empty)
 #unset_field	-
 #path	conn
-#open	2025-06-27-15-27-59
+#open	2025-06-27-15-58-11
 #fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	local_resp	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
 #types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	bool	count	string	count	count	count	count	set[string]
-1751030807.107960	CJgXPQ4xlQ6piLPh6	127.0.0.1	54810	127.0.0.1	2222	tcp	ssh	0.088933	2635	2438	SF	T	T	0	ShADadfF	16	3475	15	3226	-
-#close	2025-06-27-15-27-59
+1751032628.430275	CeYB631GtUmGLYpLJb	127.0.0.1	53742	127.0.0.1	2222	tcp	ssh	1.102874	2751	2862	SF	T	T	0	ShADadfF	18	3695	19	3858	-
+#close	2025-06-27-15-58-11

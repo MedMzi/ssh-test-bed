@@ -3,6 +3,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+#include <pty.h>
+#include <unistd.h>
+#include <sys/select.h>
+#include <sys/wait.h>
+#include <signal.h>
+#include <fcntl.h>
 
 #define USERNAME "testuser"
 #define PASSWORD "root"
@@ -13,6 +19,9 @@ int main() {
     ssh_message message;
     ssh_channel channel = NULL;
     int auth = 0;
+    pid_t pid;
+    int pty_fd;
+
 
     ssh_bind_options_set(sshbind, SSH_BIND_OPTIONS_BINDPORT_STR, "2222");
     ssh_bind_options_set(sshbind, SSH_BIND_OPTIONS_HOSTKEY, "ssh-rsa");
@@ -87,20 +96,60 @@ int main() {
         return 1;
     }
 
-    // You can respond to shell/exec requests here if needed
-    const char *version = ssh_version(0);
-    char msg[128];
+
     
-    snprintf(msg, sizeof(msg), "libssh version: %s\n", version);
-    ssh_channel_write(channel, msg, strlen(msg));
     
-    ssh_channel_send_eof(channel);
-    ssh_channel_close(channel);
-    ssh_channel_free(channel);    
+    if ((pid = forkpty(&pty_fd, NULL, NULL, NULL)) == -1) {
+        perror("forkpty failed");
+    } else if (pid == 0) {
+        // Child: execute shell
+        execl("/bin/bash", "/bin/bash", NULL);
+        perror("execl failed");
+        exit(1);
+    } else {
+        // Parent: bridge PTY <-> SSH channel
+        fd_set fds;
+        char buf[256];
+        int len;
+    
+        // Make SSH channel non-blocking
+        ssh_channel_set_blocking(channel, 0);
+    
+        while (ssh_channel_is_open(channel)) {
+            FD_ZERO(&fds);
+            FD_SET(pty_fd, &fds);
+            int maxfd = pty_fd;
+    
+            struct timeval timeout = {1, 0}; // 1 second timeout
+            if (select(maxfd + 1, &fds, NULL, NULL, &timeout) > 0) {
+                if (FD_ISSET(pty_fd, &fds)) {
+                    len = read(pty_fd, buf, sizeof(buf));
+                    if (len <= 0) break;
+                    ssh_channel_write(channel, buf, len);
+                }
+            }
+    
+            // Non-blocking read from SSH channel
+            len = ssh_channel_read_nonblocking(channel, buf, sizeof(buf), 0);
+            if (len > 0) {
+                write(pty_fd, buf, len);
+            } else if (len == SSH_ERROR) {
+                break;
+            }
+        }
+    
+        kill(pid, SIGHUP);
+        waitpid(pid, NULL, 0);
+        ssh_channel_send_eof(channel);
+        ssh_channel_close(channel);
+        ssh_channel_free(channel);
+    }
 
     ssh_disconnect(session);
     ssh_free(session);
     ssh_bind_free(sshbind);
-
     return 0;
 }
+
+
+    

@@ -3,8 +3,8 @@
 #empty_field	(empty)
 #unset_field	-
 #path	known_services
-#open	2025-06-27-15-27-55
+#open	2025-06-27-15-58-07
 #fields	ts	host	port_num	port_proto	service
 #types	time	addr	port	enum	set[string]
-1751030779.953956	127.0.0.1	2222	tcp	SSH
-#close	2025-06-27-15-27-55
+1751032593.269577	127.0.0.1	2222	tcp	SSH
+#close	2025-06-27-15-58-07

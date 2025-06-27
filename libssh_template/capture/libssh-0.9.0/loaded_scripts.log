@@ -3,7 +3,7 @@
 #empty_field	(empty)
 #unset_field	-
 #path	loaded_scripts
-#open	2025-06-27-15-27-59
+#open	2025-06-27-15-58-11
 #fields	name
 #types	string
 /opt/zeek/share/zeek/base/init-bare.zeek
@@ -517,4 +517,4 @@
   /opt/zeek/share/zeek/policy/frameworks/telemetry/log.zeek
   /opt/zeek/share/zeek/site/hassh/__load__.zeek
     /opt/zeek/share/zeek/site/hassh/hassh.zeek
-#close	2025-06-27-15-27-59
+#close	2025-06-27-15-58-11

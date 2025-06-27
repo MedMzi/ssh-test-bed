@@ -31,7 +31,7 @@ RUN mkdir -p /etc/ssh && ssh-keygen -A
 COPY ssh_server.c /root/ssh_server.c
 
 # Build ssh_server
-RUN gcc /root/ssh_server.c -o /usr/local/bin/ssh_server -lssh -lutil -lcrypt
+RUN gcc /root/ssh_server.c -o /usr/local/bin/ssh_server -lssh -lutil -lcrypt -Wall
 
 EXPOSE 2222
 
