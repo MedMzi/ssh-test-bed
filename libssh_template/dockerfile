@@ -1,0 +1,42 @@
+FROM debian:buster
+
+ARG COMMIT=libssh-0.11.2
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update && apt-get install -y \
+    git \
+    build-essential \
+    cmake \
+    libssl-dev \
+    pkg-config \
+    zlib1g-dev \
+    openssh-server \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN useradd -m testuser && echo "testuser:root" | chpasswd
+
+RUN git clone --depth 1 --branch ${COMMIT} https://git.libssh.org/projects/libssh.git/ /libssh
+
+WORKDIR /libssh
+
+RUN mkdir build && cd build && cmake .. && make -j$(nproc) && make install && ldconfig
+
+RUN rm -rf /libssh
+
+# Create SSH host keys (required by libssh server)
+RUN mkdir -p /etc/ssh && ssh-keygen -A
+
+# Copy the ssh server source
+COPY ssh_server.c /root/ssh_server.c
+
+# Build ssh_server
+RUN gcc /root/ssh_server.c -o /usr/local/bin/ssh_server -lssh -lutil -lcrypt
+
+EXPOSE 2222
+
+#USER testuser
+#RUN mkdir -p /home/testuser/ssh_host_keys && \
+#    ssh-keygen -t rsa -b 2048 -f /home/testuser/ssh_host_keys/ssh_host_rsa_key -N ""
+
+CMD ["/usr/local/bin/ssh_server"]
