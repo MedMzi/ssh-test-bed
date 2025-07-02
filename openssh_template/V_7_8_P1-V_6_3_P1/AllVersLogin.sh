@@ -4,7 +4,7 @@
 
 set timeout 60
 
-spawn ssh -p2222 -o HostKeyAlgorithms=+ssh-rsa,ssh-dss [lindex $argv 1]@[lindex $argv 0] "for t in kex cipher mac compression key; do echo \$t:; ssh -Q \$t; echo; done"
+spawn ssh -p2222 [lindex $argv 1]@[lindex $argv 0] "for t in kex cipher mac compression key; do echo \$t:; ssh -Q \$t; echo; done"
 
 expect "yes/no" { 
 	send "yes\r"
