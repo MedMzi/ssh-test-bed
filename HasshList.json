@@ -1,0 +1,7964 @@
+[
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.0.0",
+    "HasshServer": "7315162e64ee557440fb5dbbaf926ee1",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1",
+      "rsa2048-sha256",
+      "rsa1024-sha1"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "arcfour256",
+      "arcfour128",
+      "arcfour"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "hmac-md5-etm@openssh.com",
+      "hmac-sha2-256-96-etm@openssh.com",
+      "hmac-sha2-512-96-etm@openssh.com",
+      "hmac-sha1-96-etm@openssh.com",
+      "hmac-md5-96-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-md5",
+      "hmac-sha2-256-96",
+      "hmac-sha2-512-96",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "zlib",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.0.1",
+    "HasshServer": "7315162e64ee557440fb5dbbaf926ee1",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1",
+      "rsa2048-sha256",
+      "rsa1024-sha1"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "arcfour256",
+      "arcfour128",
+      "arcfour"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "hmac-md5-etm@openssh.com",
+      "hmac-sha2-256-96-etm@openssh.com",
+      "hmac-sha2-512-96-etm@openssh.com",
+      "hmac-sha1-96-etm@openssh.com",
+      "hmac-md5-96-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-md5",
+      "hmac-sha2-256-96",
+      "hmac-sha2-512-96",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "zlib",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.1.0",
+    "HasshServer": "7315162e64ee557440fb5dbbaf926ee1",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1",
+      "rsa2048-sha256",
+      "rsa1024-sha1"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "arcfour256",
+      "arcfour128",
+      "arcfour"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "hmac-md5-etm@openssh.com",
+      "hmac-sha2-256-96-etm@openssh.com",
+      "hmac-sha2-512-96-etm@openssh.com",
+      "hmac-sha1-96-etm@openssh.com",
+      "hmac-md5-96-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-md5",
+      "hmac-sha2-256-96",
+      "hmac-sha2-512-96",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "zlib",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.10.0",
+    "HasshServer": "ae4250f8193dca17bb2e4adac5febf1c",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256@ssh.com",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-sha256-2@ssh.com",
+      "hmac-sha224@ssh.com",
+      "hmac-sha256@ssh.com",
+      "hmac-sha384@ssh.com",
+      "hmac-sha512@ssh.com"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa-sha224@ssh.com",
+      "ssh-rsa-sha256@ssh.com",
+      "ssh-rsa-sha384@ssh.com",
+      "ssh-rsa-sha512@ssh.com",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.10.1",
+    "HasshServer": "ae4250f8193dca17bb2e4adac5febf1c",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256@ssh.com",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-sha256-2@ssh.com",
+      "hmac-sha224@ssh.com",
+      "hmac-sha256@ssh.com",
+      "hmac-sha384@ssh.com",
+      "hmac-sha512@ssh.com"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa-sha224@ssh.com",
+      "ssh-rsa-sha256@ssh.com",
+      "ssh-rsa-sha384@ssh.com",
+      "ssh-rsa-sha512@ssh.com",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.11.0",
+    "HasshServer": "ae4250f8193dca17bb2e4adac5febf1c",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256@ssh.com",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-sha256-2@ssh.com",
+      "hmac-sha224@ssh.com",
+      "hmac-sha256@ssh.com",
+      "hmac-sha384@ssh.com",
+      "hmac-sha512@ssh.com"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa-sha224@ssh.com",
+      "ssh-rsa-sha256@ssh.com",
+      "ssh-rsa-sha384@ssh.com",
+      "ssh-rsa-sha512@ssh.com",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.12.0",
+    "HasshServer": "ae4250f8193dca17bb2e4adac5febf1c",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256@ssh.com",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-sha256-2@ssh.com",
+      "hmac-sha224@ssh.com",
+      "hmac-sha256@ssh.com",
+      "hmac-sha384@ssh.com",
+      "hmac-sha512@ssh.com"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa-sha224@ssh.com",
+      "ssh-rsa-sha256@ssh.com",
+      "ssh-rsa-sha384@ssh.com",
+      "ssh-rsa-sha512@ssh.com",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.13.0",
+    "HasshServer": "ae4250f8193dca17bb2e4adac5febf1c",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256@ssh.com",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-sha256-2@ssh.com",
+      "hmac-sha224@ssh.com",
+      "hmac-sha256@ssh.com",
+      "hmac-sha384@ssh.com",
+      "hmac-sha512@ssh.com"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa-sha224@ssh.com",
+      "ssh-rsa-sha256@ssh.com",
+      "ssh-rsa-sha384@ssh.com",
+      "ssh-rsa-sha512@ssh.com",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.13.1",
+    "HasshServer": "ae4250f8193dca17bb2e4adac5febf1c",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256@ssh.com",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-sha256-2@ssh.com",
+      "hmac-sha224@ssh.com",
+      "hmac-sha256@ssh.com",
+      "hmac-sha384@ssh.com",
+      "hmac-sha512@ssh.com"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa-sha224@ssh.com",
+      "ssh-rsa-sha256@ssh.com",
+      "ssh-rsa-sha384@ssh.com",
+      "ssh-rsa-sha512@ssh.com",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.13.2",
+    "HasshServer": "ae4250f8193dca17bb2e4adac5febf1c",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256@ssh.com",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-sha256-2@ssh.com",
+      "hmac-sha224@ssh.com",
+      "hmac-sha256@ssh.com",
+      "hmac-sha384@ssh.com",
+      "hmac-sha512@ssh.com"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa-sha224@ssh.com",
+      "ssh-rsa-sha256@ssh.com",
+      "ssh-rsa-sha384@ssh.com",
+      "ssh-rsa-sha512@ssh.com",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.14.0",
+    "HasshServer": "ae4250f8193dca17bb2e4adac5febf1c",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256@ssh.com",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-sha256-2@ssh.com",
+      "hmac-sha224@ssh.com",
+      "hmac-sha256@ssh.com",
+      "hmac-sha384@ssh.com",
+      "hmac-sha512@ssh.com"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa-sha224@ssh.com",
+      "ssh-rsa-sha256@ssh.com",
+      "ssh-rsa-sha384@ssh.com",
+      "ssh-rsa-sha512@ssh.com",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.14.1",
+    "HasshServer": "ae4250f8193dca17bb2e4adac5febf1c",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256@ssh.com",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-sha256-2@ssh.com",
+      "hmac-sha224@ssh.com",
+      "hmac-sha256@ssh.com",
+      "hmac-sha384@ssh.com",
+      "hmac-sha512@ssh.com"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa-sha224@ssh.com",
+      "ssh-rsa-sha256@ssh.com",
+      "ssh-rsa-sha384@ssh.com",
+      "ssh-rsa-sha512@ssh.com",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.14.2",
+    "HasshServer": "f5c9dee0c46415d713fef956c2ee5ec9",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256@ssh.com",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s",
+      "kex-strict-s-v00@openssh.com"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-sha256-2@ssh.com",
+      "hmac-sha224@ssh.com",
+      "hmac-sha256@ssh.com",
+      "hmac-sha384@ssh.com",
+      "hmac-sha512@ssh.com"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa-sha224@ssh.com",
+      "ssh-rsa-sha256@ssh.com",
+      "ssh-rsa-sha384@ssh.com",
+      "ssh-rsa-sha512@ssh.com",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.15.0",
+    "HasshServer": "f5c9dee0c46415d713fef956c2ee5ec9",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256@ssh.com",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s",
+      "kex-strict-s-v00@openssh.com"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-sha256-2@ssh.com",
+      "hmac-sha224@ssh.com",
+      "hmac-sha256@ssh.com",
+      "hmac-sha384@ssh.com",
+      "hmac-sha512@ssh.com"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa-sha224@ssh.com",
+      "ssh-rsa-sha256@ssh.com",
+      "ssh-rsa-sha384@ssh.com",
+      "ssh-rsa-sha512@ssh.com",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.16.0",
+    "HasshServer": "f5c9dee0c46415d713fef956c2ee5ec9",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256@ssh.com",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s",
+      "kex-strict-s-v00@openssh.com"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-sha256-2@ssh.com",
+      "hmac-sha224@ssh.com",
+      "hmac-sha256@ssh.com",
+      "hmac-sha384@ssh.com",
+      "hmac-sha512@ssh.com"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa-sha224@ssh.com",
+      "ssh-rsa-sha256@ssh.com",
+      "ssh-rsa-sha384@ssh.com",
+      "ssh-rsa-sha512@ssh.com",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.17.0",
+    "HasshServer": "f5c9dee0c46415d713fef956c2ee5ec9",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256@ssh.com",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s",
+      "kex-strict-s-v00@openssh.com"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-sha256-2@ssh.com",
+      "hmac-sha224@ssh.com",
+      "hmac-sha256@ssh.com",
+      "hmac-sha384@ssh.com",
+      "hmac-sha512@ssh.com"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa-sha224@ssh.com",
+      "ssh-rsa-sha256@ssh.com",
+      "ssh-rsa-sha384@ssh.com",
+      "ssh-rsa-sha512@ssh.com",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.18.0",
+    "HasshServer": "a0db2b525e2c2f51cc065c6166dfde17",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256@ssh.com",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s",
+      "kex-strict-s-v00@openssh.com"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-sha256-2@ssh.com",
+      "hmac-sha224@ssh.com",
+      "hmac-sha256@ssh.com",
+      "hmac-sha384@ssh.com",
+      "hmac-sha512@ssh.com"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa-sha224@ssh.com",
+      "ssh-rsa-sha256@ssh.com",
+      "ssh-rsa-sha384@ssh.com",
+      "ssh-rsa-sha512@ssh.com",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.19.0",
+    "HasshServer": "a0db2b525e2c2f51cc065c6166dfde17",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256@ssh.com",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s",
+      "kex-strict-s-v00@openssh.com"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-sha256-2@ssh.com",
+      "hmac-sha224@ssh.com",
+      "hmac-sha256@ssh.com",
+      "hmac-sha384@ssh.com",
+      "hmac-sha512@ssh.com"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa-sha224@ssh.com",
+      "ssh-rsa-sha256@ssh.com",
+      "ssh-rsa-sha384@ssh.com",
+      "ssh-rsa-sha512@ssh.com",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.2.0",
+    "HasshServer": "7315162e64ee557440fb5dbbaf926ee1",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1",
+      "rsa2048-sha256",
+      "rsa1024-sha1"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "arcfour256",
+      "arcfour128",
+      "arcfour"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "hmac-md5-etm@openssh.com",
+      "hmac-sha2-256-96-etm@openssh.com",
+      "hmac-sha2-512-96-etm@openssh.com",
+      "hmac-sha1-96-etm@openssh.com",
+      "hmac-md5-96-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-md5",
+      "hmac-sha2-256-96",
+      "hmac-sha2-512-96",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "zlib",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.20.0",
+    "HasshServer": "a0db2b525e2c2f51cc065c6166dfde17",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256@ssh.com",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s",
+      "kex-strict-s-v00@openssh.com"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-sha256-2@ssh.com",
+      "hmac-sha224@ssh.com",
+      "hmac-sha256@ssh.com",
+      "hmac-sha384@ssh.com",
+      "hmac-sha512@ssh.com"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa-sha224@ssh.com",
+      "ssh-rsa-sha256@ssh.com",
+      "ssh-rsa-sha384@ssh.com",
+      "ssh-rsa-sha512@ssh.com",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.2.1",
+    "HasshServer": "7315162e64ee557440fb5dbbaf926ee1",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1",
+      "rsa2048-sha256",
+      "rsa1024-sha1"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "arcfour256",
+      "arcfour128",
+      "arcfour"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "hmac-md5-etm@openssh.com",
+      "hmac-sha2-256-96-etm@openssh.com",
+      "hmac-sha2-512-96-etm@openssh.com",
+      "hmac-sha1-96-etm@openssh.com",
+      "hmac-md5-96-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-md5",
+      "hmac-sha2-256-96",
+      "hmac-sha2-512-96",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "zlib",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.21.0",
+    "HasshServer": "a0db2b525e2c2f51cc065c6166dfde17",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256@ssh.com",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s",
+      "kex-strict-s-v00@openssh.com"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-sha256-2@ssh.com",
+      "hmac-sha224@ssh.com",
+      "hmac-sha256@ssh.com",
+      "hmac-sha384@ssh.com",
+      "hmac-sha512@ssh.com"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa-sha224@ssh.com",
+      "ssh-rsa-sha256@ssh.com",
+      "ssh-rsa-sha384@ssh.com",
+      "ssh-rsa-sha512@ssh.com",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.3.0",
+    "HasshServer": "2c4e6ef4df4206c641c3f1e21fafc46d",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.4.0",
+    "HasshServer": "2c4e6ef4df4206c641c3f1e21fafc46d",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.4.1",
+    "HasshServer": "2c4e6ef4df4206c641c3f1e21fafc46d",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.4.2",
+    "HasshServer": "2c4e6ef4df4206c641c3f1e21fafc46d",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.5.0",
+    "HasshServer": "2c4e6ef4df4206c641c3f1e21fafc46d",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.6.0",
+    "HasshServer": "ae4250f8193dca17bb2e4adac5febf1c",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256@ssh.com",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-sha256-2@ssh.com",
+      "hmac-sha224@ssh.com",
+      "hmac-sha256@ssh.com",
+      "hmac-sha384@ssh.com",
+      "hmac-sha512@ssh.com"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa-sha224@ssh.com",
+      "ssh-rsa-sha256@ssh.com",
+      "ssh-rsa-sha384@ssh.com",
+      "ssh-rsa-sha512@ssh.com",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.7.0",
+    "HasshServer": "ae4250f8193dca17bb2e4adac5febf1c",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256@ssh.com",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-sha256-2@ssh.com",
+      "hmac-sha224@ssh.com",
+      "hmac-sha256@ssh.com",
+      "hmac-sha384@ssh.com",
+      "hmac-sha512@ssh.com"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa-sha224@ssh.com",
+      "ssh-rsa-sha256@ssh.com",
+      "ssh-rsa-sha384@ssh.com",
+      "ssh-rsa-sha512@ssh.com",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.7.1",
+    "HasshServer": "ae4250f8193dca17bb2e4adac5febf1c",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256@ssh.com",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-sha256-2@ssh.com",
+      "hmac-sha224@ssh.com",
+      "hmac-sha256@ssh.com",
+      "hmac-sha384@ssh.com",
+      "hmac-sha512@ssh.com"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa-sha224@ssh.com",
+      "ssh-rsa-sha256@ssh.com",
+      "ssh-rsa-sha384@ssh.com",
+      "ssh-rsa-sha512@ssh.com",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.7.2",
+    "HasshServer": "ae4250f8193dca17bb2e4adac5febf1c",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256@ssh.com",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-sha256-2@ssh.com",
+      "hmac-sha224@ssh.com",
+      "hmac-sha256@ssh.com",
+      "hmac-sha384@ssh.com",
+      "hmac-sha512@ssh.com"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa-sha224@ssh.com",
+      "ssh-rsa-sha256@ssh.com",
+      "ssh-rsa-sha384@ssh.com",
+      "ssh-rsa-sha512@ssh.com",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.8.0",
+    "HasshServer": "ae4250f8193dca17bb2e4adac5febf1c",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256@ssh.com",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-sha256-2@ssh.com",
+      "hmac-sha224@ssh.com",
+      "hmac-sha256@ssh.com",
+      "hmac-sha384@ssh.com",
+      "hmac-sha512@ssh.com"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa-sha224@ssh.com",
+      "ssh-rsa-sha256@ssh.com",
+      "ssh-rsa-sha384@ssh.com",
+      "ssh-rsa-sha512@ssh.com",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.8.1",
+    "HasshServer": "ae4250f8193dca17bb2e4adac5febf1c",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256@ssh.com",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-sha256-2@ssh.com",
+      "hmac-sha224@ssh.com",
+      "hmac-sha256@ssh.com",
+      "hmac-sha384@ssh.com",
+      "hmac-sha512@ssh.com"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa-sha224@ssh.com",
+      "ssh-rsa-sha256@ssh.com",
+      "ssh-rsa-sha384@ssh.com",
+      "ssh-rsa-sha512@ssh.com",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-AsyncSSH_2.9.0",
+    "HasshServer": "ae4250f8193dca17bb2e4adac5febf1c",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "curve448-sha512",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-1.3.132.0.10",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group15-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group17-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256@ssh.com",
+      "diffie-hellman-group14-sha1",
+      "rsa2048-sha256",
+      "ext-info-s"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1",
+      "hmac-sha256-2@ssh.com",
+      "hmac-sha224@ssh.com",
+      "hmac-sha256@ssh.com",
+      "hmac-sha384@ssh.com",
+      "hmac-sha512@ssh.com"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-256",
+      "rsa-sha2-512",
+      "ssh-rsa-sha224@ssh.com",
+      "ssh-rsa-sha256@ssh.com",
+      "ssh-rsa-sha384@ssh.com",
+      "ssh-rsa-sha512@ssh.com",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_0.44",
+    "HasshServer": "685c82c168a8406c4375c835cbaf8060",
+    "KEX": [
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-cbc",
+      "blowfish-cbc",
+      "twofish-cbc",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "none",
+      "zlib"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_0.45",
+    "HasshServer": "685c82c168a8406c4375c835cbaf8060",
+    "KEX": [
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-cbc",
+      "blowfish-cbc",
+      "twofish-cbc",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "none",
+      "zlib"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_0.46",
+    "HasshServer": "685c82c168a8406c4375c835cbaf8060",
+    "KEX": [
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-cbc",
+      "blowfish-cbc",
+      "twofish-cbc",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "none",
+      "zlib"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_0.47",
+    "HasshServer": "81e6b29b428f04acb227d83340eb57df",
+    "KEX": [
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-cbc",
+      "3des-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc",
+      "blowfish-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_0.48",
+    "HasshServer": "81e6b29b428f04acb227d83340eb57df",
+    "KEX": [
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-cbc",
+      "3des-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc",
+      "blowfish-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_0.48",
+    "HasshServer": "81e6b29b428f04acb227d83340eb57df",
+    "KEX": [
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-cbc",
+      "3des-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc",
+      "blowfish-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_0.49",
+    "HasshServer": "81e6b29b428f04acb227d83340eb57df",
+    "KEX": [
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-cbc",
+      "3des-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc",
+      "blowfish-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_0.50",
+    "HasshServer": "81e6b29b428f04acb227d83340eb57df",
+    "KEX": [
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-cbc",
+      "3des-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc",
+      "blowfish-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_0.51",
+    "HasshServer": "81e6b29b428f04acb227d83340eb57df",
+    "KEX": [
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-cbc",
+      "3des-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc",
+      "blowfish-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_0.52",
+    "HasshServer": "a26a627b7cb7d8b307da9e96731e1215",
+    "KEX": [
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "3des-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "3des-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc",
+      "blowfish-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib",
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_0.53",
+    "HasshServer": "16f898dd8ed8279e1055350b4e20666c",
+    "KEX": [
+      "diffie-hellman-group1-sha1",
+      "diffie-hellman-group14-sha1"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "3des-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "3des-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib",
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_0.53.1",
+    "HasshServer": "16f898dd8ed8279e1055350b4e20666c",
+    "KEX": [
+      "diffie-hellman-group1-sha1",
+      "diffie-hellman-group14-sha1"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "3des-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "3des-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib",
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2011.54",
+    "HasshServer": "16f898dd8ed8279e1055350b4e20666c",
+    "KEX": [
+      "diffie-hellman-group1-sha1",
+      "diffie-hellman-group14-sha1"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "3des-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "3des-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib",
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2012.55",
+    "HasshServer": "16f898dd8ed8279e1055350b4e20666c",
+    "KEX": [
+      "diffie-hellman-group1-sha1",
+      "diffie-hellman-group14-sha1"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "3des-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "3des-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib",
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2013.56",
+    "HasshServer": "16f898dd8ed8279e1055350b4e20666c",
+    "KEX": [
+      "diffie-hellman-group1-sha1",
+      "diffie-hellman-group14-sha1"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "3des-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "3des-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib",
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2013.57",
+    "HasshServer": "22865d7159a8dedcb091cd4fc5fd2841",
+    "KEX": [
+      "diffie-hellman-group1-sha1",
+      "diffie-hellman-group14-sha1",
+      "kexguess2@matt.ucc.asn.au"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "3des-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "3des-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib",
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2013.58",
+    "HasshServer": "22865d7159a8dedcb091cd4fc5fd2841",
+    "KEX": [
+      "diffie-hellman-group1-sha1",
+      "diffie-hellman-group14-sha1",
+      "kexguess2@matt.ucc.asn.au"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "3des-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "3des-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib",
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2013.59",
+    "HasshServer": "22865d7159a8dedcb091cd4fc5fd2841",
+    "KEX": [
+      "diffie-hellman-group1-sha1",
+      "diffie-hellman-group14-sha1",
+      "kexguess2@matt.ucc.asn.au"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "3des-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "3des-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib",
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2013.60",
+    "HasshServer": "22865d7159a8dedcb091cd4fc5fd2841",
+    "KEX": [
+      "diffie-hellman-group1-sha1",
+      "diffie-hellman-group14-sha1",
+      "kexguess2@matt.ucc.asn.au"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "3des-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "3des-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib",
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2013.61test",
+    "HasshServer": "ad00edb0c2a031d9884826ba7b7ba41e",
+    "KEX": [
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group1-sha1",
+      "diffie-hellman-group14-sha1",
+      "kexguess2@matt.ucc.asn.au"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "3des-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "3des-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib",
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp521",
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2013.62",
+    "HasshServer": "ad00edb0c2a031d9884826ba7b7ba41e",
+    "KEX": [
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group1-sha1",
+      "diffie-hellman-group14-sha1",
+      "kexguess2@matt.ucc.asn.au"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "3des-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "3des-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib",
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp521",
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2014.63",
+    "HasshServer": "ad00edb0c2a031d9884826ba7b7ba41e",
+    "KEX": [
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group1-sha1",
+      "diffie-hellman-group14-sha1",
+      "kexguess2@matt.ucc.asn.au"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "3des-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "3des-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib",
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp521",
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2014.64",
+    "HasshServer": "ad00edb0c2a031d9884826ba7b7ba41e",
+    "KEX": [
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group1-sha1",
+      "diffie-hellman-group14-sha1",
+      "kexguess2@matt.ucc.asn.au"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "3des-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "3des-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib",
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp521",
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2014.65",
+    "HasshServer": "ad00edb0c2a031d9884826ba7b7ba41e",
+    "KEX": [
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group1-sha1",
+      "diffie-hellman-group14-sha1",
+      "kexguess2@matt.ucc.asn.au"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "3des-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "3des-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib",
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp521",
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2014.66",
+    "HasshServer": "ad00edb0c2a031d9884826ba7b7ba41e",
+    "KEX": [
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group1-sha1",
+      "diffie-hellman-group14-sha1",
+      "kexguess2@matt.ucc.asn.au"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "3des-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "3des-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib",
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp521",
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2014.66",
+    "HasshServer": "3cb51e2442db062fbad15b6ae41ff67d",
+    "KEX": [
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1",
+      "kexguess2@matt.ucc.asn.au"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "aes256-cbc",
+      "3des-ctr",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp521",
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2015.68",
+    "HasshServer": "d93f46d063c4382b6232a4d77db532b2",
+    "KEX": [
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1",
+      "kexguess2@matt.ucc.asn.au"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc",
+      "3des-ctr",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp521",
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2015.69",
+    "HasshServer": "d93f46d063c4382b6232a4d77db532b2",
+    "KEX": [
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1",
+      "kexguess2@matt.ucc.asn.au"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc",
+      "3des-ctr",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp521",
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2015.70",
+    "HasshServer": "d93f46d063c4382b6232a4d77db532b2",
+    "KEX": [
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1",
+      "kexguess2@matt.ucc.asn.au"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc",
+      "3des-ctr",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp521",
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2015.71",
+    "HasshServer": "d93f46d063c4382b6232a4d77db532b2",
+    "KEX": [
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1",
+      "kexguess2@matt.ucc.asn.au"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc",
+      "3des-ctr",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp521",
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2016.72",
+    "HasshServer": "d93f46d063c4382b6232a4d77db532b2",
+    "KEX": [
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1",
+      "kexguess2@matt.ucc.asn.au"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc",
+      "3des-ctr",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp521",
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2016.73",
+    "HasshServer": "d93f46d063c4382b6232a4d77db532b2",
+    "KEX": [
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1",
+      "kexguess2@matt.ucc.asn.au"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc",
+      "3des-ctr",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp521",
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2016.74",
+    "HasshServer": "d93f46d063c4382b6232a4d77db532b2",
+    "KEX": [
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1",
+      "kexguess2@matt.ucc.asn.au"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc",
+      "3des-ctr",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp521",
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2017.75",
+    "HasshServer": "d93f46d063c4382b6232a4d77db532b2",
+    "KEX": [
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1",
+      "kexguess2@matt.ucc.asn.au"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc",
+      "3des-ctr",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp521",
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2018.76",
+    "HasshServer": "413e646031ea5204c5ec2fe2d5b7946e",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group14-sha1",
+      "kexguess2@matt.ucc.asn.au"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "aes256-cbc",
+      "3des-ctr",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-sha2-256"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp256",
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2019.77",
+    "HasshServer": "413e646031ea5204c5ec2fe2d5b7946e",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group14-sha1",
+      "kexguess2@matt.ucc.asn.au"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "aes256-cbc",
+      "3des-ctr",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-sha2-256"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp256",
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2019.78",
+    "HasshServer": "413e646031ea5204c5ec2fe2d5b7946e",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group14-sha1",
+      "kexguess2@matt.ucc.asn.au"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "aes256-cbc",
+      "3des-ctr",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-sha2-256"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp256",
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2020.79",
+    "HasshServer": "581c7540d57c52f610b24b88b36f6084",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group14-sha1",
+      "kexguess2@matt.ucc.asn.au"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes256-ctr"
+    ],
+    "MAC": [
+      "hmac-sha1",
+      "hmac-sha2-256"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp256",
+      "rsa-sha2-256",
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2020.80",
+    "HasshServer": "581c7540d57c52f610b24b88b36f6084",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group14-sha1",
+      "kexguess2@matt.ucc.asn.au"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes256-ctr"
+    ],
+    "MAC": [
+      "hmac-sha1",
+      "hmac-sha2-256"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp256",
+      "rsa-sha2-256",
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2020.81",
+    "HasshServer": "581c7540d57c52f610b24b88b36f6084",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group14-sha1",
+      "kexguess2@matt.ucc.asn.au"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes256-ctr"
+    ],
+    "MAC": [
+      "hmac-sha1",
+      "hmac-sha2-256"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp256",
+      "rsa-sha2-256",
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2022.82",
+    "HasshServer": "581c7540d57c52f610b24b88b36f6084",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group14-sha1",
+      "kexguess2@matt.ucc.asn.au"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes256-ctr"
+    ],
+    "MAC": [
+      "hmac-sha1",
+      "hmac-sha2-256"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp256",
+      "rsa-sha2-256",
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2022.83",
+    "HasshServer": "581c7540d57c52f610b24b88b36f6084",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group14-sha1",
+      "kexguess2@matt.ucc.asn.au"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes256-ctr"
+    ],
+    "MAC": [
+      "hmac-sha1",
+      "hmac-sha2-256"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp256",
+      "rsa-sha2-256",
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2024.84",
+    "HasshServer": "e1a0b5f8d334ec70fe937b2d5ff8d0b6",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group14-sha1",
+      "kexguess2@matt.ucc.asn.au",
+      "kex-strict-s-v00@openssh.com"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes256-ctr"
+    ],
+    "MAC": [
+      "hmac-sha1",
+      "hmac-sha2-256"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp256",
+      "rsa-sha2-256",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2024.85",
+    "HasshServer": "e1a0b5f8d334ec70fe937b2d5ff8d0b6",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group14-sha1",
+      "kexguess2@matt.ucc.asn.au",
+      "kex-strict-s-v00@openssh.com"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes256-ctr"
+    ],
+    "MAC": [
+      "hmac-sha1",
+      "hmac-sha2-256"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp256",
+      "rsa-sha2-256",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2024.86",
+    "HasshServer": "e1a0b5f8d334ec70fe937b2d5ff8d0b6",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group14-sha1",
+      "kexguess2@matt.ucc.asn.au",
+      "kex-strict-s-v00@openssh.com"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes256-ctr"
+    ],
+    "MAC": [
+      "hmac-sha1",
+      "hmac-sha2-256"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp256",
+      "rsa-sha2-256",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2025.87",
+    "HasshServer": "223440d715dad2172ff5f50e87dc537a",
+    "KEX": [
+      "sntrup761x25519-sha512",
+      "sntrup761x25519-sha512@openssh.com",
+      "mlkem768x25519-sha256",
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group14-sha256",
+      "kexguess2@matt.ucc.asn.au",
+      "kex-strict-s-v00@openssh.com"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "hmac-sha2-256"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "zlib",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp256",
+      "rsa-sha2-256"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_2025.88",
+    "HasshServer": "223440d715dad2172ff5f50e87dc537a",
+    "KEX": [
+      "sntrup761x25519-sha512",
+      "sntrup761x25519-sha512@openssh.com",
+      "mlkem768x25519-sha256",
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group14-sha256",
+      "kexguess2@matt.ucc.asn.au",
+      "kex-strict-s-v00@openssh.com"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "hmac-sha2-256"
+    ],
+    "Compression": [
+      "zlib@openssh.com",
+      "zlib",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp256",
+      "rsa-sha2-256"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-dropbear_0.52",
+    "HasshServer": "a26a627b7cb7d8b307da9e96731e1215",
+    "KEX": [
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "3des-ctr",
+      "aes256-ctr",
+      "aes128-cbc",
+      "3des-cbc",
+      "aes256-cbc",
+      "twofish256-cbc",
+      "twofish-cbc",
+      "twofish128-cbc",
+      "blowfish-cbc"
+    ],
+    "MAC": [
+      "hmac-sha1-96",
+      "hmac-sha1",
+      "hmac-md5"
+    ],
+    "Compression": [
+      "zlib",
+      "zlib@openssh.com",
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-libssh_0.10.0",
+    "HasshServer": "aa1fd784572c687401dd0189f7802549",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com",
+      "zlib"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-libssh_0.10.2",
+    "HasshServer": "aa1fd784572c687401dd0189f7802549",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com",
+      "zlib"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-libssh_0.10.3",
+    "HasshServer": "aa1fd784572c687401dd0189f7802549",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com",
+      "zlib"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-libssh_0.10.4",
+    "HasshServer": "aa1fd784572c687401dd0189f7802549",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com",
+      "zlib"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-libssh_0.10.5",
+    "HasshServer": "6285c28820b777e1b1360814b667afc9",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-libssh_0.10.6",
+    "HasshServer": "b0c5952f4038c4b21fbe8270bde04b6f",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "kex-strict-s-v00@openssh.com"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-libssh_0.11.0",
+    "HasshServer": "b0c5952f4038c4b21fbe8270bde04b6f",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "kex-strict-s-v00@openssh.com"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-libssh_0.11.1",
+    "HasshServer": "b0c5952f4038c4b21fbe8270bde04b6f",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "kex-strict-s-v00@openssh.com"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-libssh_0.11.2",
+    "HasshServer": "b0c5952f4038c4b21fbe8270bde04b6f",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "kex-strict-s-v00@openssh.com"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr"
+    ],
+    "MAC": [
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-libssh_0.8.3",
+    "HasshServer": "d15ef772706a18e95a20d481c2a1e367",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc",
+      "blowfish-cbc",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-libssh_0.8.4",
+    "HasshServer": "d15ef772706a18e95a20d481c2a1e367",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc",
+      "blowfish-cbc",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-libssh_0.8.5",
+    "HasshServer": "d15ef772706a18e95a20d481c2a1e367",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc",
+      "blowfish-cbc",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-libssh_0.8.6",
+    "HasshServer": "d15ef772706a18e95a20d481c2a1e367",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc",
+      "blowfish-cbc",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-libssh_0.8.7",
+    "HasshServer": "d15ef772706a18e95a20d481c2a1e367",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc",
+      "blowfish-cbc",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-libssh_0.8.8",
+    "HasshServer": "d15ef772706a18e95a20d481c2a1e367",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc",
+      "blowfish-cbc",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-libssh_0.8.8",
+    "HasshServer": "d15ef772706a18e95a20d481c2a1e367",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc",
+      "blowfish-cbc",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-libssh_0.9.0",
+    "HasshServer": "af0d24e44cd94c4bfed327f2280c8b16",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-libssh_0.9.1",
+    "HasshServer": "af0d24e44cd94c4bfed327f2280c8b16",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-libssh_0.9.2",
+    "HasshServer": "af0d24e44cd94c4bfed327f2280c8b16",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-libssh_0.9.3",
+    "HasshServer": "af0d24e44cd94c4bfed327f2280c8b16",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-libssh_0.9.3",
+    "HasshServer": "cfc9dfad70b40826b96fa139abf14328",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-libssh_0.9.5",
+    "HasshServer": "cfc9dfad70b40826b96fa139abf14328",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-libssh_0.9.6",
+    "HasshServer": "cfc9dfad70b40826b96fa139abf14328",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-libssh_0.9.7",
+    "HasshServer": "cfc9dfad70b40826b96fa139abf14328",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-libssh_0.9.8",
+    "HasshServer": "d9e4542cc07dc64831b59f8ba0d829ab",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1",
+      "kex-strict-s-v00@openssh.com"
+    ],
+    "Encryption": [
+      "aes256-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-ctr",
+      "aes192-ctr",
+      "aes128-ctr",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc",
+      "3des-cbc"
+    ],
+    "MAC": [
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ssh-rsa"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_10.0",
+    "HasshServer": "671c5858369db8e0a60108d866bbf8ec",
+    "KEX": [
+      "mlkem768x25519-sha256",
+      "sntrup761x25519-sha512",
+      "sntrup761x25519-sha512@openssh.com",
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "ext-info-s",
+      "kex-strict-s-v00@openssh.com"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_10.0",
+    "HasshServer": "671c5858369db8e0a60108d866bbf8ec",
+    "KEX": [
+      "mlkem768x25519-sha256",
+      "sntrup761x25519-sha512",
+      "sntrup761x25519-sha512@openssh.com",
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "ext-info-s",
+      "kex-strict-s-v00@openssh.com"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_7.9",
+    "HasshServer": "b12d2871a1189eff20364cf5333619ee",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group14-sha1"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ssh-rsa",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_8.0",
+    "HasshServer": "b12d2871a1189eff20364cf5333619ee",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group14-sha1"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ssh-rsa",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_8.1",
+    "HasshServer": "b12d2871a1189eff20364cf5333619ee",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group14-sha1"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ssh-rsa",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_8.2",
+    "HasshServer": "3ccd1778a76049721c71ad7d2bf62bbc",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ssh-rsa",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_8.3",
+    "HasshServer": "3ccd1778a76049721c71ad7d2bf62bbc",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ssh-rsa",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_8.4",
+    "HasshServer": "3ccd1778a76049721c71ad7d2bf62bbc",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ssh-rsa",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_8.5",
+    "HasshServer": "3ccd1778a76049721c71ad7d2bf62bbc",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ssh-rsa",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_8.6",
+    "HasshServer": "3ccd1778a76049721c71ad7d2bf62bbc",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ssh-rsa",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_8.7",
+    "HasshServer": "3ccd1778a76049721c71ad7d2bf62bbc",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ssh-rsa",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_8.8",
+    "HasshServer": "3ccd1778a76049721c71ad7d2bf62bbc",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_8.9",
+    "HasshServer": "699519fdcc30cbcd093d5cd01e4b1d56",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "sntrup761x25519-sha512@openssh.com",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_9.0",
+    "HasshServer": "a984ff804585fabe3cd08f4b3849024a",
+    "KEX": [
+      "sntrup761x25519-sha512@openssh.com",
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_9.1",
+    "HasshServer": "a984ff804585fabe3cd08f4b3849024a",
+    "KEX": [
+      "sntrup761x25519-sha512@openssh.com",
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_9.2",
+    "HasshServer": "a984ff804585fabe3cd08f4b3849024a",
+    "KEX": [
+      "sntrup761x25519-sha512@openssh.com",
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_9.3",
+    "HasshServer": "a984ff804585fabe3cd08f4b3849024a",
+    "KEX": [
+      "sntrup761x25519-sha512@openssh.com",
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_9.3",
+    "HasshServer": "a984ff804585fabe3cd08f4b3849024a",
+    "KEX": [
+      "sntrup761x25519-sha512@openssh.com",
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_9.4",
+    "HasshServer": "a984ff804585fabe3cd08f4b3849024a",
+    "KEX": [
+      "sntrup761x25519-sha512@openssh.com",
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_9.5",
+    "HasshServer": "a984ff804585fabe3cd08f4b3849024a",
+    "KEX": [
+      "sntrup761x25519-sha512@openssh.com",
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_9.6",
+    "HasshServer": "e42184b06d45385a906f0803d04c83da",
+    "KEX": [
+      "sntrup761x25519-sha512@openssh.com",
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256",
+      "ext-info-s",
+      "kex-strict-s-v00@openssh.com"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_9.7",
+    "HasshServer": "e42184b06d45385a906f0803d04c83da",
+    "KEX": [
+      "sntrup761x25519-sha512@openssh.com",
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256",
+      "ext-info-s",
+      "kex-strict-s-v00@openssh.com"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_9.8",
+    "HasshServer": "e42184b06d45385a906f0803d04c83da",
+    "KEX": [
+      "sntrup761x25519-sha512@openssh.com",
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256",
+      "ext-info-s",
+      "kex-strict-s-v00@openssh.com"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_9.9",
+    "HasshServer": "bbd3df916ddc675cc91c127ab1a90657",
+    "KEX": [
+      "sntrup761x25519-sha512",
+      "sntrup761x25519-sha512@openssh.com",
+      "mlkem768x25519-sha256",
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256",
+      "ext-info-s",
+      "kex-strict-s-v00@openssh.com"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_9.9",
+    "HasshServer": "bbd3df916ddc675cc91c127ab1a90657",
+    "KEX": [
+      "sntrup761x25519-sha512",
+      "sntrup761x25519-sha512@openssh.com",
+      "mlkem768x25519-sha256",
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256",
+      "ext-info-s",
+      "kex-strict-s-v00@openssh.com"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_4.4",
+    "HasshServer": "d741d40edcb840b200eafea6aaa1dff6",
+    "KEX": [
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "arcfour128",
+      "arcfour256",
+      "arcfour",
+      "aes192-cbc",
+      "aes256-cbc",
+      "rijndael-cbc@lysator.liu.se",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr"
+    ],
+    "MAC": [
+      "hmac-md5",
+      "hmac-sha1",
+      "hmac-ripemd160",
+      "hmac-ripemd160@openssh.com",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_4.5",
+    "HasshServer": "d741d40edcb840b200eafea6aaa1dff6",
+    "KEX": [
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "arcfour128",
+      "arcfour256",
+      "arcfour",
+      "aes192-cbc",
+      "aes256-cbc",
+      "rijndael-cbc@lysator.liu.se",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr"
+    ],
+    "MAC": [
+      "hmac-md5",
+      "hmac-sha1",
+      "hmac-ripemd160",
+      "hmac-ripemd160@openssh.com",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_4.6",
+    "HasshServer": "d741d40edcb840b200eafea6aaa1dff6",
+    "KEX": [
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "arcfour128",
+      "arcfour256",
+      "arcfour",
+      "aes192-cbc",
+      "aes256-cbc",
+      "rijndael-cbc@lysator.liu.se",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr"
+    ],
+    "MAC": [
+      "hmac-md5",
+      "hmac-sha1",
+      "hmac-ripemd160",
+      "hmac-ripemd160@openssh.com",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_4.7",
+    "HasshServer": "2270b0152ebe5afb20df3041c7f076a2",
+    "KEX": [
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "arcfour128",
+      "arcfour256",
+      "arcfour",
+      "aes192-cbc",
+      "aes256-cbc",
+      "rijndael-cbc@lysator.liu.se",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr"
+    ],
+    "MAC": [
+      "hmac-md5",
+      "hmac-sha1",
+      "umac-64@openssh.com",
+      "hmac-ripemd160",
+      "hmac-ripemd160@openssh.com",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_4.9",
+    "HasshServer": "2270b0152ebe5afb20df3041c7f076a2",
+    "KEX": [
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "arcfour128",
+      "arcfour256",
+      "arcfour",
+      "aes192-cbc",
+      "aes256-cbc",
+      "rijndael-cbc@lysator.liu.se",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr"
+    ],
+    "MAC": [
+      "hmac-md5",
+      "hmac-sha1",
+      "umac-64@openssh.com",
+      "hmac-ripemd160",
+      "hmac-ripemd160@openssh.com",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_5.0",
+    "HasshServer": "2270b0152ebe5afb20df3041c7f076a2",
+    "KEX": [
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "arcfour128",
+      "arcfour256",
+      "arcfour",
+      "aes192-cbc",
+      "aes256-cbc",
+      "rijndael-cbc@lysator.liu.se",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr"
+    ],
+    "MAC": [
+      "hmac-md5",
+      "hmac-sha1",
+      "umac-64@openssh.com",
+      "hmac-ripemd160",
+      "hmac-ripemd160@openssh.com",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_5.1",
+    "HasshServer": "2270b0152ebe5afb20df3041c7f076a2",
+    "KEX": [
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "arcfour128",
+      "arcfour256",
+      "arcfour",
+      "aes192-cbc",
+      "aes256-cbc",
+      "rijndael-cbc@lysator.liu.se",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr"
+    ],
+    "MAC": [
+      "hmac-md5",
+      "hmac-sha1",
+      "umac-64@openssh.com",
+      "hmac-ripemd160",
+      "hmac-ripemd160@openssh.com",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_5.2",
+    "HasshServer": "b1c6c0d56317555b85c7005a3de29325",
+    "KEX": [
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "arcfour256",
+      "arcfour128",
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "aes192-cbc",
+      "aes256-cbc",
+      "arcfour",
+      "rijndael-cbc@lysator.liu.se"
+    ],
+    "MAC": [
+      "hmac-md5",
+      "hmac-sha1",
+      "umac-64@openssh.com",
+      "hmac-ripemd160",
+      "hmac-ripemd160@openssh.com",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_5.3",
+    "HasshServer": "b1c6c0d56317555b85c7005a3de29325",
+    "KEX": [
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "arcfour256",
+      "arcfour128",
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "aes192-cbc",
+      "aes256-cbc",
+      "arcfour",
+      "rijndael-cbc@lysator.liu.se"
+    ],
+    "MAC": [
+      "hmac-md5",
+      "hmac-sha1",
+      "umac-64@openssh.com",
+      "hmac-ripemd160",
+      "hmac-ripemd160@openssh.com",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_5.4",
+    "HasshServer": "b1c6c0d56317555b85c7005a3de29325",
+    "KEX": [
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "arcfour256",
+      "arcfour128",
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "aes192-cbc",
+      "aes256-cbc",
+      "arcfour",
+      "rijndael-cbc@lysator.liu.se"
+    ],
+    "MAC": [
+      "hmac-md5",
+      "hmac-sha1",
+      "umac-64@openssh.com",
+      "hmac-ripemd160",
+      "hmac-ripemd160@openssh.com",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_5.5",
+    "HasshServer": "b1c6c0d56317555b85c7005a3de29325",
+    "KEX": [
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "arcfour256",
+      "arcfour128",
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "aes192-cbc",
+      "aes256-cbc",
+      "arcfour",
+      "rijndael-cbc@lysator.liu.se"
+    ],
+    "MAC": [
+      "hmac-md5",
+      "hmac-sha1",
+      "umac-64@openssh.com",
+      "hmac-ripemd160",
+      "hmac-ripemd160@openssh.com",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_5.6",
+    "HasshServer": "b1c6c0d56317555b85c7005a3de29325",
+    "KEX": [
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "arcfour256",
+      "arcfour128",
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "aes192-cbc",
+      "aes256-cbc",
+      "arcfour",
+      "rijndael-cbc@lysator.liu.se"
+    ],
+    "MAC": [
+      "hmac-md5",
+      "hmac-sha1",
+      "umac-64@openssh.com",
+      "hmac-ripemd160",
+      "hmac-ripemd160@openssh.com",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_5.7",
+    "HasshServer": "60205d0b53ffd441ead5c43b5a6f1bc7",
+    "KEX": [
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "arcfour256",
+      "arcfour128",
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "aes192-cbc",
+      "aes256-cbc",
+      "arcfour",
+      "rijndael-cbc@lysator.liu.se"
+    ],
+    "MAC": [
+      "hmac-md5",
+      "hmac-sha1",
+      "umac-64@openssh.com",
+      "hmac-ripemd160",
+      "hmac-ripemd160@openssh.com",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_5.8",
+    "HasshServer": "60205d0b53ffd441ead5c43b5a6f1bc7",
+    "KEX": [
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "arcfour256",
+      "arcfour128",
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "aes192-cbc",
+      "aes256-cbc",
+      "arcfour",
+      "rijndael-cbc@lysator.liu.se"
+    ],
+    "MAC": [
+      "hmac-md5",
+      "hmac-sha1",
+      "umac-64@openssh.com",
+      "hmac-ripemd160",
+      "hmac-ripemd160@openssh.com",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_5.8",
+    "HasshServer": "60205d0b53ffd441ead5c43b5a6f1bc7",
+    "KEX": [
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "arcfour256",
+      "arcfour128",
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "aes192-cbc",
+      "aes256-cbc",
+      "arcfour",
+      "rijndael-cbc@lysator.liu.se"
+    ],
+    "MAC": [
+      "hmac-md5",
+      "hmac-sha1",
+      "umac-64@openssh.com",
+      "hmac-ripemd160",
+      "hmac-ripemd160@openssh.com",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_5.9",
+    "HasshServer": "ce3c327f37ea2ec21f317fbc3fd1ea43",
+    "KEX": [
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "arcfour256",
+      "arcfour128",
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "aes192-cbc",
+      "aes256-cbc",
+      "arcfour",
+      "rijndael-cbc@lysator.liu.se"
+    ],
+    "MAC": [
+      "hmac-md5",
+      "hmac-sha1",
+      "umac-64@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-256-96",
+      "hmac-sha2-512",
+      "hmac-sha2-512-96",
+      "hmac-ripemd160",
+      "hmac-ripemd160@openssh.com",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_5.9",
+    "HasshServer": "ce3c327f37ea2ec21f317fbc3fd1ea43",
+    "KEX": [
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "arcfour256",
+      "arcfour128",
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "aes192-cbc",
+      "aes256-cbc",
+      "arcfour",
+      "rijndael-cbc@lysator.liu.se"
+    ],
+    "MAC": [
+      "hmac-md5",
+      "hmac-sha1",
+      "umac-64@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-256-96",
+      "hmac-sha2-512",
+      "hmac-sha2-512-96",
+      "hmac-ripemd160",
+      "hmac-ripemd160@openssh.com",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_6.0",
+    "HasshServer": "ce3c327f37ea2ec21f317fbc3fd1ea43",
+    "KEX": [
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "arcfour256",
+      "arcfour128",
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "aes192-cbc",
+      "aes256-cbc",
+      "arcfour",
+      "rijndael-cbc@lysator.liu.se"
+    ],
+    "MAC": [
+      "hmac-md5",
+      "hmac-sha1",
+      "umac-64@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-256-96",
+      "hmac-sha2-512",
+      "hmac-sha2-512-96",
+      "hmac-ripemd160",
+      "hmac-ripemd160@openssh.com",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss",
+      "ecdsa-sha2-nistp256"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_6.1",
+    "HasshServer": "aa294de13ac7e9dbf51610dc55a8ff86",
+    "KEX": [
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "arcfour256",
+      "arcfour128",
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "aes192-cbc",
+      "aes256-cbc",
+      "arcfour",
+      "rijndael-cbc@lysator.liu.se"
+    ],
+    "MAC": [
+      "hmac-md5",
+      "hmac-sha1",
+      "umac-64@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-ripemd160",
+      "hmac-ripemd160@openssh.com",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss",
+      "ecdsa-sha2-nistp256"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_6.2",
+    "HasshServer": "cca34b641961a75a15b91d1f1a13a3fb",
+    "KEX": [
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "arcfour256",
+      "arcfour128",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "aes192-cbc",
+      "aes256-cbc",
+      "arcfour",
+      "rijndael-cbc@lysator.liu.se"
+    ],
+    "MAC": [
+      "hmac-md5-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-ripemd160-etm@openssh.com",
+      "hmac-sha1-96-etm@openssh.com",
+      "hmac-md5-96-etm@openssh.com",
+      "hmac-md5",
+      "hmac-sha1",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-ripemd160",
+      "hmac-ripemd160@openssh.com",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss",
+      "ecdsa-sha2-nistp256"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_6.2",
+    "HasshServer": "cca34b641961a75a15b91d1f1a13a3fb",
+    "KEX": [
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "arcfour256",
+      "arcfour128",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "aes192-cbc",
+      "aes256-cbc",
+      "arcfour",
+      "rijndael-cbc@lysator.liu.se"
+    ],
+    "MAC": [
+      "hmac-md5-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-ripemd160-etm@openssh.com",
+      "hmac-sha1-96-etm@openssh.com",
+      "hmac-md5-96-etm@openssh.com",
+      "hmac-md5",
+      "hmac-sha1",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-ripemd160",
+      "hmac-ripemd160@openssh.com",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss",
+      "ecdsa-sha2-nistp256"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_6.3",
+    "HasshServer": "cca34b641961a75a15b91d1f1a13a3fb",
+    "KEX": [
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "arcfour256",
+      "arcfour128",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "aes192-cbc",
+      "aes256-cbc",
+      "arcfour",
+      "rijndael-cbc@lysator.liu.se"
+    ],
+    "MAC": [
+      "hmac-md5-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-ripemd160-etm@openssh.com",
+      "hmac-sha1-96-etm@openssh.com",
+      "hmac-md5-96-etm@openssh.com",
+      "hmac-md5",
+      "hmac-sha1",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-ripemd160",
+      "hmac-ripemd160@openssh.com",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss",
+      "ecdsa-sha2-nistp256"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_6.4",
+    "HasshServer": "cca34b641961a75a15b91d1f1a13a3fb",
+    "KEX": [
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "arcfour256",
+      "arcfour128",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com",
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "aes192-cbc",
+      "aes256-cbc",
+      "arcfour",
+      "rijndael-cbc@lysator.liu.se"
+    ],
+    "MAC": [
+      "hmac-md5-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-ripemd160-etm@openssh.com",
+      "hmac-sha1-96-etm@openssh.com",
+      "hmac-md5-96-etm@openssh.com",
+      "hmac-md5",
+      "hmac-sha1",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-ripemd160",
+      "hmac-ripemd160@openssh.com",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss",
+      "ecdsa-sha2-nistp256"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_6.5",
+    "HasshServer": "ba6d3d2aecbd0d91b01dfa7828110d70",
+    "KEX": [
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "arcfour256",
+      "arcfour128",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com",
+      "chacha20-poly1305@openssh.com",
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "aes192-cbc",
+      "aes256-cbc",
+      "arcfour",
+      "rijndael-cbc@lysator.liu.se"
+    ],
+    "MAC": [
+      "hmac-md5-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-ripemd160-etm@openssh.com",
+      "hmac-sha1-96-etm@openssh.com",
+      "hmac-md5-96-etm@openssh.com",
+      "hmac-md5",
+      "hmac-sha1",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-ripemd160",
+      "hmac-ripemd160@openssh.com",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_6.6",
+    "HasshServer": "ba6d3d2aecbd0d91b01dfa7828110d70",
+    "KEX": [
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "arcfour256",
+      "arcfour128",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com",
+      "chacha20-poly1305@openssh.com",
+      "aes128-cbc",
+      "3des-cbc",
+      "blowfish-cbc",
+      "cast128-cbc",
+      "aes192-cbc",
+      "aes256-cbc",
+      "arcfour",
+      "rijndael-cbc@lysator.liu.se"
+    ],
+    "MAC": [
+      "hmac-md5-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-ripemd160-etm@openssh.com",
+      "hmac-sha1-96-etm@openssh.com",
+      "hmac-md5-96-etm@openssh.com",
+      "hmac-md5",
+      "hmac-sha1",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-ripemd160",
+      "hmac-ripemd160@openssh.com",
+      "hmac-sha1-96",
+      "hmac-md5-96"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_6.7",
+    "HasshServer": "3711ee816d3ea9975d96c39c31c54299",
+    "KEX": [
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha1"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com",
+      "chacha20-poly1305@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_6.8",
+    "HasshServer": "3711ee816d3ea9975d96c39c31c54299",
+    "KEX": [
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha1"
+    ],
+    "Encryption": [
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com",
+      "chacha20-poly1305@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_6.9",
+    "HasshServer": "d43d91bc39d5aaed819ad9f6b57b7348",
+    "KEX": [
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha1"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ssh-dss",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_7.0",
+    "HasshServer": "d43d91bc39d5aaed819ad9f6b57b7348",
+    "KEX": [
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha1"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_7.1",
+    "HasshServer": "d43d91bc39d5aaed819ad9f6b57b7348",
+    "KEX": [
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha1"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_7.1",
+    "HasshServer": "d43d91bc39d5aaed819ad9f6b57b7348",
+    "KEX": [
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha1"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_7.2",
+    "HasshServer": "d43d91bc39d5aaed819ad9f6b57b7348",
+    "KEX": [
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha1"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_7.2",
+    "HasshServer": "d43d91bc39d5aaed819ad9f6b57b7348",
+    "KEX": [
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha1"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_7.3",
+    "HasshServer": "8cc1fefeb6ee94a1d6c81bc3ee13c62c",
+    "KEX": [
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group14-sha1"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_7.4",
+    "HasshServer": "b12d2871a1189eff20364cf5333619ee",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group14-sha1"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_7.5",
+    "HasshServer": "b12d2871a1189eff20364cf5333619ee",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group14-sha1"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_7.6",
+    "HasshServer": "b12d2871a1189eff20364cf5333619ee",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group14-sha1"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_7.7",
+    "HasshServer": "b12d2871a1189eff20364cf5333619ee",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group14-sha1"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "ssh-rsa",
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-OpenSSH_7.8",
+    "HasshServer": "b12d2871a1189eff20364cf5333619ee",
+    "KEX": [
+      "curve25519-sha256",
+      "curve25519-sha256@libssh.org",
+      "ecdh-sha2-nistp256",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp521",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group18-sha512",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group14-sha1"
+    ],
+    "Encryption": [
+      "chacha20-poly1305@openssh.com",
+      "aes128-ctr",
+      "aes192-ctr",
+      "aes256-ctr",
+      "aes128-gcm@openssh.com",
+      "aes256-gcm@openssh.com"
+    ],
+    "MAC": [
+      "umac-64-etm@openssh.com",
+      "umac-128-etm@openssh.com",
+      "hmac-sha2-256-etm@openssh.com",
+      "hmac-sha2-512-etm@openssh.com",
+      "hmac-sha1-etm@openssh.com",
+      "umac-64@openssh.com",
+      "umac-128@openssh.com",
+      "hmac-sha2-256",
+      "hmac-sha2-512",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none",
+      "zlib@openssh.com"
+    ],
+    "HostKeyAlgorithms": [
+      "rsa-sha2-512",
+      "rsa-sha2-256",
+      "ssh-rsa",
+      "ecdsa-sha2-nistp256",
+      "ssh-ed25519"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-wolfSSHv1.4.13",
+    "HasshServer": "b0a76cc0b2de3f053d05ec50eb7950e8",
+    "KEX": [
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes256-gcm@openssh.com",
+      "aes192-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc"
+    ],
+    "MAC": [
+      "hmac-sha2-256",
+      "hmac-sha1-96",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp256"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-wolfSSHv1.4.14",
+    "HasshServer": "b0a76cc0b2de3f053d05ec50eb7950e8",
+    "KEX": [
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes256-gcm@openssh.com",
+      "aes192-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc"
+    ],
+    "MAC": [
+      "hmac-sha2-256",
+      "hmac-sha1-96",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp256"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-wolfSSHv1.4.15",
+    "HasshServer": "b0a76cc0b2de3f053d05ec50eb7950e8",
+    "KEX": [
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes256-gcm@openssh.com",
+      "aes192-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc"
+    ],
+    "MAC": [
+      "hmac-sha2-256",
+      "hmac-sha1-96",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp256"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-wolfSSHv1.4.16",
+    "HasshServer": "b0a76cc0b2de3f053d05ec50eb7950e8",
+    "KEX": [
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group14-sha1",
+      "diffie-hellman-group1-sha1"
+    ],
+    "Encryption": [
+      "aes256-gcm@openssh.com",
+      "aes192-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc"
+    ],
+    "MAC": [
+      "hmac-sha2-256",
+      "hmac-sha1-96",
+      "hmac-sha1"
+    ],
+    "Compression": [
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp256"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-wolfSSHv1.4.17",
+    "HasshServer": "c047e7b119a5bb130cd15b96bc52d3a7",
+    "KEX": [
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group-exchange-sha256"
+    ],
+    "Encryption": [
+      "aes256-gcm@openssh.com",
+      "aes192-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc"
+    ],
+    "MAC": [
+      "hmac-sha2-256"
+    ],
+    "Compression": [
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp256"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-wolfSSHv1.4.18",
+    "HasshServer": "c047e7b119a5bb130cd15b96bc52d3a7",
+    "KEX": [
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group-exchange-sha256"
+    ],
+    "Encryption": [
+      "aes256-gcm@openssh.com",
+      "aes192-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc"
+    ],
+    "MAC": [
+      "hmac-sha2-256"
+    ],
+    "Compression": [
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp256"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-wolfSSHv1.4.19",
+    "HasshServer": "5af09dac2cec531ccf7291037a555dda",
+    "KEX": [
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group-exchange-sha256"
+    ],
+    "Encryption": [
+      "aes256-gcm@openssh.com",
+      "aes192-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc"
+    ],
+    "MAC": [
+      "hmac-sha2-256"
+    ],
+    "Compression": [
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp256"
+    ]
+  },
+  {
+    "Server": "SSH-2.0-wolfSSHv1.4.20",
+    "HasshServer": "5b74acd686f39fa1c58b1feecc7dc2f3",
+    "KEX": [
+      "ecdh-sha2-nistp521",
+      "ecdh-sha2-nistp384",
+      "ecdh-sha2-nistp256",
+      "diffie-hellman-group14-sha256",
+      "diffie-hellman-group16-sha512",
+      "diffie-hellman-group-exchange-sha256"
+    ],
+    "Encryption": [
+      "aes256-gcm@openssh.com",
+      "aes192-gcm@openssh.com",
+      "aes128-gcm@openssh.com",
+      "aes256-cbc",
+      "aes192-cbc",
+      "aes128-cbc"
+    ],
+    "MAC": [
+      "hmac-sha2-256",
+      "hmac-sha2-512"
+    ],
+    "Compression": [
+      "none"
+    ],
+    "HostKeyAlgorithms": [
+      "ecdsa-sha2-nistp256"
+    ]
+  }
+]
