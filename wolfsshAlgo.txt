@@ -1,0 +1,8 @@
+=== ANALYZING 8 WOLFSSH ENTRIES ===
+
+No versioned entries found for WOLFSSH
+
+============================================================
+
+=== MAJOR ALGORITHM CHANGES BETWEEN WOLFSSH VERSIONS ===
+

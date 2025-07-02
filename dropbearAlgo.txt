@@ -1,0 +1,161 @@
+=== ANALYZING 48 DROPBEAR ENTRIES ===
+
+Version range: 0.44 to 2025.88
+
+=== KEX EVOLUTION ===
+STABLE ALGORITHMS (present across most versions):
+  • diffie-hellman-group1-sha1
+    └─ v0.44 → v2017.75 (72.9% of versions)
+  • diffie-hellman-group14-sha1
+    └─ v0.53 → v2024.86 (72.9% of versions)
+
+MODERN ADDITIONS (added in later versions):
+  • sntrup761x25519-sha512
+    └─ v2025.87 → v2025.88 (4.2% of versions)
+  • sntrup761x25519-sha512@openssh.com
+    └─ v2025.87 → v2025.88 (4.2% of versions)
+  • mlkem768x25519-sha256
+    └─ v2025.87 → v2025.88 (4.2% of versions)
+  • kex-strict-s-v00@openssh.com
+    └─ v2024.84 → v2025.88 (10.4% of versions)
+  • curve25519-sha256
+    └─ v2018.76 → v2025.88 (27.1% of versions)
+  • diffie-hellman-group14-sha256
+    └─ v2018.76 → v2025.88 (27.1% of versions)
+  • curve25519-sha256@libssh.org
+    └─ v2013.61 → v2025.88 (58.3% of versions)
+  • ecdh-sha2-nistp521
+    └─ v2013.61 → v2025.88 (58.3% of versions)
+  • ecdh-sha2-nistp384
+    └─ v2013.61 → v2025.88 (58.3% of versions)
+  • ecdh-sha2-nistp256
+    └─ v2013.61 → v2025.88 (58.3% of versions)
+  • kexguess2@matt.ucc.asn.au
+    └─ v2013.57 → v2025.88 (66.7% of versions)
+
+=== ENCRYPTION EVOLUTION ===
+STABLE ALGORITHMS (present across most versions):
+  • aes128-ctr
+    └─ v0.52 → v2025.88 (81.2% of versions)
+  • aes256-ctr
+    └─ v0.52 → v2025.88 (81.2% of versions)
+  • aes128-cbc
+    └─ v0.44 → v2019.78 (79.2% of versions)
+  • 3des-cbc
+    └─ v0.44 → v2019.78 (79.2% of versions)
+  • aes256-cbc
+    └─ v0.47 → v2019.78 (72.9% of versions)
+  • twofish-cbc
+    └─ v0.44 → v2017.75 (70.8% of versions)
+
+MODERN ADDITIONS (added in later versions):
+  • chacha20-poly1305@openssh.com
+    └─ v2020.79 → v2025.88 (20.8% of versions)
+
+DEPRECATED (removed or rarely used):
+  • twofish256-cbc
+    └─ v0.47 → v2017.75 (64.6% of versions)
+  • twofish128-cbc
+    └─ v0.47 → v2017.75 (64.6% of versions)
+  • 3des-ctr
+    └─ v0.52 → v2019.78 (60.4% of versions)
+
+LEGACY (old algorithms no longer supported):
+  • blowfish-cbc
+    └─ v0.44 → v0.52 (22.9% of versions)
+
+=== MAC EVOLUTION ===
+STABLE ALGORITHMS (present across most versions):
+  • hmac-sha1
+    └─ v0.44 → v2024.86 (95.8% of versions)
+  • hmac-md5
+    └─ v0.44 → v2017.75 (72.9% of versions)
+  • hmac-sha1-96
+    └─ v0.47 → v2019.78 (72.9% of versions)
+
+MODERN ADDITIONS (added in later versions):
+  • hmac-sha2-256
+    └─ v2014.66 → v2025.88 (45.8% of versions)
+  • hmac-sha2-512
+    └─ v2014.66 → v2017.75 (18.8% of versions)
+
+=== COMPRESSION EVOLUTION ===
+STABLE ALGORITHMS (present across most versions):
+  • none
+    └─ v0.44 → v2025.88 (100.0% of versions)
+  • zlib@openssh.com
+    └─ v0.52 → v2025.88 (81.2% of versions)
+
+DEPRECATED (removed or rarely used):
+  • zlib
+    └─ v0.44 → v2025.88 (58.3% of versions)
+
+=== HOSTKEYALGORITHMS EVOLUTION ===
+STABLE ALGORITHMS (present across most versions):
+  • ssh-rsa
+    └─ v0.44 → v2024.86 (95.8% of versions)
+  • ssh-dss
+    └─ v0.44 → v2022.83 (89.6% of versions)
+
+MODERN ADDITIONS (added in later versions):
+  • rsa-sha2-256
+    └─ v2020.79 → v2025.88 (20.8% of versions)
+  • ecdsa-sha2-nistp256
+    └─ v2018.76 → v2025.88 (27.1% of versions)
+  • ecdsa-sha2-nistp521
+    └─ v2013.61 → v2017.75 (31.2% of versions)
+
+
+============================================================
+
+=== MAJOR ALGORITHM CHANGES BETWEEN DROPBEAR VERSIONS ===
+
+v0.46 → v0.47:
+  Encryption ADDED: aes256-cbc, twofish128-cbc, twofish256-cbc
+  MAC ADDED: hmac-sha1-96
+
+v0.51 → v0.52:
+  Encryption ADDED: 3des-ctr, aes128-ctr, aes256-ctr
+
+v0.52 → v0.53:
+  KEX ADDED: diffie-hellman-group14-sha1
+  Encryption REMOVED: blowfish-cbc
+
+v2013.56 → v2013.57:
+  KEX ADDED: kexguess2@matt.ucc.asn.au
+
+v2013.6 → v2013.61:
+  KEX ADDED: curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521
+  HostKeyAlgorithms ADDED: ecdsa-sha2-nistp521
+
+v2014.66 → v2014.66:
+  Encryption REMOVED: twofish-cbc, twofish128-cbc, twofish256-cbc
+  MAC ADDED: hmac-sha2-256, hmac-sha2-512
+
+v2014.66 → v2015.68:
+  Encryption ADDED: twofish-cbc, twofish128-cbc, twofish256-cbc
+
+v2017.75 → v2018.76:
+  KEX ADDED: curve25519-sha256, diffie-hellman-group14-sha256
+  KEX REMOVED: diffie-hellman-group1-sha1
+  Encryption REMOVED: twofish-cbc, twofish128-cbc, twofish256-cbc
+  MAC REMOVED: hmac-md5, hmac-sha2-512
+  HostKeyAlgorithms ADDED: ecdsa-sha2-nistp256
+  HostKeyAlgorithms REMOVED: ecdsa-sha2-nistp521
+
+v2019.78 → v2020.79:
+  Encryption ADDED: chacha20-poly1305@openssh.com
+  Encryption REMOVED: 3des-cbc, 3des-ctr, aes128-cbc, aes256-cbc
+  MAC REMOVED: hmac-sha1-96
+  HostKeyAlgorithms ADDED: rsa-sha2-256
+
+v2022.83 → v2024.84:
+  KEX ADDED: kex-strict-s-v00@openssh.com
+  HostKeyAlgorithms REMOVED: ssh-dss
+
+v2024.86 → v2025.87:
+  KEX ADDED: mlkem768x25519-sha256, sntrup761x25519-sha512, sntrup761x25519-sha512@openssh.com
+  KEX REMOVED: diffie-hellman-group14-sha1
+  MAC REMOVED: hmac-sha1
+  HostKeyAlgorithms REMOVED: ssh-rsa
+
