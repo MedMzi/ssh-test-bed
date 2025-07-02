@@ -1,227 +1,194 @@
 === ANALYZING 34 ASYNCSSH ENTRIES ===
 
-Version range: 2.0 to 2.9
+Version range: 2.0.0 to 2.21.0
 
 === KEX EVOLUTION ===
 STABLE ALGORITHMS (present across most versions):
   • curve25519-sha256
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • curve25519-sha256@libssh.org
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • curve448-sha512
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • ecdh-sha2-nistp521
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • ecdh-sha2-nistp384
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • ecdh-sha2-nistp256
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • ecdh-sha2-1.3.132.0.10
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • diffie-hellman-group-exchange-sha256
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • diffie-hellman-group14-sha256
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • diffie-hellman-group15-sha512
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • diffie-hellman-group16-sha512
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • diffie-hellman-group17-sha512
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • diffie-hellman-group18-sha512
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • diffie-hellman-group14-sha1
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • rsa2048-sha256
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • ext-info-s
-    └─ v2.1 → v2.9 (85.3% of versions)
+    └─ v2.3.0 → v2.21.0 (85.3% of versions)
+
+MODERN ADDITIONS (added in later versions):
   • diffie-hellman-group14-sha256@ssh.com
-    └─ v2.1 → v2.9 (70.6% of versions)
+    └─ v2.6.0 → v2.21.0 (70.6% of versions)
+  • kex-strict-s-v00@openssh.com
+    └─ v2.14.2 → v2.21.0 (23.5% of versions)
 
 LEGACY (old algorithms no longer supported):
   • diffie-hellman-group-exchange-sha1
-    └─ v2.0 → v2.2 (14.7% of versions)
+    └─ v2.0.0 → v2.2.1 (14.7% of versions)
   • diffie-hellman-group1-sha1
-    └─ v2.0 → v2.2 (14.7% of versions)
+    └─ v2.0.0 → v2.2.1 (14.7% of versions)
   • rsa1024-sha1
-    └─ v2.0 → v2.2 (14.7% of versions)
-  • kex-strict-s-v00@openssh.com
-    └─ v2.14 → v2.21 (23.5% of versions)
+    └─ v2.0.0 → v2.2.1 (14.7% of versions)
 
 === ENCRYPTION EVOLUTION ===
 STABLE ALGORITHMS (present across most versions):
   • chacha20-poly1305@openssh.com
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • aes256-gcm@openssh.com
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • aes128-gcm@openssh.com
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • aes256-ctr
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • aes192-ctr
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • aes128-ctr
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
 
 LEGACY (old algorithms no longer supported):
   • aes256-cbc
-    └─ v2.0 → v2.2 (14.7% of versions)
+    └─ v2.0.0 → v2.2.1 (14.7% of versions)
   • aes192-cbc
-    └─ v2.0 → v2.2 (14.7% of versions)
+    └─ v2.0.0 → v2.2.1 (14.7% of versions)
   • aes128-cbc
-    └─ v2.0 → v2.2 (14.7% of versions)
+    └─ v2.0.0 → v2.2.1 (14.7% of versions)
   • 3des-cbc
-    └─ v2.0 → v2.2 (14.7% of versions)
+    └─ v2.0.0 → v2.2.1 (14.7% of versions)
   • blowfish-cbc
-    └─ v2.0 → v2.2 (14.7% of versions)
+    └─ v2.0.0 → v2.2.1 (14.7% of versions)
   • cast128-cbc
-    └─ v2.0 → v2.2 (14.7% of versions)
+    └─ v2.0.0 → v2.2.1 (14.7% of versions)
   • arcfour256
-    └─ v2.0 → v2.2 (14.7% of versions)
+    └─ v2.0.0 → v2.2.1 (14.7% of versions)
   • arcfour128
-    └─ v2.0 → v2.2 (14.7% of versions)
+    └─ v2.0.0 → v2.2.1 (14.7% of versions)
   • arcfour
-    └─ v2.0 → v2.2 (14.7% of versions)
+    └─ v2.0.0 → v2.2.1 (14.7% of versions)
 
 === MAC EVOLUTION ===
 STABLE ALGORITHMS (present across most versions):
   • umac-64-etm@openssh.com
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • umac-128-etm@openssh.com
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • hmac-sha2-256-etm@openssh.com
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • hmac-sha2-512-etm@openssh.com
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • hmac-sha1-etm@openssh.com
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • umac-64@openssh.com
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • umac-128@openssh.com
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • hmac-sha2-256
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • hmac-sha2-512
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • hmac-sha1
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
+
+MODERN ADDITIONS (added in later versions):
   • hmac-sha256-2@ssh.com
-    └─ v2.1 → v2.9 (70.6% of versions)
+    └─ v2.6.0 → v2.21.0 (70.6% of versions)
   • hmac-sha224@ssh.com
-    └─ v2.1 → v2.9 (70.6% of versions)
+    └─ v2.6.0 → v2.21.0 (70.6% of versions)
   • hmac-sha256@ssh.com
-    └─ v2.1 → v2.9 (70.6% of versions)
+    └─ v2.6.0 → v2.21.0 (70.6% of versions)
   • hmac-sha384@ssh.com
-    └─ v2.1 → v2.9 (70.6% of versions)
+    └─ v2.6.0 → v2.21.0 (70.6% of versions)
   • hmac-sha512@ssh.com
-    └─ v2.1 → v2.9 (70.6% of versions)
+    └─ v2.6.0 → v2.21.0 (70.6% of versions)
 
 LEGACY (old algorithms no longer supported):
   • hmac-md5-etm@openssh.com
-    └─ v2.0 → v2.2 (14.7% of versions)
+    └─ v2.0.0 → v2.2.1 (14.7% of versions)
   • hmac-sha2-256-96-etm@openssh.com
-    └─ v2.0 → v2.2 (14.7% of versions)
+    └─ v2.0.0 → v2.2.1 (14.7% of versions)
   • hmac-sha2-512-96-etm@openssh.com
-    └─ v2.0 → v2.2 (14.7% of versions)
+    └─ v2.0.0 → v2.2.1 (14.7% of versions)
   • hmac-sha1-96-etm@openssh.com
-    └─ v2.0 → v2.2 (14.7% of versions)
+    └─ v2.0.0 → v2.2.1 (14.7% of versions)
   • hmac-md5-96-etm@openssh.com
-    └─ v2.0 → v2.2 (14.7% of versions)
+    └─ v2.0.0 → v2.2.1 (14.7% of versions)
   • hmac-md5
-    └─ v2.0 → v2.2 (14.7% of versions)
+    └─ v2.0.0 → v2.2.1 (14.7% of versions)
   • hmac-sha2-256-96
-    └─ v2.0 → v2.2 (14.7% of versions)
+    └─ v2.0.0 → v2.2.1 (14.7% of versions)
   • hmac-sha2-512-96
-    └─ v2.0 → v2.2 (14.7% of versions)
+    └─ v2.0.0 → v2.2.1 (14.7% of versions)
   • hmac-sha1-96
-    └─ v2.0 → v2.2 (14.7% of versions)
+    └─ v2.0.0 → v2.2.1 (14.7% of versions)
   • hmac-md5-96
-    └─ v2.0 → v2.2 (14.7% of versions)
+    └─ v2.0.0 → v2.2.1 (14.7% of versions)
 
 === COMPRESSION EVOLUTION ===
 STABLE ALGORITHMS (present across most versions):
   • zlib@openssh.com
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • none
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
 
 LEGACY (old algorithms no longer supported):
   • zlib
-    └─ v2.0 → v2.2 (14.7% of versions)
+    └─ v2.0.0 → v2.2.1 (14.7% of versions)
 
 === HOSTKEYALGORITHMS EVOLUTION ===
 STABLE ALGORITHMS (present across most versions):
   • rsa-sha2-256
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • rsa-sha2-512
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
   • ssh-rsa
-    └─ v2.0 → v2.9 (100.0% of versions)
+    └─ v2.0.0 → v2.21.0 (100.0% of versions)
+
+MODERN ADDITIONS (added in later versions):
   • ssh-rsa-sha224@ssh.com
-    └─ v2.1 → v2.9 (70.6% of versions)
+    └─ v2.6.0 → v2.21.0 (70.6% of versions)
   • ssh-rsa-sha256@ssh.com
-    └─ v2.1 → v2.9 (70.6% of versions)
+    └─ v2.6.0 → v2.21.0 (70.6% of versions)
   • ssh-rsa-sha384@ssh.com
-    └─ v2.1 → v2.9 (70.6% of versions)
+    └─ v2.6.0 → v2.21.0 (70.6% of versions)
   • ssh-rsa-sha512@ssh.com
-    └─ v2.1 → v2.9 (70.6% of versions)
+    └─ v2.6.0 → v2.21.0 (70.6% of versions)
 
 
 ============================================================
 
 === MAJOR ALGORITHM CHANGES BETWEEN ASYNCSSH VERSIONS ===
 
-v2.1 → v2.1:
-  KEX ADDED: diffie-hellman-group14-sha256@ssh.com, ext-info-s
+v2.2.1 → v2.3.0:
+  KEX ADDED: ext-info-s
   KEX REMOVED: diffie-hellman-group-exchange-sha1, diffie-hellman-group1-sha1, rsa1024-sha1
   Encryption REMOVED: 3des-cbc, aes128-cbc, aes192-cbc, aes256-cbc, arcfour, arcfour128, arcfour256, blowfish-cbc, cast128-cbc
-  MAC ADDED: hmac-sha224@ssh.com, hmac-sha256-2@ssh.com, hmac-sha256@ssh.com, hmac-sha384@ssh.com, hmac-sha512@ssh.com
   MAC REMOVED: hmac-md5, hmac-md5-96, hmac-md5-96-etm@openssh.com, hmac-md5-etm@openssh.com, hmac-sha1-96, hmac-sha1-96-etm@openssh.com, hmac-sha2-256-96, hmac-sha2-256-96-etm@openssh.com, hmac-sha2-512-96, hmac-sha2-512-96-etm@openssh.com
-  HostKeyAlgorithms ADDED: ssh-rsa-sha224@ssh.com, ssh-rsa-sha256@ssh.com, ssh-rsa-sha384@ssh.com, ssh-rsa-sha512@ssh.com
 
-v2.14 → v2.14:
-  KEX ADDED: kex-strict-s-v00@openssh.com
-
-v2.19 → v2.2:
-  KEX ADDED: diffie-hellman-group-exchange-sha1, diffie-hellman-group1-sha1, rsa1024-sha1
-  KEX REMOVED: diffie-hellman-group14-sha256@ssh.com, ext-info-s, kex-strict-s-v00@openssh.com
-  Encryption ADDED: 3des-cbc, aes128-cbc, aes192-cbc, aes256-cbc, arcfour, arcfour128, arcfour256, blowfish-cbc, cast128-cbc
-  MAC ADDED: hmac-md5, hmac-md5-96, hmac-md5-96-etm@openssh.com, hmac-md5-etm@openssh.com, hmac-sha1-96, hmac-sha1-96-etm@openssh.com, hmac-sha2-256-96, hmac-sha2-256-96-etm@openssh.com, hmac-sha2-512-96, hmac-sha2-512-96-etm@openssh.com
-  MAC REMOVED: hmac-sha224@ssh.com, hmac-sha256-2@ssh.com, hmac-sha256@ssh.com, hmac-sha384@ssh.com, hmac-sha512@ssh.com
-  HostKeyAlgorithms REMOVED: ssh-rsa-sha224@ssh.com, ssh-rsa-sha256@ssh.com, ssh-rsa-sha384@ssh.com, ssh-rsa-sha512@ssh.com
-
-v2.2 → v2.2:
-  KEX ADDED: diffie-hellman-group14-sha256@ssh.com, ext-info-s, kex-strict-s-v00@openssh.com
-  KEX REMOVED: diffie-hellman-group-exchange-sha1, diffie-hellman-group1-sha1, rsa1024-sha1
-  Encryption REMOVED: 3des-cbc, aes128-cbc, aes192-cbc, aes256-cbc, arcfour, arcfour128, arcfour256, blowfish-cbc, cast128-cbc
-  MAC ADDED: hmac-sha224@ssh.com, hmac-sha256-2@ssh.com, hmac-sha256@ssh.com, hmac-sha384@ssh.com, hmac-sha512@ssh.com
-  MAC REMOVED: hmac-md5, hmac-md5-96, hmac-md5-96-etm@openssh.com, hmac-md5-etm@openssh.com, hmac-sha1-96, hmac-sha1-96-etm@openssh.com, hmac-sha2-256-96, hmac-sha2-256-96-etm@openssh.com, hmac-sha2-512-96, hmac-sha2-512-96-etm@openssh.com
-  HostKeyAlgorithms ADDED: ssh-rsa-sha224@ssh.com, ssh-rsa-sha256@ssh.com, ssh-rsa-sha384@ssh.com, ssh-rsa-sha512@ssh.com
-
-v2.2 → v2.2:
-  KEX ADDED: diffie-hellman-group-exchange-sha1, diffie-hellman-group1-sha1, rsa1024-sha1
-  KEX REMOVED: diffie-hellman-group14-sha256@ssh.com, ext-info-s, kex-strict-s-v00@openssh.com
-  Encryption ADDED: 3des-cbc, aes128-cbc, aes192-cbc, aes256-cbc, arcfour, arcfour128, arcfour256, blowfish-cbc, cast128-cbc
-  MAC ADDED: hmac-md5, hmac-md5-96, hmac-md5-96-etm@openssh.com, hmac-md5-etm@openssh.com, hmac-sha1-96, hmac-sha1-96-etm@openssh.com, hmac-sha2-256-96, hmac-sha2-256-96-etm@openssh.com, hmac-sha2-512-96, hmac-sha2-512-96-etm@openssh.com
-  MAC REMOVED: hmac-sha224@ssh.com, hmac-sha256-2@ssh.com, hmac-sha256@ssh.com, hmac-sha384@ssh.com, hmac-sha512@ssh.com
-  HostKeyAlgorithms REMOVED: ssh-rsa-sha224@ssh.com, ssh-rsa-sha256@ssh.com, ssh-rsa-sha384@ssh.com, ssh-rsa-sha512@ssh.com
-
-v2.2 → v2.21:
-  KEX ADDED: diffie-hellman-group14-sha256@ssh.com, ext-info-s, kex-strict-s-v00@openssh.com
-  KEX REMOVED: diffie-hellman-group-exchange-sha1, diffie-hellman-group1-sha1, rsa1024-sha1
-  Encryption REMOVED: 3des-cbc, aes128-cbc, aes192-cbc, aes256-cbc, arcfour, arcfour128, arcfour256, blowfish-cbc, cast128-cbc
-  MAC ADDED: hmac-sha224@ssh.com, hmac-sha256-2@ssh.com, hmac-sha256@ssh.com, hmac-sha384@ssh.com, hmac-sha512@ssh.com
-  MAC REMOVED: hmac-md5, hmac-md5-96, hmac-md5-96-etm@openssh.com, hmac-md5-etm@openssh.com, hmac-sha1-96, hmac-sha1-96-etm@openssh.com, hmac-sha2-256-96, hmac-sha2-256-96-etm@openssh.com, hmac-sha2-512-96, hmac-sha2-512-96-etm@openssh.com
-  HostKeyAlgorithms ADDED: ssh-rsa-sha224@ssh.com, ssh-rsa-sha256@ssh.com, ssh-rsa-sha384@ssh.com, ssh-rsa-sha512@ssh.com
-
-v2.21 → v2.3:
-  KEX REMOVED: diffie-hellman-group14-sha256@ssh.com, kex-strict-s-v00@openssh.com
-  MAC REMOVED: hmac-sha224@ssh.com, hmac-sha256-2@ssh.com, hmac-sha256@ssh.com, hmac-sha384@ssh.com, hmac-sha512@ssh.com
-  HostKeyAlgorithms REMOVED: ssh-rsa-sha224@ssh.com, ssh-rsa-sha256@ssh.com, ssh-rsa-sha384@ssh.com, ssh-rsa-sha512@ssh.com
-
-v2.5 → v2.6:
+v2.5.0 → v2.6.0:
   KEX ADDED: diffie-hellman-group14-sha256@ssh.com
   MAC ADDED: hmac-sha224@ssh.com, hmac-sha256-2@ssh.com, hmac-sha256@ssh.com, hmac-sha384@ssh.com, hmac-sha512@ssh.com
   HostKeyAlgorithms ADDED: ssh-rsa-sha224@ssh.com, ssh-rsa-sha256@ssh.com, ssh-rsa-sha384@ssh.com, ssh-rsa-sha512@ssh.com
+
+v2.14.1 → v2.14.2:
+  KEX ADDED: kex-strict-s-v00@openssh.com
 

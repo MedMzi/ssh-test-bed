@@ -124,7 +124,7 @@ v0.52 → v0.53:
 v2013.56 → v2013.57:
   KEX ADDED: kexguess2@matt.ucc.asn.au
 
-v2013.6 → v2013.61:
+v2013.60 → v2013.61:
   KEX ADDED: curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521
   HostKeyAlgorithms ADDED: ecdsa-sha2-nistp521
 

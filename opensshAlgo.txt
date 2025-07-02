@@ -6,6 +6,12 @@ Version range: 4.4 to 10.0
 STABLE ALGORITHMS (present across most versions):
   • diffie-hellman-group-exchange-sha256
     └─ v4.4 → v9.9 (96.9% of versions)
+  • ecdh-sha2-nistp256
+    └─ v5.7 → v10.0 (81.2% of versions)
+  • ecdh-sha2-nistp384
+    └─ v5.7 → v10.0 (81.2% of versions)
+  • ecdh-sha2-nistp521
+    └─ v5.7 → v10.0 (81.2% of versions)
 
 MODERN ADDITIONS (added in later versions):
   • sntrup761x25519-sha512
@@ -28,12 +34,6 @@ MODERN ADDITIONS (added in later versions):
     └─ v7.3 → v9.9 (45.3% of versions)
   • curve25519-sha256@libssh.org
     └─ v6.5 → v10.0 (64.1% of versions)
-  • ecdh-sha2-nistp256
-    └─ v5.7 → v10.0 (81.2% of versions)
-  • ecdh-sha2-nistp384
-    └─ v5.7 → v10.0 (81.2% of versions)
-  • ecdh-sha2-nistp521
-    └─ v5.7 → v10.0 (81.2% of versions)
 
 LEGACY (old algorithms no longer supported):
   • diffie-hellman-group-exchange-sha1
@@ -88,6 +88,10 @@ STABLE ALGORITHMS (present across most versions):
     └─ v4.4 → v10.0 (100.0% of versions)
   • umac-64@openssh.com
     └─ v4.7 → v10.0 (95.3% of versions)
+  • hmac-sha2-256
+    └─ v5.9 → v10.0 (76.6% of versions)
+  • hmac-sha2-512
+    └─ v5.9 → v10.0 (76.6% of versions)
 
 MODERN ADDITIONS (added in later versions):
   • hmac-sha1-etm@openssh.com
@@ -102,12 +106,12 @@ MODERN ADDITIONS (added in later versions):
     └─ v6.2 → v10.0 (70.3% of versions)
   • umac-128@openssh.com
     └─ v6.2 → v10.0 (70.3% of versions)
-  • hmac-sha2-256
-    └─ v5.9 → v10.0 (76.6% of versions)
-  • hmac-sha2-512
-    └─ v5.9 → v10.0 (76.6% of versions)
 
 LEGACY (old algorithms no longer supported):
+  • hmac-sha2-256-96
+    └─ v5.9 → v6.0 (4.7% of versions)
+  • hmac-sha2-512-96
+    └─ v5.9 → v6.0 (4.7% of versions)
   • hmac-md5
     └─ v4.4 → v6.6 (39.1% of versions)
   • hmac-ripemd160
@@ -120,10 +124,6 @@ LEGACY (old algorithms no longer supported):
     └─ v4.4 → v6.6 (39.1% of versions)
 
 EXPERIMENTAL (briefly supported):
-  • hmac-sha2-256-96
-    └─ v5.9 → v6.0 (4.7% of versions)
-  • hmac-sha2-512-96
-    └─ v5.9 → v6.0 (4.7% of versions)
   • hmac-md5-etm@openssh.com
     └─ v6.2 → v6.6 (9.4% of versions)
   • hmac-ripemd160-etm@openssh.com

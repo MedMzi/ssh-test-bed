@@ -1,8 +1,83 @@
 === ANALYZING 8 WOLFSSH ENTRIES ===
 
-No versioned entries found for WOLFSSH
+Version range: 1.4.13 to 1.4.20
+
+=== KEX EVOLUTION ===
+STABLE ALGORITHMS (present across most versions):
+  • ecdh-sha2-nistp256
+    └─ v1.4.13 → v1.4.20 (100.0% of versions)
+  • diffie-hellman-group-exchange-sha256
+    └─ v1.4.13 → v1.4.20 (100.0% of versions)
+
+MODERN ADDITIONS (added in later versions):
+  • ecdh-sha2-nistp521
+    └─ v1.4.20 → v1.4.20 (12.5% of versions)
+  • ecdh-sha2-nistp384
+    └─ v1.4.20 → v1.4.20 (12.5% of versions)
+  • diffie-hellman-group16-sha512
+    └─ v1.4.20 → v1.4.20 (12.5% of versions)
+  • diffie-hellman-group14-sha256
+    └─ v1.4.19 → v1.4.20 (25.0% of versions)
+
+LEGACY (old algorithms no longer supported):
+  • diffie-hellman-group14-sha1
+    └─ v1.4.13 → v1.4.16 (50.0% of versions)
+  • diffie-hellman-group1-sha1
+    └─ v1.4.13 → v1.4.16 (50.0% of versions)
+
+=== ENCRYPTION EVOLUTION ===
+STABLE ALGORITHMS (present across most versions):
+  • aes256-gcm@openssh.com
+    └─ v1.4.13 → v1.4.20 (100.0% of versions)
+  • aes192-gcm@openssh.com
+    └─ v1.4.13 → v1.4.20 (100.0% of versions)
+  • aes128-gcm@openssh.com
+    └─ v1.4.13 → v1.4.20 (100.0% of versions)
+  • aes256-cbc
+    └─ v1.4.13 → v1.4.20 (100.0% of versions)
+  • aes192-cbc
+    └─ v1.4.13 → v1.4.20 (100.0% of versions)
+  • aes128-cbc
+    └─ v1.4.13 → v1.4.20 (100.0% of versions)
+
+=== MAC EVOLUTION ===
+STABLE ALGORITHMS (present across most versions):
+  • hmac-sha2-256
+    └─ v1.4.13 → v1.4.20 (100.0% of versions)
+
+MODERN ADDITIONS (added in later versions):
+  • hmac-sha2-512
+    └─ v1.4.20 → v1.4.20 (12.5% of versions)
+
+LEGACY (old algorithms no longer supported):
+  • hmac-sha1-96
+    └─ v1.4.13 → v1.4.16 (50.0% of versions)
+  • hmac-sha1
+    └─ v1.4.13 → v1.4.16 (50.0% of versions)
+
+=== COMPRESSION EVOLUTION ===
+STABLE ALGORITHMS (present across most versions):
+  • none
+    └─ v1.4.13 → v1.4.20 (100.0% of versions)
+
+=== HOSTKEYALGORITHMS EVOLUTION ===
+STABLE ALGORITHMS (present across most versions):
+  • ecdsa-sha2-nistp256
+    └─ v1.4.13 → v1.4.20 (100.0% of versions)
+
 
 ============================================================
 
 === MAJOR ALGORITHM CHANGES BETWEEN WOLFSSH VERSIONS ===
+
+v1.4.16 → v1.4.17:
+  KEX REMOVED: diffie-hellman-group1-sha1, diffie-hellman-group14-sha1
+  MAC REMOVED: hmac-sha1, hmac-sha1-96
+
+v1.4.18 → v1.4.19:
+  KEX ADDED: diffie-hellman-group14-sha256
+
+v1.4.19 → v1.4.20:
+  KEX ADDED: diffie-hellman-group16-sha512, ecdh-sha2-nistp384, ecdh-sha2-nistp521
+  MAC ADDED: hmac-sha2-512
 
