@@ -38,16 +38,17 @@ for COMMIT in "${COMMITS[@]}"; do
 
     # Call login.sh and capture the output
     echo "Calling login.sh for $COMMIT..."
-    OUTPUT=$(./AllVersLogin.sh $HOST $SSH_USER $SSH_PASSWORD)
-    OUTPUT=$(echo "$OUTPUT" | tr -d '\r')
-
+    #OUTPUT=$(./AllVersLogin.sh $HOST $SSH_USER $SSH_PASSWORD)
+    #OUTPUT=$(echo "$OUTPUT" | tr -d '\r')
+    OUTPUT="$(./AllVersLogin.sh $HOST $SSH_USER $SSH_PASSWORD | awk '/password:/,0' | tail -n +2 | tr -d '\r')"
 
     # Extract all algorithm sections into variables
-    KEX=$(echo "$OUTPUT" | awk '/^kex:/,/^$/' | sed '1d')
-    CIPHER=$(echo "$OUTPUT" | awk '/^cipher:/,/^$/' | sed '1d')
-    MAC=$(echo "$OUTPUT" | awk '/^mac:/,/^$/' | sed '1d')
-    COMPRESSION=$(echo "$OUTPUT" | awk '/^compression:/,/^$/' | sed '1d')
-    KEY=$(echo "$OUTPUT" | awk '/^key:/,/^$/' | sed '1d')
+    KEX=$(echo "$OUTPUT" | awk '/^kex:/ {flag=1; next} /^cipher:/ {flag=0} flag')
+    CIPHER=$(echo "$OUTPUT" | awk '/^cipher:/ {flag=1; next} /^mac:/ {flag=0} flag')
+    MAC=$(echo "$OUTPUT" | awk '/^mac:/ {flag=1; next} /^compression:/ {flag=0} flag')
+    COMPRESSION=$(echo "$OUTPUT" | awk '/^compression:/ {flag=1; next} /^key:/ {flag=0} flag')
+    KEY=$(echo "$OUTPUT" | awk '/^key:/ {flag=1; next} /^.*:/{flag=0} flag')
+
 
     # Build JSON string
     LAST_LINE=$(jq -n \

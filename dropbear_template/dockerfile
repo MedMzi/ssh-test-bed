@@ -4,7 +4,7 @@ ARG COMMIT=DROPBEAR_2025.88
 
 # Install required packages
 RUN apt-get update && apt-get install -y \
-    git autoconf automake build-essential zlib1g-dev libtool pkg-config wget ca-certificates && \
+    git autoconf automake build-essential zlib1g-dev libtool pkg-config wget ca-certificates binutils && \
     rm -rf /var/lib/apt/lists/*
 
 # Clone and build Dropbear
@@ -17,6 +17,7 @@ RUN git clone --depth 1 --branch ${COMMIT} https://github.com/mkj/dropbear.git /
     make clean && \
     make PROGRAMS="dropbear dbclient dropbearkey dropbearconvert" && \
     make PROGRAMS="dropbear dbclient dropbearkey dropbearconvert" install
+
 
 # In case dbclient is installed in a different location, create a symlink    
 RUN (ln -sf "$(command -v dbclient)" /usr/local/bin/dbclient || echo "already there")

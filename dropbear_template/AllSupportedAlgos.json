@@ -1,0 +1,1723 @@
+{"DROPBEAR_2025.88": {
+  "kex": [
+    "curve25519-sha256",
+    "curve25519-sha256@libssh.org",
+    "diffie-hellman-group14-sha256",
+    "ecdh-sha2-nistp256",
+    "ecdh-sha2-nistp384",
+    "ecdh-sha2-nistp521",
+    "kex-strict-c-v00@openssh.com",
+    "kex-strict-s-v00@openssh.com",
+    "kexguess2@matt.ucc.asn.au",
+    "mlkem",
+    "mlkem768x25519-sha256",
+    "sntrup761x25519-sha512",
+    "sntrup761x25519-sha512@openssh.com"
+  ],
+  "cipher": [
+    "aes128-ctr",
+    "aes256-ctr",
+    "chacha20-poly1305@openssh.com"
+  ],
+  "mac": [
+    "hmac-sha2-256"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ecdsa-sha2-nistp256",
+    "ecdsa-sha2-nistp384",
+    "ecdsa-sha2-nistp521",
+    "rsa-sha2-256",
+    "sk-ecdsa-sha2-nistp256@openssh.com",
+    "sk-ssh-ed25519@openssh.com",
+    "ssh-ed25519",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2025.87": {
+  "kex": [
+    "curve25519-sha256",
+    "curve25519-sha256@libssh.org",
+    "diffie-hellman-group14-sha256",
+    "ecdh-sha2-nistp256",
+    "ecdh-sha2-nistp384",
+    "ecdh-sha2-nistp521",
+    "kex-strict-c-v00@openssh.com",
+    "kex-strict-s-v00@openssh.com",
+    "kexguess2@matt.ucc.asn.au",
+    "mlkem",
+    "mlkem768x25519-sha256",
+    "sntrup761x25519-sha512",
+    "sntrup761x25519-sha512@openssh.com"
+  ],
+  "cipher": [
+    "aes128-ctr",
+    "aes256-ctr",
+    "chacha20-poly1305@openssh.com"
+  ],
+  "mac": [
+    "hmac-sha2-256"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ecdsa-sha2-nistp256",
+    "ecdsa-sha2-nistp384",
+    "ecdsa-sha2-nistp521",
+    "rsa-sha2-256",
+    "sk-ecdsa-sha2-nistp256@openssh.com",
+    "sk-ssh-ed25519@openssh.com",
+    "ssh-ed25519",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2024.86": {
+  "kex": [
+    "curve25519-sha256",
+    "curve25519-sha256@libssh.org",
+    "diffie-hellman-group14-sha1",
+    "diffie-hellman-group14-sha256",
+    "ecdh-sha2-nistp256",
+    "ecdh-sha2-nistp384",
+    "ecdh-sha2-nistp521",
+    "kex-strict-c-v00@openssh.com",
+    "kex-strict-s-v00@openssh.com",
+    "kexguess2@matt.ucc.asn.au"
+  ],
+  "cipher": [
+    "aes128-ctr",
+    "aes256-ctr",
+    "chacha20-poly1305@openssh.com"
+  ],
+  "mac": [
+    "hmac-sha1",
+    "hmac-sha2-256"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ecdsa-sha2-nistp256",
+    "ecdsa-sha2-nistp384",
+    "ecdsa-sha2-nistp521",
+    "rsa-sha2-256",
+    "sk-ecdsa-sha2-nistp256@openssh.com",
+    "sk-ssh-ed25519@openssh.com",
+    "ssh-ed25519",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2024.85": {
+  "kex": [
+    "curve25519-sha256",
+    "curve25519-sha256@libssh.org",
+    "diffie-hellman-group14-sha1",
+    "diffie-hellman-group14-sha256",
+    "ecdh-sha2-nistp256",
+    "ecdh-sha2-nistp384",
+    "ecdh-sha2-nistp521",
+    "kex-strict-c-v00@openssh.com",
+    "kex-strict-s-v00@openssh.com",
+    "kexguess2@matt.ucc.asn.au"
+  ],
+  "cipher": [
+    "aes128-ctr",
+    "aes256-ctr",
+    "chacha20-poly1305@openssh.com"
+  ],
+  "mac": [
+    "hmac-sha1",
+    "hmac-sha2-256"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ecdsa-sha2-nistp256",
+    "ecdsa-sha2-nistp384",
+    "ecdsa-sha2-nistp521",
+    "rsa-sha2-256",
+    "sk-ecdsa-sha2-nistp256@openssh.com",
+    "sk-ssh-ed25519@openssh.com",
+    "ssh-ed25519",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2024.84": {
+  "kex": [
+    "curve25519-sha256",
+    "curve25519-sha256@libssh.org",
+    "diffie-hellman-group14-sha1",
+    "diffie-hellman-group14-sha256",
+    "ecdh-sha2-nistp256",
+    "ecdh-sha2-nistp384",
+    "ecdh-sha2-nistp521",
+    "kex-strict-c-v00@openssh.com",
+    "kex-strict-s-v00@openssh.com",
+    "kexguess2@matt.ucc.asn.au"
+  ],
+  "cipher": [
+    "aes128-ctr",
+    "aes256-ctr",
+    "chacha20-poly1305@openssh.com"
+  ],
+  "mac": [
+    "hmac-sha1",
+    "hmac-sha2-256"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ecdsa-sha2-nistp256",
+    "ecdsa-sha2-nistp384",
+    "ecdsa-sha2-nistp521",
+    "rsa-sha2-256",
+    "sk-ecdsa-sha2-nistp256@openssh.com",
+    "sk-ssh-ed25519@openssh.com",
+    "ssh-ed25519",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2022.83": {
+  "kex": [
+    "curve25519-sha256",
+    "curve25519-sha256@libssh.org",
+    "diffie-hellman-group14-sha1",
+    "diffie-hellman-group14-sha256",
+    "ecdh-sha2-nistp256",
+    "ecdh-sha2-nistp384",
+    "ecdh-sha2-nistp521",
+    "kexguess2@matt.ucc.asn.au"
+  ],
+  "cipher": [
+    "aes128-ctr",
+    "aes256-ctr",
+    "chacha20-poly1305@openssh.com"
+  ],
+  "mac": [
+    "hmac-sha1",
+    "hmac-sha2-256"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ecdsa-sha2-nistp256",
+    "ecdsa-sha2-nistp384",
+    "ecdsa-sha2-nistp521",
+    "rsa-sha2-256",
+    "sk-ecdsa-sha2-nistp256@openssh.com",
+    "sk-ssh-ed25519@openssh.com",
+    "ssh-dss",
+    "ssh-ed25519",
+    "ssh-rsa"
+  ]
+},
+"maemo-0.52-2": {
+  "kex": [
+    "diffie-hellman-group1-sha1"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "3des-ctr",
+    "aes128-cbc",
+    "aes128-ctr",
+    "aes256-cbc",
+    "aes256-ctr",
+    "blowfish",
+    "blowfish-cbc",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2022.82": {
+  "kex": [
+    "curve25519-sha256",
+    "curve25519-sha256@libssh.org",
+    "diffie-hellman-group14-sha1",
+    "diffie-hellman-group14-sha256",
+    "ecdh-sha2-nistp256",
+    "ecdh-sha2-nistp384",
+    "ecdh-sha2-nistp521",
+    "kexguess2@matt.ucc.asn.au"
+  ],
+  "cipher": [
+    "aes128-ctr",
+    "aes256-ctr",
+    "chacha20-poly1305@openssh.com"
+  ],
+  "mac": [
+    "hmac-sha1",
+    "hmac-sha2-256"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ecdsa-sha2-nistp256",
+    "ecdsa-sha2-nistp384",
+    "ecdsa-sha2-nistp521",
+    "rsa-sha2-256",
+    "sk-ecdsa-sha2-nistp256@openssh.com",
+    "sk-ssh-ed25519@openssh.com",
+    "ssh-dss",
+    "ssh-ed25519",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2020.81": {
+  "kex": [
+    "curve25519-sha256",
+    "curve25519-sha256@libssh.org",
+    "diffie-hellman-group1-sha1",
+    "diffie-hellman-group14-sha1",
+    "diffie-hellman-group14-sha256",
+    "ecdh-sha2-nistp256",
+    "ecdh-sha2-nistp384",
+    "ecdh-sha2-nistp521",
+    "kexguess2@matt.ucc.asn.au"
+  ],
+  "cipher": [
+    "aes128-ctr",
+    "aes256-ctr",
+    "chacha20-poly1305@openssh.com"
+  ],
+  "mac": [
+    "hmac-sha1",
+    "hmac-sha2-256"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ecdsa-sha2-nistp256",
+    "ecdsa-sha2-nistp384",
+    "ecdsa-sha2-nistp521",
+    "rsa-sha2-256",
+    "ssh-dss",
+    "ssh-ed25519",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2020.80": {
+  "kex": [
+    "curve25519-sha256",
+    "curve25519-sha256@libssh.org",
+    "diffie-hellman-group1-sha1",
+    "diffie-hellman-group14-sha1",
+    "diffie-hellman-group14-sha256",
+    "ecdh-sha2-nistp256",
+    "ecdh-sha2-nistp384",
+    "ecdh-sha2-nistp521",
+    "kexguess2@matt.ucc.asn.au"
+  ],
+  "cipher": [
+    "aes128-ctr",
+    "aes256-ctr",
+    "chacha20-poly1305@openssh.com"
+  ],
+  "mac": [
+    "hmac-sha1",
+    "hmac-sha2-256"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ecdsa-sha2-nistp256",
+    "ecdsa-sha2-nistp384",
+    "ecdsa-sha2-nistp521",
+    "rsa-sha2-256",
+    "ssh-dss",
+    "ssh-ed25519",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2020.79": {
+  "kex": [
+    "curve25519-sha256",
+    "curve25519-sha256@libssh.org",
+    "diffie-hellman-group1-sha1",
+    "diffie-hellman-group14-sha1",
+    "diffie-hellman-group14-sha256",
+    "ecdh-sha2-nistp256",
+    "ecdh-sha2-nistp384",
+    "ecdh-sha2-nistp521",
+    "kexguess2@matt.ucc.asn.au"
+  ],
+  "cipher": [
+    "aes128-ctr",
+    "aes256-ctr",
+    "chacha20-poly1305@openssh.com"
+  ],
+  "mac": [
+    "hmac-sha1",
+    "hmac-sha2-256"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ecdsa-sha2-nistp256",
+    "ecdsa-sha2-nistp384",
+    "ecdsa-sha2-nistp521",
+    "rsa-sha2-256",
+    "ssh-dss",
+    "ssh-ed25519",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2019.78": {
+  "kex": [
+    "curve25519-sha256",
+    "curve25519-sha256@libssh.org",
+    "diffie-hellman-group1-sha1",
+    "diffie-hellman-group14-sha1",
+    "diffie-hellman-group14-sha256",
+    "ecdh-sha2-nistp256",
+    "ecdh-sha2-nistp384",
+    "ecdh-sha2-nistp521",
+    "kexguess2@matt.ucc.asn.au"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "3des-ctr",
+    "aes128-cbc",
+    "aes128-ctr",
+    "aes256-cbc",
+    "aes256-ctr"
+  ],
+  "mac": [
+    "hmac-sha1",
+    "hmac-sha1-96",
+    "hmac-sha2-256"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ecdsa-sha2-nistp256",
+    "ecdsa-sha2-nistp384",
+    "ecdsa-sha2-nistp521",
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2019.77": {
+  "kex": [
+    "curve25519-sha256",
+    "curve25519-sha256@libssh.org",
+    "diffie-hellman-group1-sha1",
+    "diffie-hellman-group14-sha1",
+    "diffie-hellman-group14-sha256",
+    "ecdh-sha2-nistp256",
+    "ecdh-sha2-nistp384",
+    "ecdh-sha2-nistp521",
+    "kexguess2@matt.ucc.asn.au"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "3des-ctr",
+    "aes128-cbc",
+    "aes128-ctr",
+    "aes256-cbc",
+    "aes256-ctr"
+  ],
+  "mac": [
+    "hmac-sha1",
+    "hmac-sha1-96",
+    "hmac-sha2-256"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ecdsa-sha2-nistp256",
+    "ecdsa-sha2-nistp384",
+    "ecdsa-sha2-nistp521",
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2018.76": {
+  "kex": [
+    "curve25519-sha256",
+    "curve25519-sha256@libssh.org",
+    "diffie-hellman-group1-sha1",
+    "diffie-hellman-group14-sha1",
+    "diffie-hellman-group14-sha256",
+    "ecdh-sha2-nistp256",
+    "ecdh-sha2-nistp384",
+    "ecdh-sha2-nistp521",
+    "kexguess2@matt.ucc.asn.au"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "3des-ctr",
+    "aes128-cbc",
+    "aes128-ctr",
+    "aes256-cbc",
+    "aes256-ctr"
+  ],
+  "mac": [
+    "hmac-sha1",
+    "hmac-sha1-96",
+    "hmac-sha2-256"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ecdsa-sha2-nistp256",
+    "ecdsa-sha2-nistp384",
+    "ecdsa-sha2-nistp521",
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2017.75": {
+  "kex": [
+    "curve25519-sha256@libssh.org",
+    "diffie-hellman-group1-sha1",
+    "diffie-hellman-group14-sha1",
+    "ecdh-sha2-nistp256",
+    "ecdh-sha2-nistp384",
+    "ecdh-sha2-nistp521",
+    "kexguess2@matt.ucc.asn.au"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "3des-ctr",
+    "aes128-cbc",
+    "aes128-ctr",
+    "aes256-cbc",
+    "aes256-ctr",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96",
+    "hmac-sha2-256",
+    "hmac-sha2-512"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ecdsa-sha2-nistp256",
+    "ecdsa-sha2-nistp384",
+    "ecdsa-sha2-nistp521",
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2016.74": {
+  "kex": [
+    "curve25519-sha256@libssh.org",
+    "diffie-hellman-group1-sha1",
+    "diffie-hellman-group14-sha1",
+    "ecdh-sha2-nistp256",
+    "ecdh-sha2-nistp384",
+    "ecdh-sha2-nistp521",
+    "kexguess2@matt.ucc.asn.au"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "3des-ctr",
+    "aes128-cbc",
+    "aes128-ctr",
+    "aes256-cbc",
+    "aes256-ctr",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96",
+    "hmac-sha2-256",
+    "hmac-sha2-512"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ecdsa-sha2-nistp256",
+    "ecdsa-sha2-nistp384",
+    "ecdsa-sha2-nistp521",
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2016.73": {
+  "kex": [
+    "curve25519-sha256@libssh.org",
+    "diffie-hellman-group1-sha1",
+    "diffie-hellman-group14-sha1",
+    "ecdh-sha2-nistp256",
+    "ecdh-sha2-nistp384",
+    "ecdh-sha2-nistp521",
+    "kexguess2@matt.ucc.asn.au"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "3des-ctr",
+    "aes128-cbc",
+    "aes128-ctr",
+    "aes256-cbc",
+    "aes256-ctr",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96",
+    "hmac-sha2-256",
+    "hmac-sha2-512"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ecdsa-sha2-nistp256",
+    "ecdsa-sha2-nistp384",
+    "ecdsa-sha2-nistp521",
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2016.72": {
+  "kex": [
+    "curve25519-sha256@libssh.org",
+    "diffie-hellman-group1-sha1",
+    "diffie-hellman-group14-sha1",
+    "ecdh-sha2-nistp256",
+    "ecdh-sha2-nistp384",
+    "ecdh-sha2-nistp521",
+    "kexguess2@matt.ucc.asn.au"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "3des-ctr",
+    "aes128-cbc",
+    "aes128-ctr",
+    "aes256-cbc",
+    "aes256-ctr",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96",
+    "hmac-sha2-256",
+    "hmac-sha2-512"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ecdsa-sha2-nistp256",
+    "ecdsa-sha2-nistp384",
+    "ecdsa-sha2-nistp521",
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2015.71": {
+  "kex": [
+    "curve25519-sha256@libssh.org",
+    "diffie-hellman-group1-sha1",
+    "diffie-hellman-group14-sha1",
+    "ecdh-sha2-nistp256",
+    "ecdh-sha2-nistp384",
+    "ecdh-sha2-nistp521",
+    "kexguess2@matt.ucc.asn.au"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "3des-ctr",
+    "aes128-cbc",
+    "aes128-ctr",
+    "aes256-cbc",
+    "aes256-ctr",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96",
+    "hmac-sha2-256",
+    "hmac-sha2-512"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ecdsa-sha2-nistp256",
+    "ecdsa-sha2-nistp384",
+    "ecdsa-sha2-nistp521",
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2015.70": {
+  "kex": [
+    "curve25519-sha256@libssh.org",
+    "diffie-hellman-group1-sha1",
+    "diffie-hellman-group14-sha1",
+    "ecdh-sha2-nistp256",
+    "ecdh-sha2-nistp384",
+    "ecdh-sha2-nistp521",
+    "kexguess2@matt.ucc.asn.au"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "3des-ctr",
+    "aes128-cbc",
+    "aes128-ctr",
+    "aes256-cbc",
+    "aes256-ctr",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96",
+    "hmac-sha2-256",
+    "hmac-sha2-512"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ecdsa-sha2-nistp256",
+    "ecdsa-sha2-nistp384",
+    "ecdsa-sha2-nistp521",
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2015.69": {
+  "kex": [
+    ""
+  ],
+  "cipher": [
+    ""
+  ],
+  "mac": [
+    ""
+  ],
+  "compression": [
+    ""
+  ],
+  "key": [
+    ""
+  ]
+},
+"DROPBEAR_2015.68": {
+  "kex": [
+    "curve25519-sha256@libssh.org",
+    "diffie-hellman-group1-sha1",
+    "diffie-hellman-group14-sha1",
+    "ecdh-sha2-nistp256",
+    "ecdh-sha2-nistp384",
+    "ecdh-sha2-nistp521",
+    "kexguess2@matt.ucc.asn.au"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "3des-ctr",
+    "aes128-cbc",
+    "aes128-ctr",
+    "aes256-cbc",
+    "aes256-ctr",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96",
+    "hmac-sha2-256",
+    "hmac-sha2-512"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ecdsa-sha2-nistp256",
+    "ecdsa-sha2-nistp384",
+    "ecdsa-sha2-nistp521",
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2015.67": {
+  "kex": [
+    "curve25519-sha256@libssh.org",
+    "diffie-hellman-group1-sha1",
+    "diffie-hellman-group14-sha1",
+    "ecdh-sha2-nistp256",
+    "ecdh-sha2-nistp384",
+    "ecdh-sha2-nistp521",
+    "kexguess2@matt.ucc.asn.au"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "3des-ctr",
+    "aes128-cbc",
+    "aes128-ctr",
+    "aes256-cbc",
+    "aes256-ctr"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96",
+    "hmac-sha2-256",
+    "hmac-sha2-512"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ecdsa-sha2-nistp256",
+    "ecdsa-sha2-nistp384",
+    "ecdsa-sha2-nistp521",
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2014.66": {
+  "kex": [
+    "curve25519-sha256@libssh.org",
+    "diffie-hellman-group1-sha1",
+    "diffie-hellman-group14-sha1",
+    "ecdh-sha2-nistp256",
+    "ecdh-sha2-nistp384",
+    "ecdh-sha2-nistp521",
+    "kexguess2@matt.ucc.asn.au"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "3des-ctr",
+    "aes128-cbc",
+    "aes128-ctr",
+    "aes256-cbc",
+    "aes256-ctr",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ecdsa-sha2-nistp256",
+    "ecdsa-sha2-nistp384",
+    "ecdsa-sha2-nistp521",
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2014.65": {
+  "kex": [
+    "curve25519-sha256@libssh.org",
+    "diffie-hellman-group1-sha1",
+    "diffie-hellman-group14-sha1",
+    "ecdh-sha2-nistp256",
+    "ecdh-sha2-nistp384",
+    "ecdh-sha2-nistp521",
+    "kexguess2@matt.ucc.asn.au"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "3des-ctr",
+    "aes128-cbc",
+    "aes128-ctr",
+    "aes256-cbc",
+    "aes256-ctr",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ecdsa-sha2-nistp256",
+    "ecdsa-sha2-nistp384",
+    "ecdsa-sha2-nistp521",
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2014.64": {
+  "kex": [
+    "curve25519-sha256@libssh.org",
+    "diffie-hellman-group1-sha1",
+    "diffie-hellman-group14-sha1",
+    "ecdh-sha2-nistp256",
+    "ecdh-sha2-nistp384",
+    "ecdh-sha2-nistp521",
+    "kexguess2@matt.ucc.asn.au"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "3des-ctr",
+    "aes128-cbc",
+    "aes128-ctr",
+    "aes256-cbc",
+    "aes256-ctr",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ecdsa-sha2-nistp256",
+    "ecdsa-sha2-nistp384",
+    "ecdsa-sha2-nistp521",
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2014.63": {
+  "kex": [
+    "curve25519-sha256@libssh.org",
+    "diffie-hellman-group1-sha1",
+    "diffie-hellman-group14-sha1",
+    "ecdh-sha2-nistp256",
+    "ecdh-sha2-nistp384",
+    "ecdh-sha2-nistp521",
+    "kexguess2@matt.ucc.asn.au"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "3des-ctr",
+    "aes128-cbc",
+    "aes128-ctr",
+    "aes256-cbc",
+    "aes256-ctr",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ecdsa-sha2-nistp256",
+    "ecdsa-sha2-nistp384",
+    "ecdsa-sha2-nistp521",
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2013.62": {
+  "kex": [
+    "curve25519-sha256@libssh.org",
+    "diffie-hellman-group1-sha1",
+    "diffie-hellman-group14-sha1",
+    "ecdh-sha2-nistp256",
+    "ecdh-sha2-nistp384",
+    "ecdh-sha2-nistp521",
+    "kexguess2@matt.ucc.asn.au"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "3des-ctr",
+    "aes128-cbc",
+    "aes128-ctr",
+    "aes256-cbc",
+    "aes256-ctr",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ecdsa-sha2-nistp256",
+    "ecdsa-sha2-nistp384",
+    "ecdsa-sha2-nistp521",
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2013.61test": {
+  "kex": [
+    "curve25519-sha256@libssh.org",
+    "diffie-hellman-group1-sha1",
+    "diffie-hellman-group14-sha1",
+    "ecdh-sha2-nistp256",
+    "ecdh-sha2-nistp384",
+    "ecdh-sha2-nistp521",
+    "kexguess2@matt.ucc.asn.au"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "3des-ctr",
+    "aes128-cbc",
+    "aes128-ctr",
+    "aes256-cbc",
+    "aes256-ctr",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ecdsa-sha2-nistp256",
+    "ecdsa-sha2-nistp384",
+    "ecdsa-sha2-nistp521",
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2013.60": {
+  "kex": [
+    "diffie-hellman-group1-sha1",
+    "diffie-hellman-group14-sha1",
+    "kexguess2@matt.ucc.asn.au"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "3des-ctr",
+    "aes128-cbc",
+    "aes128-ctr",
+    "aes256-cbc",
+    "aes256-ctr",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2013.59": {
+  "kex": [
+    "strings: '/usr/local/sbin/dropbear': No such file"
+  ],
+  "cipher": [
+    "strings: '/usr/local/sbin/dropbear': No such file"
+  ],
+  "mac": [
+    "strings: '/usr/local/sbin/dropbear': No such file"
+  ],
+  "compression": [
+    "strings: '/usr/local/sbin/dropbear': No such file"
+  ],
+  "key": [
+    "strings: '/usr/local/sbin/dropbear': No such file"
+  ]
+},
+"DROPBEAR_2013.58": {
+  "kex": [
+    "diffie-hellman-group1-sha1",
+    "diffie-hellman-group14-sha1",
+    "kexguess2@matt.ucc.asn.au"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "3des-ctr",
+    "aes128-cbc",
+    "aes128-ctr",
+    "aes256-cbc",
+    "aes256-ctr",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2013.57": {
+  "kex": [
+    "diffie-hellman-group1-sha1",
+    "diffie-hellman-group14-sha1",
+    "kexguess2@matt.ucc.asn.au"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "3des-ctr",
+    "aes128-cbc",
+    "aes128-ctr",
+    "aes256-cbc",
+    "aes256-ctr",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2013.56": {
+  "kex": [
+    "diffie-hellman-group1-sha1",
+    "diffie-hellman-group14-sha1"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "3des-ctr",
+    "aes128-cbc",
+    "aes128-ctr",
+    "aes256-cbc",
+    "aes256-ctr",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2012.55": {
+  "kex": [
+    "diffie-hellman-group1-sha1",
+    "diffie-hellman-group14-sha1"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "3des-ctr",
+    "aes128-cbc",
+    "aes128-ctr",
+    "aes256-cbc",
+    "aes256-ctr",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_2011.54": {
+  "kex": [
+    "diffie-hellman-group1-sha1",
+    "diffie-hellman-group14-sha1"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "3des-ctr",
+    "aes128-cbc",
+    "aes128-ctr",
+    "aes256-cbc",
+    "aes256-ctr",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_0.53.1": {
+  "kex": [
+    "diffie-hellman-group1-sha1",
+    "diffie-hellman-group14-sha1"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "3des-ctr",
+    "aes128-cbc",
+    "aes128-ctr",
+    "aes256-cbc",
+    "aes256-ctr",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_0.53": {
+  "kex": [
+    "diffie-hellman-group1-sha1",
+    "diffie-hellman-group14-sha1"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "3des-ctr",
+    "aes128-cbc",
+    "aes128-ctr",
+    "aes256-cbc",
+    "aes256-ctr",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_0.52": {
+  "kex": [
+    "diffie-hellman-group1-sha1"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "3des-ctr",
+    "aes128-cbc",
+    "aes128-ctr",
+    "aes256-cbc",
+    "aes256-ctr",
+    "blowfish",
+    "blowfish-cbc",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96"
+  ],
+  "compression": [
+    "none",
+    "zlib",
+    "zlib@openssh.com"
+  ],
+  "key": [
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_0.51": {
+  "kex": [
+    "diffie-hellman-group1-sha1"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "aes128-cbc",
+    "aes256-cbc",
+    "blowfish",
+    "blowfish-cbc",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96"
+  ],
+  "compression": [
+    "none",
+    "zlib"
+  ],
+  "key": [
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_0.50": {
+  "kex": [
+    "diffie-hellman-group1-sha1"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "aes128-cbc",
+    "aes256-cbc",
+    "blowfish",
+    "blowfish-cbc",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96"
+  ],
+  "compression": [
+    "none",
+    "zlib"
+  ],
+  "key": [
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_0.49": {
+  "kex": [
+    "diffie-hellman-group1-sha1"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "aes128-cbc",
+    "aes256-cbc",
+    "blowfish",
+    "blowfish-cbc",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96"
+  ],
+  "compression": [
+    "none",
+    "zlib"
+  ],
+  "key": [
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_0.48.1": {
+  "kex": [
+    "diffie-hellman-group1-sha1"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "aes128-cbc",
+    "aes256-cbc",
+    "blowfish",
+    "blowfish-cbc",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96"
+  ],
+  "compression": [
+    "none",
+    "zlib"
+  ],
+  "key": [
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_0.48": {
+  "kex": [
+    "diffie-hellman-group1-sha1"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "aes128-cbc",
+    "aes256-cbc",
+    "blowfish",
+    "blowfish-cbc",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96"
+  ],
+  "compression": [
+    "none",
+    "zlib"
+  ],
+  "key": [
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_0.47": {
+  "kex": [
+    "diffie-hellman-group1-sha1"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "aes128-cbc",
+    "aes256-cbc",
+    "blowfish",
+    "blowfish-cbc",
+    "twofish",
+    "twofish-cbc",
+    "twofish128-cbc",
+    "twofish256-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1",
+    "hmac-sha1-96"
+  ],
+  "compression": [
+    "none",
+    "zlib"
+  ],
+  "key": [
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_0.46": {
+  "kex": [
+    "diffie-hellman-group1-sha1"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "aes128-cbc",
+    "blowfish",
+    "blowfish-cbc",
+    "twofish",
+    "twofish-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1"
+  ],
+  "compression": [
+    "none",
+    "zlib"
+  ],
+  "key": [
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_0.45": {
+  "kex": [
+    "diffie-hellman-group1-sha1"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "aes128-cbc",
+    "blowfish",
+    "blowfish-cbc",
+    "twofish",
+    "twofish-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1"
+  ],
+  "compression": [
+    "none",
+    "zlib"
+  ],
+  "key": [
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"DROPBEAR_0.44": {
+  "kex": [
+    "diffie-hellman-group1-sha1"
+  ],
+  "cipher": [
+    "3des",
+    "3des-cbc",
+    "aes128-cbc",
+    "blowfish",
+    "blowfish-cbc",
+    "twofish",
+    "twofish-cbc"
+  ],
+  "mac": [
+    "hmac-md5",
+    "hmac-sha1"
+  ],
+  "compression": [
+    "none",
+    "zlib"
+  ],
+  "key": [
+    "ssh-dss",
+    "ssh-rsa"
+  ]
+},
+"": {
+  "kex": [
+    ""
+  ],
+  "cipher": [
+    ""
+  ],
+  "mac": [
+    ""
+  ],
+  "compression": [
+    ""
+  ],
+  "key": [
+    ""
+  ]
+}}

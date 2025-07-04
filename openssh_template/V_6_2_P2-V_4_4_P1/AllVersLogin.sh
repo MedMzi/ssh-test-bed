@@ -4,7 +4,7 @@
 
 set timeout 60
 
-spawn ssh -p2222 [lindex $argv 1]@[lindex $argv 0] {
+spawn ssh -p2222 -o HostKeyAlgorithms=+ssh-rsa,ssh-dss [lindex $argv 1]@[lindex $argv 0] {
   echo "kex:";
   strings /usr/local/sbin/sshd |
   tr ',' '\n' |

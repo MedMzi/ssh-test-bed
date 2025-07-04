@@ -26,7 +26,7 @@ for COMMIT in "${COMMITS[@]}"; do
 
     # Build the Docker image with the current COMMIT passed as a build argument
     echo "Building Docker image for $COMMIT..."
-    docker build --build-arg COMMIT=$COMMIT -t openssh-$COMMIT_LOWER .
+    docker build --build-arg COMMIT=$COMMIT -t dropbear-$COMMIT_LOWER .
 
     # Remove old host key to avoid issues
     echo "Removing old host key for $HOST:2222..."
@@ -34,20 +34,22 @@ for COMMIT in "${COMMITS[@]}"; do
 
     # Run the container
     echo "Running container for $COMMIT..."
-    CONTAINER_ID=$(docker run --rm -d -p 2222:22 openssh-$COMMIT_LOWER)
+    CONTAINER_ID=$(docker run --rm -d -p 2222:22 dropbear-$COMMIT_LOWER)
 
     # Call login.sh and capture the output
     echo "Calling login.sh for $COMMIT..."
     #OUTPUT=$(./AllVersLogin.sh $HOST $SSH_USER $SSH_PASSWORD)
     #OUTPUT=$(echo "$OUTPUT" | tr -d '\r')
-    OUTPUT="$(./AllVersLogin.sh $HOST $SSH_USER $SSH_PASSWORD | awk '/password:/,0' | tail -n +2 | tr -d '\r')"
+    RAW_OUTPUT=$(./AllVersLogin.sh $HOST $SSH_USER $SSH_PASSWORD)
+    OUTPUT=$(echo "$RAW_OUTPUT" | awk '/password:/,0' | tail -n +2 | tr -d '\r')
+
 
     # Extract all algorithm sections into variables
-    KEX=$(echo "$OUTPUT" | awk '/^kex:/ {flag=1; next} /^cipher:/ {flag=0} flag')
-    CIPHER=$(echo "$OUTPUT" | awk '/^cipher:/ {flag=1; next} /^mac:/ {flag=0} flag')
-    MAC=$(echo "$OUTPUT" | awk '/^mac:/ {flag=1; next} /^compression:/ {flag=0} flag')
-    COMPRESSION=$(echo "$OUTPUT" | awk '/^compression:/ {flag=1; next} /^key:/ {flag=0} flag')
-    KEY=$(echo "$OUTPUT" | awk '/^key:/ {flag=1; next} /^.*:/{flag=0} flag')
+    KEX=$(echo "$OUTPUT" | awk '/^kex:\r?$/ {flag=1; next} /testuser@/ {flag=0} flag')
+    CIPHER=$(echo "$OUTPUT" | awk '/^cipher:\r?$/ {flag=1; next} /testuser@/ {flag=0} flag')
+    MAC=$(echo "$OUTPUT" | awk '/^mac:\r?$/ {flag=1; next} /testuser@/ {flag=0} flag')
+    COMPRESSION=$(echo "$OUTPUT" | awk '/^compression:\r?$/ {flag=1; next} /testuser@/ {flag=0} flag')
+    KEY=$(echo "$OUTPUT" | awk '/^key:\r?$/ {flag=1; next} /testuser@/ {flag=0} flag')
 
 
     # Build JSON string
