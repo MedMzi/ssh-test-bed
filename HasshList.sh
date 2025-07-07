@@ -27,7 +27,10 @@ json_array() {
 
 # Find all "capture" directories
 find . -type d -name "capture" | sort | while read capture_dir; do
+  PREFIX=$(echo "$capture_dir" | grep -oP '[^/]+_template' | head -1 | sed 's/_template$//')
+
   find "$capture_dir" -mindepth 1 -maxdepth 1 -type d | sort | while read sub_dir; do
+  TAG=$(basename "$sub_dir")
 
     ssh_log="$sub_dir/ssh.log"
 
@@ -56,9 +59,9 @@ find . -type d -name "capture" | sort | while read capture_dir; do
         # Write to CSV
         echo "\"$server\",\"$hasshServer\",\"$kex\",\"$enc\",\"$mac\",\"$comp\",\"$sshka\"" >> HasshList.csv
 
-        # Write to JSON temp file
+        # Write JSON entry 
         {
-          echo "  {"
+          echo "  \"${PREFIX}_${TAG}\": {"
           echo "    \"Server\": \"${server}\","
           echo "    \"HasshServer\": \"${hasshServer}\","
           echo "    \"KEX\": $(json_array "$kex"),"
@@ -66,8 +69,9 @@ find . -type d -name "capture" | sort | while read capture_dir; do
           echo "    \"MAC\": $(json_array "$mac"),"
           echo "    \"Compression\": $(json_array "$comp"),"
           echo "    \"HostKeyAlgorithms\": $(json_array "$sshka")"
-          echo "  }"
+          echo "  },"
         } >> HasshList.tmpjson
+
 
       done
     else
@@ -77,9 +81,9 @@ find . -type d -name "capture" | sort | while read capture_dir; do
 done
 
 # Join JSON entries into a JSON array
-echo "[" > HasshList.json
-awk 'NR==1{print $0; next} {print "," $0}' RS='}\n' ORS='}\n' HasshList.tmpjson >> HasshList.json
-echo "]" >> HasshList.json
+echo "{" > HasshList.json
+sed '$ s/,$//' HasshList.tmpjson >> HasshList.json
+echo "}" >> HasshList.json
 
 # Pretty-print final JSON (overwrite original)
 jq '.' HasshList.json > HasshList.tmp && mv HasshList.tmp HasshList.json
@@ -88,3 +92,10 @@ jq '.' HasshList.json > HasshList.tmp && mv HasshList.tmp HasshList.json
 rm -f HasshList.tmpjson
 
 echo "Done. Outputs saved to HasshList.txt, HasshList.csv, and HasshList.json"
+
+# Adding dates and sorting (exclusive to json output)
+./datepull.sh
+python3 mergeandorder.py
+
+
+
