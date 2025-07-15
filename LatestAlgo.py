@@ -47,7 +47,12 @@ def get_library_name(server_string):
 
 def find_latest_versions_common_algorithms(json_file):
     with open(json_file, 'r') as f:
-        data = json.load(f)
+        raw_data = json.load(f)
+        if isinstance(raw_data, dict):
+            data = list(raw_data.values())
+        else:
+            data = raw_data
+
     
     # Group by library and find latest version
     libraries = {
@@ -138,7 +143,13 @@ def find_latest_versions_common_algorithms(json_file):
 def analyze_library_coverage(json_file):
     """Additional analysis to show library coverage"""
     with open(json_file, 'r') as f:
-        data = json.load(f)
+        raw_data = json.load(f)
+        if isinstance(raw_data, dict):
+            data = list(raw_data.values())
+        else:
+            data = raw_data
+
+
     
     library_counts = {}
     for entry in data:

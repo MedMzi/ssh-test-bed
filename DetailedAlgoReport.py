@@ -8,7 +8,12 @@ def parse_version(version_str):
 
 def analyze_ssh_evolution(json_file, ssh_impl='openssh'):
     with open(json_file, 'r') as f:
-        data = json.load(f)
+        raw_data = json.load(f)
+        if isinstance(raw_data, dict):
+            data = list(raw_data.values())
+        else:
+            data = raw_data
+
     
     ssh_impl_lower = ssh_impl.lower()
     ssh_entries = [entry for entry in data if ssh_impl_lower in entry['Server'].lower()]
@@ -143,7 +148,12 @@ def analyze_algorithm_evolution(versioned_entries, alg_type):
 
 def find_version_transitions(json_file, ssh_impl='openssh'):
     with open(json_file, 'r') as f:
-        data = json.load(f)
+        raw_data = json.load(f)
+        if isinstance(raw_data, dict):
+            data = list(raw_data.values())
+        else:
+            data = raw_data
+
     
     ssh_impl_lower = ssh_impl.lower()
     ssh_entries = [entry for entry in data if ssh_impl_lower in entry['Server'].lower()]

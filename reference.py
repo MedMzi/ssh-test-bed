@@ -3,7 +3,12 @@ from collections import defaultdict
 
 # Load the JSON data
 with open("HasshList.json", "r") as f:
-    data = json.load(f)
+    raw_data = json.load(f)
+    if isinstance(raw_data, dict):
+        data = list(raw_data.values())
+    else:
+        data = raw_data
+
 
 # Store unique values for each array field
 unique_values = defaultdict(set)
