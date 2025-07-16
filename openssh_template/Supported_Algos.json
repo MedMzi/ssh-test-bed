@@ -3262,7 +3262,6 @@
       "aes128-ctr",
       "aes192-cbc",
       "aes192-ctr",
-      "aes256-cbc",
       "aes256-ctr",
       "arcfour",
       "arcfour128",
@@ -3378,7 +3377,10 @@
       "ssh-rsa-cert-v00@openssh.com"
     ],
     "KexAlgorithms": [
-      ""
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group1-sha1",
+      "diffie-hellman-group14-sha1"
     ],
     "MACs": [
       "hmac-md5",
@@ -3413,7 +3415,10 @@
       "ssh-rsa-cert-v00@openssh.com"
     ],
     "KexAlgorithms": [
-      ""
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group1-sha1",
+      "diffie-hellman-group14-sha1"
     ],
     "MACs": [
       "hmac-md5",
@@ -3448,7 +3453,10 @@
       "ssh-rsa-cert-v00@openssh.com"
     ],
     "KexAlgorithms": [
-      ""
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group1-sha1",
+      "diffie-hellman-group14-sha1"
     ],
     "MACs": [
       "hmac-md5",
@@ -3481,7 +3489,10 @@
       "ssh-rsa"
     ],
     "KexAlgorithms": [
-      ""
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group1-sha1",
+      "diffie-hellman-group14-sha1"
     ],
     "MACs": [
       "hmac-md5",
@@ -3514,7 +3525,10 @@
       "ssh-rsa"
     ],
     "KexAlgorithms": [
-      ""
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group1-sha1",
+      "diffie-hellman-group14-sha1"
     ],
     "MACs": [
       "hmac-md5",
@@ -3547,7 +3561,10 @@
       "ssh-rsa"
     ],
     "KexAlgorithms": [
-      ""
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group1-sha1",
+      "diffie-hellman-group14-sha1"
     ],
     "MACs": [
       "hmac-md5",
@@ -3580,7 +3597,10 @@
       "ssh-rsa"
     ],
     "KexAlgorithms": [
-      ""
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group1-sha1",
+      "diffie-hellman-group14-sha1"
     ],
     "MACs": [
       "hmac-md5",
@@ -3613,7 +3633,10 @@
       "ssh-rsa"
     ],
     "KexAlgorithms": [
-      ""
+      "diffie-hellman-group-exchange-sha1",
+      "diffie-hellman-group-exchange-sha256",
+      "diffie-hellman-group1-sha1",
+      "diffie-hellman-group14-sha1"
     ],
     "MACs": [
       "hmac-md5",

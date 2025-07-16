@@ -1,7 +1,7 @@
 import json
 
 # Keys to update (exact keys from AllSupportedAlgos)
-keys_to_update = ["V_4_7_P1", "V_4_6_P1", "V_4_5_P1", "V_4_4_P1"]
+keys_to_update = ["V_4_7_P1", "V_4_6_P1", "V_4_5_P1", "V_4_4_P1", "V_5_6_P1", "V_5_5_P1", "V_5_4_P1", "V_5_3_P1", "V_5_2_P1", "V_5_1_P1", "V_5_0_P1", "V_4_9_P1"]
 
 # Load AllSupportedAlgos.json
 with open("AllSupportedAlgos.json", "r") as f:
