@@ -174,38 +174,35 @@ def userauthbanner_payload(message="Coucou.", language_tag="fr"):
 
     print("userauthbanner_payload.bin created.")
 
-def userauthrequest_payload(username="betise", service="ssh-connection", method="password", password="1234"):
+def userauthrequest_payload():
     msg_id = 50  # SSH_MSG_USERAUTH_REQUEST
+    username = "testuser"  
+
     payload = bytearray()
     payload.append(msg_id)
     
-    payload += encode_ssh_string(username)  # username
-    payload += encode_ssh_string(service)   # service name
-    payload += encode_ssh_string(method)    # authentication method
-    payload += struct.pack("B", 0)           # boolean for "is this a password?" (0 for false)
+    payload += encode_ssh_string(username)
+    payload += encode_ssh_string("ssh-connection")
+    payload += encode_ssh_string("none")
     
-    if method == "password":
-        payload += encode_ssh_string(password)  # password string
-    else:
-        raise ValueError("Unsupported authentication method")
-
     payload = wrap_ssh_packet(payload)
 
-    with open("userauthrequest_payload.bin", "wb") as f:
+    with open("userauthrequest_none_payload.bin", "wb") as f:
         f.write(payload)
 
-    print("userauthrequest_payload.bin created.")
+    print("userauthrequest_none_payload.bin created.")
+
 
 if __name__ == "__main__":
     #kexinit_payload()
     #disconnect_payload()
-    servicereq_payload("ssh-userauth")
-    servicereq_payload("ssh-connection")
-    servicereq_payload("servicereqQuelconque")
+    #servicereq_payload("ssh-userauth")
+    #servicereq_payload("ssh-connection")
+    #servicereq_payload("servicereqQuelconque")
     #unimplemented_payload()
     #newkeys_payload()
     #userauthsuccess_payload()
     #userauthfail_payload()  
     #userauthbanner_payload()
-    #userauthrequest_payload() 
+    userauthrequest_payload() 
 
