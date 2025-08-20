@@ -56,7 +56,7 @@ def Client(port):
     threading.Thread(target=sniffer, args=(tcp_socket,), daemon=True).start()
     #data = tcp_socket.recv(1024)
 
-    
+    '''
     while True:
         try:
             time.sleep(1)
@@ -69,7 +69,7 @@ def Client(port):
     
     
     #threading.Thread(target=sniffer, args=(tcp_socket,), daemon=True).start()
-   
+   '''
 
     while True:
         try:
@@ -78,8 +78,8 @@ def Client(port):
             print("[Client] Interrupted by user.")
             break
     
-    tcp_socket.send(newkeys)
-    print(f"[Client] sending UNIMPLEMENTED payload ({len(newkeys)} bytes)")
+    tcp_socket.send(kexinit)
+    print(f"[Client] sending KEXINIT payload ({len(newkeys)} bytes)")
     
 
     while True:

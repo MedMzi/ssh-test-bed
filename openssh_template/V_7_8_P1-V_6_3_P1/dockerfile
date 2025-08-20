@@ -1,5 +1,6 @@
 # Same setup as V_10_0_P2, but with an older version of OpenSSL (< 1.1.0) as the newer ones are no longer compatible.
 FROM debian:buster AS builder
+RUN sed -i 's|http://deb.debian.org/debian|http://archive.debian.org/debian|g' /etc/apt/sources.list
 
 # Set environment variable to disable interactive prompts
 ENV DEBIAN_FRONTEND=noninteractive
@@ -36,6 +37,7 @@ RUN touch moduli.0 scp.0 ssh-add.0 ssh-agent.0 ssh-keygen.0 ssh-keyscan.0 ssh.0 
 
 # Minimal runtime environment
 FROM debian:buster
+RUN sed -i 's|http://deb.debian.org/debian|http://archive.debian.org/debian|g' /etc/apt/sources.list
 
 # Copy OpenSSL libraries from the builder stage
 COPY --from=builder /usr/lib/x86_64-linux-gnu/libcrypto.so.1.0.2 /usr/lib/x86_64-linux-gnu/

@@ -1,4 +1,5 @@
 FROM debian:buster AS builder
+RUN sed -i 's|http://deb.debian.org/debian|http://archive.debian.org/debian|g' /etc/apt/sources.list
 
 # Set environment variable to disable interactive prompts
 ENV DEBIAN_FRONTEND=noninteractive

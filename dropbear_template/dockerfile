@@ -1,4 +1,5 @@
 FROM debian:buster
+RUN sed -i 's|http://deb.debian.org/debian|http://archive.debian.org/debian|g' /etc/apt/sources.list
 
 ARG COMMIT=DROPBEAR_2025.88
 

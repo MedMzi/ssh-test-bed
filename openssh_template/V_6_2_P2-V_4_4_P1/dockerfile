@@ -1,5 +1,6 @@
 # Same setup as V_7_8_P1, but the -A option in ssh-keygen is removed as it wasnt supported yet, it is now done manually 
 FROM debian:buster AS builder
+RUN sed -i 's|http://deb.debian.org/debian|http://archive.debian.org/debian|g' /etc/apt/sources.list
 
 # Set environment variable to disable interactive prompts
 ENV DEBIAN_FRONTEND=noninteractive
