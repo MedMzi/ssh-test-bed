@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# python3 ssh_fingerprinting.py <docker_image> <container_port>
 import os
 import socket
 import select
@@ -10,6 +11,39 @@ from itertools import product
 import hashlib
 import json
 import sys
+
+
+
+ssh_messages = {
+    "1": "DISCONNECT",
+    "2": "IGNORE",
+    "3": "UNIMPLEMENTED",
+    "4": "DEBUG",
+    "5": "SERVICE_REQUEST",
+    "6": "SERVICE_ACCEPT",
+    "20": "KEXINIT",
+    "21": "NEWKEYS",
+    "50": "USERAUTH_REQUEST",
+    "51": "USERAUTH_FAILURE",
+    "52": "USERAUTH_SUCCESS",
+    "53": "USERAUTH_BANNER",
+    "80": "GLOBAL_REQUEST",
+    "81": "REQUEST_SUCCESS",
+    "82": "REQUEST_FAILURE",
+    "90": "CHANNEL_OPEN",
+    "91": "CHANNEL_OPEN_CONFIRMATION",
+    "92": "CHANNEL_OPEN_FAILURE",
+    "93": "CHANNEL_WINDOW_ADJUST",
+    "94": "CHANNEL_DATA",
+    "95": "CHANNEL_EXTENDED_DATA",
+    "96": "CHANNEL_EOF",
+    "97": "CHANNEL_CLOSE",
+    "98": "CHANNEL_REQUEST",
+    "99": "CHANNEL_SUCCESS",
+    "100": "CHANNEL_FAILURE",
+}
+
+
 
 if len(sys.argv) < 3:
     print(f"Usage: {sys.argv[0]} <docker_image> <container_port>")
@@ -121,17 +155,25 @@ def run_one_sequence(messages, seq, sm, state):
             response = sock.recv(4096)
             if response == b'': # FIN
                 result.append(f"terminated")
-                newState = sm.add_state(f"terminated\n{ancestry.hexdigest()}")
+                newState = sm.add_state("terminated",f"terminated{ancestry.hexdigest()}")
                 state.add_transition(newState, msg_name)
                 break
+
             else:   #payload
-                result.append(f"{response[5]}")
-                newState = sm.add_state(f"{response[5]}\n{ancestry.hexdigest()}")
+                res = []    #temp list to hold multiple messages
+                while response:
+                    msg_len = int.from_bytes(response[0:4], byteorder="big")
+                    res.append(ssh_messages[str(response[5])])
+                    response = response[msg_len+4:]
+                res = "+".join(res)  #join multiple messages with +
+                newState = sm.add_state(res,f"{res}{ancestry.hexdigest()}")
+                result.append(res)
                 state.add_transition(newState, msg_name)
                 state = newState
+
         else:   # no response likely ACK
             result.append("no response")
-            newState = sm.add_state(f"no response\n{ancestry.hexdigest()}")
+            newState = sm.add_state("no response", f"no response{ancestry.hexdigest()}")
             state.add_transition(newState, msg_name)
             state = newState
     
