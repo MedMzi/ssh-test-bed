@@ -1,0 +1,29 @@
+// State Machine
+digraph {
+	Start -> "terminated
+4f935a0f03deea2fa71a98679eebce744bf19bd38379dece9d64ccc92a167834" [label=disconnect]
+	Start -> "terminated
+0354cc2a88013d27b357fdeb3f07516215b897525572527a603d47fb8f24f338" [label=userauthrequest_password]
+	Start -> "terminated
+148f5ea816470f0e5584f52accacc926d06409f7fe2371da4d93d67fc8ca0eed" [label=newkeys]
+	Start -> "terminated
+cf72cb55a3d85127aee8ff7529c038ca331d992eaabb480ef0111f4baba75edd" [label="ssh-userauth"]
+	Start -> "terminated
+a0bdfffe543fc6d311d6bcc7fbdac24a8d776e3ee20c15d2530a3973a1a4190f" [label="ssh-connection"]
+	Start -> "terminated
+f40533c27aecfd78a01503571f37d758602d204e5ca42b738660698c16e676c7" [label=userauthrequest_none]
+	Start -> "terminated
+05aca9d6bbc154f433a083d5135bc3d5099c015d73de9deaf27399774b4ef858" [label=unimplemented]
+	Start -> "terminated
+c657dd22414c65b9d0152e26c2a4d252a61072128be6fa113dc89c2d5d00314e" [label=userauthsuccess]
+	Start -> "terminated
+f6c09c1d9d0dc6849a7b142f4f7f77f2fb2c8aeb48e24e220f5257dcd2fff4e4" [label=userauthfail]
+	Start -> "terminated
+64ee7d4a3cfd3fc56e2fe47e173a2288cf44431d9d23d313de7ea65edab2a6f4" [label=userauthrequest_publickey]
+	Start -> "terminated
+105ec65445a33f3b5eea841e26fdf42c8c209ac4968092736b3b7e9502418b64" [label=userauthbanner]
+	Start -> "terminated
+058eeb87f9d4740a94f3b551ffa44945313b9c70c7b58a0e524b2204f5b8b215" [label=kexinit]
+	Start -> "terminated
+7941bf4235139821d83d27aacc73e9f60955bfd931862558c0aad5d5fc2a825a" [label=servicereqQuelconque]
+}

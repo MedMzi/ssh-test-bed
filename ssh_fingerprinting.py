@@ -9,6 +9,11 @@ import statemachine
 from itertools import product
 import hashlib
 import json
+import sys
+
+if len(sys.argv) < 3:
+    print(f"Usage: {sys.argv[0]} <docker_image> <container_port>")
+    sys.exit(1)
 
 HOST = "localhost"
 PORT = 2222
@@ -17,8 +22,8 @@ SEQUENCE_LENGTH = 3
 NUM_SEQUENCES = 10
 banner = "SSH-2.0-betiseSSH\r\n"
 
-container_port = 11111
-docker_image = "wolfssh-v1.4.13-stable"
+container_port = int(sys.argv[2]) 
+docker_image = sys.argv[1] 
 
 
 # Load binary messages into memory
@@ -66,16 +71,23 @@ def connect_to_server():
     sock.connect((HOST, PORT))
     return sock
 
+
+skip = False
 def send_banner(sock):
+    global skip
     server_banner = sock.recv(4096).decode(errors='ignore').strip()
     print(f"[Client] Received server banner: {server_banner}")
 
     # Send banner and receive server banner
     print(f"[Client] Sending banner: {banner.strip()}")
     sock.sendall(banner.encode())
-
-    kex = sock.recv(4096)
-    print(f"[Client] Received KEX init message ({len(kex)} bytes)")
+    if not skip:
+        try:
+            kex = sock.recv(4096)
+            print(f"[Client] Received KEX init message ({len(kex)} bytes)")
+        except TimeoutError:
+            print("[Client] Timeout waiting for KEX init message (probably in banner)")
+            skip = True
     
 
 
@@ -140,7 +152,7 @@ def run_all_sequences(messages):
         i += 1
         print(f"*******{i}/{len(list(product(messages.keys(), repeat=2)))}*******")
 
-    sm.export_graphviz(view=True)
+    sm.export_graphviz(filename = f"stateMachine_results/{docker_image}", view=True)
     return results
 
 results = run_all_sequences(messages)
@@ -148,3 +160,6 @@ encoded = json.dumps(results).encode()
 fingerprint = hashlib.sha256(encoded).hexdigest()
 
 print("Hash of the result for ",  docker_image , " is " , fingerprint)
+
+with open("stateMachine_results/results.txt", "a") as f:  
+    f.write(f"{docker_image} = {fingerprint}\n")
