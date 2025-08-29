@@ -46,4 +46,4 @@ To test the SSH fingerprinting tool:
 ```bash
 python3 ssh_fingerprinting.py <docker_image> <container_port>
 ```
-# results are currently appended to stateMachine_results/results.txt
+*results are currently appended to stateMachine_results/results.txt*
