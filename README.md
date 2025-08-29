@@ -30,8 +30,8 @@ This repository provides a comprehensive SSH test bed including various implemen
   Contains a comprehensive list of SSH algorithms supported by all implementations, combining our results and IANA specifications.
 
 - **Hasshlist.sh**  
-  Parses implementation subdirectories and uses captured `.pcap` files to generate a complete list of `hassh` server fingerprints and supported algorithms.  
-  - **datepull.sh** and **mergeandorder.py** – Handle date annotations and ordering of results.
+  Parses implementation subdirectories and uses captured `.pcap` files to generate a complete list of `hassh` server fingerprints and supported algorithms in `.txt`, `.csv` and `.json` format.  
+  - **datepull.sh** and **mergeandorder.py** – Handle date annotations and ordering of results in the `.json` .
 
 - **Payloads**  
   The repository contains 13 different `{name}_payload.bin` files used in testing.  
