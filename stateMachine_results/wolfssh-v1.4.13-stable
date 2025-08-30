@@ -1,34 +1,19 @@
 // State Machine
 digraph {
-	Start -> "no response
-4f935a0f03deea2fa71a98679eebce744bf19bd38379dece9d64ccc92a167834" [label=disconnect]
-	Start -> "51
-0354cc2a88013d27b357fdeb3f07516215b897525572527a603d47fb8f24f338" [label=userauthrequest_password]
-	Start -> "no response
-148f5ea816470f0e5584f52accacc926d06409f7fe2371da4d93d67fc8ca0eed" [label=newkeys]
-	Start -> "no response
-cf72cb55a3d85127aee8ff7529c038ca331d992eaabb480ef0111f4baba75edd" [label="ssh-userauth"]
-	Start -> "no response
-a0bdfffe543fc6d311d6bcc7fbdac24a8d776e3ee20c15d2530a3973a1a4190f" [label="ssh-connection"]
-	Start -> "51
-f40533c27aecfd78a01503571f37d758602d204e5ca42b738660698c16e676c7" [label=userauthrequest_none]
-	Start -> "no response
-05aca9d6bbc154f433a083d5135bc3d5099c015d73de9deaf27399774b4ef858" [label=unimplemented]
-	Start -> "no response
-c657dd22414c65b9d0152e26c2a4d252a61072128be6fa113dc89c2d5d00314e" [label=userauthsuccess]
-	Start -> "terminated
-f6c09c1d9d0dc6849a7b142f4f7f77f2fb2c8aeb48e24e220f5257dcd2fff4e4" [label=userauthfail]
-	Start -> "51
-64ee7d4a3cfd3fc56e2fe47e173a2288cf44431d9d23d313de7ea65edab2a6f4" [label=userauthrequest_publickey]
-	Start -> "no response
-105ec65445a33f3b5eea841e26fdf42c8c209ac4968092736b3b7e9502418b64" [label=userauthbanner]
-	Start -> "no response
-058eeb87f9d4740a94f3b551ffa44945313b9c70c7b58a0e524b2204f5b8b215" [label=kexinit]
-	Start -> "no response
-7941bf4235139821d83d27aacc73e9f60955bfd931862558c0aad5d5fc2a825a" [label=servicereqQuelconque]
-	"no response
-4f935a0f03deea2fa71a98679eebce744bf19bd38379dece9d64ccc92a167834" -> "no response
-42d425378b82e26533e97b5b8c65ece1884221100ede983b3de5d2b59754f48b" [label="disconnect
+	Start -> "no response4f935a0f03deea2fa71a98679eebce744bf19bd38379dece9d64ccc92a167834" [label=disconnect]
+	Start -> USERAUTH_FAILURE0354cc2a88013d27b357fdeb3f07516215b897525572527a603d47fb8f24f338 [label=userauthrequest_password]
+	Start -> "no response148f5ea816470f0e5584f52accacc926d06409f7fe2371da4d93d67fc8ca0eed" [label=newkeys]
+	Start -> "no responsecf72cb55a3d85127aee8ff7529c038ca331d992eaabb480ef0111f4baba75edd" [label="ssh-userauth"]
+	Start -> "no responsea0bdfffe543fc6d311d6bcc7fbdac24a8d776e3ee20c15d2530a3973a1a4190f" [label="ssh-connection"]
+	Start -> USERAUTH_FAILUREf40533c27aecfd78a01503571f37d758602d204e5ca42b738660698c16e676c7 [label=userauthrequest_none]
+	Start -> "no response05aca9d6bbc154f433a083d5135bc3d5099c015d73de9deaf27399774b4ef858" [label=unimplemented]
+	Start -> "no responsec657dd22414c65b9d0152e26c2a4d252a61072128be6fa113dc89c2d5d00314e" [label=userauthsuccess]
+	Start -> terminatedf6c09c1d9d0dc6849a7b142f4f7f77f2fb2c8aeb48e24e220f5257dcd2fff4e4 [label=userauthfail]
+	Start -> USERAUTH_FAILURE64ee7d4a3cfd3fc56e2fe47e173a2288cf44431d9d23d313de7ea65edab2a6f4 [label=userauthrequest_publickey]
+	Start -> "no response105ec65445a33f3b5eea841e26fdf42c8c209ac4968092736b3b7e9502418b64" [label=userauthbanner]
+	Start -> "no response058eeb87f9d4740a94f3b551ffa44945313b9c70c7b58a0e524b2204f5b8b215" [label=kexinit]
+	Start -> "no response7941bf4235139821d83d27aacc73e9f60955bfd931862558c0aad5d5fc2a825a" [label=servicereqQuelconque]
+	"no response4f935a0f03deea2fa71a98679eebce744bf19bd38379dece9d64ccc92a167834" -> "no response42d425378b82e26533e97b5b8c65ece1884221100ede983b3de5d2b59754f48b" [label="disconnect
 newkeys
 ssh-userauth
 ssh-connection
@@ -37,17 +22,11 @@ userauthsuccess
 userauthbanner
 kexinit
 servicereqQuelconque"]
-	"no response
-4f935a0f03deea2fa71a98679eebce744bf19bd38379dece9d64ccc92a167834" -> "51
-42d425378b82e26533e97b5b8c65ece1884221100ede983b3de5d2b59754f48b" [label="userauthrequest_password
+	"no response4f935a0f03deea2fa71a98679eebce744bf19bd38379dece9d64ccc92a167834" -> USERAUTH_FAILURE42d425378b82e26533e97b5b8c65ece1884221100ede983b3de5d2b59754f48b [label="userauthrequest_password
 userauthrequest_none
 userauthrequest_publickey"]
-	"no response
-4f935a0f03deea2fa71a98679eebce744bf19bd38379dece9d64ccc92a167834" -> "terminated
-42d425378b82e26533e97b5b8c65ece1884221100ede983b3de5d2b59754f48b" [label=userauthfail]
-	"51
-0354cc2a88013d27b357fdeb3f07516215b897525572527a603d47fb8f24f338" -> "no response
-c7cc065a6787fc490de8e461e239a970ec2dac37998a43ac2ed73fc2275aaeb8" [label="disconnect
+	"no response4f935a0f03deea2fa71a98679eebce744bf19bd38379dece9d64ccc92a167834" -> terminated42d425378b82e26533e97b5b8c65ece1884221100ede983b3de5d2b59754f48b [label=userauthfail]
+	USERAUTH_FAILURE0354cc2a88013d27b357fdeb3f07516215b897525572527a603d47fb8f24f338 -> "no responsec7cc065a6787fc490de8e461e239a970ec2dac37998a43ac2ed73fc2275aaeb8" [label="disconnect
 newkeys
 ssh-userauth
 ssh-connection
@@ -56,40 +35,24 @@ userauthsuccess
 userauthbanner
 kexinit
 servicereqQuelconque"]
-	"51
-0354cc2a88013d27b357fdeb3f07516215b897525572527a603d47fb8f24f338" -> "51
-c7cc065a6787fc490de8e461e239a970ec2dac37998a43ac2ed73fc2275aaeb8" [label="userauthrequest_password
+	USERAUTH_FAILURE0354cc2a88013d27b357fdeb3f07516215b897525572527a603d47fb8f24f338 -> USERAUTH_FAILUREc7cc065a6787fc490de8e461e239a970ec2dac37998a43ac2ed73fc2275aaeb8 [label="userauthrequest_password
 userauthrequest_none
 userauthrequest_publickey"]
-	"51
-0354cc2a88013d27b357fdeb3f07516215b897525572527a603d47fb8f24f338" -> "terminated
-c7cc065a6787fc490de8e461e239a970ec2dac37998a43ac2ed73fc2275aaeb8" [label=userauthfail]
-	"no response
-148f5ea816470f0e5584f52accacc926d06409f7fe2371da4d93d67fc8ca0eed" -> "no response
-6243a50701d83ebed176dfd143ccd0490acf00a534edffb1b1f5c914ce05bd89" [label="disconnect
+	USERAUTH_FAILURE0354cc2a88013d27b357fdeb3f07516215b897525572527a603d47fb8f24f338 -> terminatedc7cc065a6787fc490de8e461e239a970ec2dac37998a43ac2ed73fc2275aaeb8 [label=userauthfail]
+	"no response148f5ea816470f0e5584f52accacc926d06409f7fe2371da4d93d67fc8ca0eed" -> "no response6243a50701d83ebed176dfd143ccd0490acf00a534edffb1b1f5c914ce05bd89" [label="disconnect
 unimplemented
 userauthsuccess
 userauthbanner"]
-	"no response
-148f5ea816470f0e5584f52accacc926d06409f7fe2371da4d93d67fc8ca0eed" -> "51
-6243a50701d83ebed176dfd143ccd0490acf00a534edffb1b1f5c914ce05bd89" [label="userauthrequest_password
+	"no response148f5ea816470f0e5584f52accacc926d06409f7fe2371da4d93d67fc8ca0eed" -> USERAUTH_FAILURE6243a50701d83ebed176dfd143ccd0490acf00a534edffb1b1f5c914ce05bd89 [label="userauthrequest_password
 userauthrequest_none
 userauthrequest_publickey"]
-	"no response
-148f5ea816470f0e5584f52accacc926d06409f7fe2371da4d93d67fc8ca0eed" -> "terminated
-6243a50701d83ebed176dfd143ccd0490acf00a534edffb1b1f5c914ce05bd89" [label="newkeys
+	"no response148f5ea816470f0e5584f52accacc926d06409f7fe2371da4d93d67fc8ca0eed" -> terminated6243a50701d83ebed176dfd143ccd0490acf00a534edffb1b1f5c914ce05bd89 [label="newkeys
 userauthfail"]
-	"no response
-148f5ea816470f0e5584f52accacc926d06409f7fe2371da4d93d67fc8ca0eed" -> "6
-6243a50701d83ebed176dfd143ccd0490acf00a534edffb1b1f5c914ce05bd89" [label="ssh-userauth
+	"no response148f5ea816470f0e5584f52accacc926d06409f7fe2371da4d93d67fc8ca0eed" -> "SERVICE_ACCEPT+USERAUTH_BANNER6243a50701d83ebed176dfd143ccd0490acf00a534edffb1b1f5c914ce05bd89" [label="ssh-userauth
 ssh-connection
 servicereqQuelconque"]
-	"no response
-148f5ea816470f0e5584f52accacc926d06409f7fe2371da4d93d67fc8ca0eed" -> "20
-6243a50701d83ebed176dfd143ccd0490acf00a534edffb1b1f5c914ce05bd89" [label=kexinit]
-	"no response
-cf72cb55a3d85127aee8ff7529c038ca331d992eaabb480ef0111f4baba75edd" -> "no response
-d5ef10c11a5f0558e27b69ee071155492754a308f6a4d2d7d6f791b83437850c" [label="disconnect
+	"no response148f5ea816470f0e5584f52accacc926d06409f7fe2371da4d93d67fc8ca0eed" -> KEXINIT6243a50701d83ebed176dfd143ccd0490acf00a534edffb1b1f5c914ce05bd89 [label=kexinit]
+	"no responsecf72cb55a3d85127aee8ff7529c038ca331d992eaabb480ef0111f4baba75edd" -> "no responsed5ef10c11a5f0558e27b69ee071155492754a308f6a4d2d7d6f791b83437850c" [label="disconnect
 ssh-userauth
 ssh-connection
 unimplemented
@@ -97,20 +60,12 @@ userauthsuccess
 userauthbanner
 kexinit
 servicereqQuelconque"]
-	"no response
-cf72cb55a3d85127aee8ff7529c038ca331d992eaabb480ef0111f4baba75edd" -> "51
-d5ef10c11a5f0558e27b69ee071155492754a308f6a4d2d7d6f791b83437850c" [label="userauthrequest_password
+	"no responsecf72cb55a3d85127aee8ff7529c038ca331d992eaabb480ef0111f4baba75edd" -> USERAUTH_FAILUREd5ef10c11a5f0558e27b69ee071155492754a308f6a4d2d7d6f791b83437850c [label="userauthrequest_password
 userauthrequest_none
 userauthrequest_publickey"]
-	"no response
-cf72cb55a3d85127aee8ff7529c038ca331d992eaabb480ef0111f4baba75edd" -> "6
-d5ef10c11a5f0558e27b69ee071155492754a308f6a4d2d7d6f791b83437850c" [label=newkeys]
-	"no response
-cf72cb55a3d85127aee8ff7529c038ca331d992eaabb480ef0111f4baba75edd" -> "terminated
-d5ef10c11a5f0558e27b69ee071155492754a308f6a4d2d7d6f791b83437850c" [label=userauthfail]
-	"no response
-a0bdfffe543fc6d311d6bcc7fbdac24a8d776e3ee20c15d2530a3973a1a4190f" -> "no response
-142262ccc729a176b7fd2f98a521545f0cb69e5fe4cb9af908b440fa66e89629" [label="disconnect
+	"no responsecf72cb55a3d85127aee8ff7529c038ca331d992eaabb480ef0111f4baba75edd" -> "SERVICE_ACCEPT+USERAUTH_BANNERd5ef10c11a5f0558e27b69ee071155492754a308f6a4d2d7d6f791b83437850c" [label=newkeys]
+	"no responsecf72cb55a3d85127aee8ff7529c038ca331d992eaabb480ef0111f4baba75edd" -> terminatedd5ef10c11a5f0558e27b69ee071155492754a308f6a4d2d7d6f791b83437850c [label=userauthfail]
+	"no responsea0bdfffe543fc6d311d6bcc7fbdac24a8d776e3ee20c15d2530a3973a1a4190f" -> "no response142262ccc729a176b7fd2f98a521545f0cb69e5fe4cb9af908b440fa66e89629" [label="disconnect
 ssh-userauth
 ssh-connection
 unimplemented
@@ -118,20 +73,12 @@ userauthsuccess
 userauthbanner
 kexinit
 servicereqQuelconque"]
-	"no response
-a0bdfffe543fc6d311d6bcc7fbdac24a8d776e3ee20c15d2530a3973a1a4190f" -> "51
-142262ccc729a176b7fd2f98a521545f0cb69e5fe4cb9af908b440fa66e89629" [label="userauthrequest_password
+	"no responsea0bdfffe543fc6d311d6bcc7fbdac24a8d776e3ee20c15d2530a3973a1a4190f" -> USERAUTH_FAILURE142262ccc729a176b7fd2f98a521545f0cb69e5fe4cb9af908b440fa66e89629 [label="userauthrequest_password
 userauthrequest_none
 userauthrequest_publickey"]
-	"no response
-a0bdfffe543fc6d311d6bcc7fbdac24a8d776e3ee20c15d2530a3973a1a4190f" -> "6
-142262ccc729a176b7fd2f98a521545f0cb69e5fe4cb9af908b440fa66e89629" [label=newkeys]
-	"no response
-a0bdfffe543fc6d311d6bcc7fbdac24a8d776e3ee20c15d2530a3973a1a4190f" -> "terminated
-142262ccc729a176b7fd2f98a521545f0cb69e5fe4cb9af908b440fa66e89629" [label=userauthfail]
-	"51
-f40533c27aecfd78a01503571f37d758602d204e5ca42b738660698c16e676c7" -> "no response
-408ee69463901bbc3ae06400be6ff4aeadb2c06490fe9234e1ca6e5b7d952ce8" [label="disconnect
+	"no responsea0bdfffe543fc6d311d6bcc7fbdac24a8d776e3ee20c15d2530a3973a1a4190f" -> "SERVICE_ACCEPT+USERAUTH_BANNER142262ccc729a176b7fd2f98a521545f0cb69e5fe4cb9af908b440fa66e89629" [label=newkeys]
+	"no responsea0bdfffe543fc6d311d6bcc7fbdac24a8d776e3ee20c15d2530a3973a1a4190f" -> terminated142262ccc729a176b7fd2f98a521545f0cb69e5fe4cb9af908b440fa66e89629 [label=userauthfail]
+	USERAUTH_FAILUREf40533c27aecfd78a01503571f37d758602d204e5ca42b738660698c16e676c7 -> "no response408ee69463901bbc3ae06400be6ff4aeadb2c06490fe9234e1ca6e5b7d952ce8" [label="disconnect
 newkeys
 ssh-userauth
 ssh-connection
@@ -140,17 +87,11 @@ userauthsuccess
 userauthbanner
 kexinit
 servicereqQuelconque"]
-	"51
-f40533c27aecfd78a01503571f37d758602d204e5ca42b738660698c16e676c7" -> "51
-408ee69463901bbc3ae06400be6ff4aeadb2c06490fe9234e1ca6e5b7d952ce8" [label="userauthrequest_password
+	USERAUTH_FAILUREf40533c27aecfd78a01503571f37d758602d204e5ca42b738660698c16e676c7 -> USERAUTH_FAILURE408ee69463901bbc3ae06400be6ff4aeadb2c06490fe9234e1ca6e5b7d952ce8 [label="userauthrequest_password
 userauthrequest_none
 userauthrequest_publickey"]
-	"51
-f40533c27aecfd78a01503571f37d758602d204e5ca42b738660698c16e676c7" -> "terminated
-408ee69463901bbc3ae06400be6ff4aeadb2c06490fe9234e1ca6e5b7d952ce8" [label=userauthfail]
-	"no response
-05aca9d6bbc154f433a083d5135bc3d5099c015d73de9deaf27399774b4ef858" -> "no response
-ff99257af615e916daed68ebaf3e5df2e85e260fdff86fa33a4cfed11970da53" [label="disconnect
+	USERAUTH_FAILUREf40533c27aecfd78a01503571f37d758602d204e5ca42b738660698c16e676c7 -> terminated408ee69463901bbc3ae06400be6ff4aeadb2c06490fe9234e1ca6e5b7d952ce8 [label=userauthfail]
+	"no response05aca9d6bbc154f433a083d5135bc3d5099c015d73de9deaf27399774b4ef858" -> "no responseff99257af615e916daed68ebaf3e5df2e85e260fdff86fa33a4cfed11970da53" [label="disconnect
 newkeys
 ssh-userauth
 ssh-connection
@@ -159,17 +100,11 @@ userauthsuccess
 userauthbanner
 kexinit
 servicereqQuelconque"]
-	"no response
-05aca9d6bbc154f433a083d5135bc3d5099c015d73de9deaf27399774b4ef858" -> "51
-ff99257af615e916daed68ebaf3e5df2e85e260fdff86fa33a4cfed11970da53" [label="userauthrequest_password
+	"no response05aca9d6bbc154f433a083d5135bc3d5099c015d73de9deaf27399774b4ef858" -> USERAUTH_FAILUREff99257af615e916daed68ebaf3e5df2e85e260fdff86fa33a4cfed11970da53 [label="userauthrequest_password
 userauthrequest_none
 userauthrequest_publickey"]
-	"no response
-05aca9d6bbc154f433a083d5135bc3d5099c015d73de9deaf27399774b4ef858" -> "terminated
-ff99257af615e916daed68ebaf3e5df2e85e260fdff86fa33a4cfed11970da53" [label=userauthfail]
-	"no response
-c657dd22414c65b9d0152e26c2a4d252a61072128be6fa113dc89c2d5d00314e" -> "no response
-d568fdb5c8f97ad5eb12cc314ed5d03d5eec8ac139e192dec2524610e38a099e" [label="disconnect
+	"no response05aca9d6bbc154f433a083d5135bc3d5099c015d73de9deaf27399774b4ef858" -> terminatedff99257af615e916daed68ebaf3e5df2e85e260fdff86fa33a4cfed11970da53 [label=userauthfail]
+	"no responsec657dd22414c65b9d0152e26c2a4d252a61072128be6fa113dc89c2d5d00314e" -> "no responsed568fdb5c8f97ad5eb12cc314ed5d03d5eec8ac139e192dec2524610e38a099e" [label="disconnect
 newkeys
 ssh-userauth
 ssh-connection
@@ -178,17 +113,11 @@ userauthsuccess
 userauthbanner
 kexinit
 servicereqQuelconque"]
-	"no response
-c657dd22414c65b9d0152e26c2a4d252a61072128be6fa113dc89c2d5d00314e" -> "51
-d568fdb5c8f97ad5eb12cc314ed5d03d5eec8ac139e192dec2524610e38a099e" [label="userauthrequest_password
+	"no responsec657dd22414c65b9d0152e26c2a4d252a61072128be6fa113dc89c2d5d00314e" -> USERAUTH_FAILUREd568fdb5c8f97ad5eb12cc314ed5d03d5eec8ac139e192dec2524610e38a099e [label="userauthrequest_password
 userauthrequest_none
 userauthrequest_publickey"]
-	"no response
-c657dd22414c65b9d0152e26c2a4d252a61072128be6fa113dc89c2d5d00314e" -> "terminated
-d568fdb5c8f97ad5eb12cc314ed5d03d5eec8ac139e192dec2524610e38a099e" [label=userauthfail]
-	"51
-64ee7d4a3cfd3fc56e2fe47e173a2288cf44431d9d23d313de7ea65edab2a6f4" -> "no response
-5d26ca8e0db9b2f731c7a82134cedbac4c2973f1326e6fd8936817a0e839fd07" [label="disconnect
+	"no responsec657dd22414c65b9d0152e26c2a4d252a61072128be6fa113dc89c2d5d00314e" -> terminatedd568fdb5c8f97ad5eb12cc314ed5d03d5eec8ac139e192dec2524610e38a099e [label=userauthfail]
+	USERAUTH_FAILURE64ee7d4a3cfd3fc56e2fe47e173a2288cf44431d9d23d313de7ea65edab2a6f4 -> "no response5d26ca8e0db9b2f731c7a82134cedbac4c2973f1326e6fd8936817a0e839fd07" [label="disconnect
 newkeys
 ssh-userauth
 ssh-connection
@@ -197,17 +126,11 @@ userauthsuccess
 userauthbanner
 kexinit
 servicereqQuelconque"]
-	"51
-64ee7d4a3cfd3fc56e2fe47e173a2288cf44431d9d23d313de7ea65edab2a6f4" -> "51
-5d26ca8e0db9b2f731c7a82134cedbac4c2973f1326e6fd8936817a0e839fd07" [label="userauthrequest_password
+	USERAUTH_FAILURE64ee7d4a3cfd3fc56e2fe47e173a2288cf44431d9d23d313de7ea65edab2a6f4 -> USERAUTH_FAILURE5d26ca8e0db9b2f731c7a82134cedbac4c2973f1326e6fd8936817a0e839fd07 [label="userauthrequest_password
 userauthrequest_none
 userauthrequest_publickey"]
-	"51
-64ee7d4a3cfd3fc56e2fe47e173a2288cf44431d9d23d313de7ea65edab2a6f4" -> "terminated
-5d26ca8e0db9b2f731c7a82134cedbac4c2973f1326e6fd8936817a0e839fd07" [label=userauthfail]
-	"no response
-105ec65445a33f3b5eea841e26fdf42c8c209ac4968092736b3b7e9502418b64" -> "no response
-2bb1c0568f233bc2442f91a367f4a0dd19b4cdbac89d1c50ca4934e8e090b774" [label="disconnect
+	USERAUTH_FAILURE64ee7d4a3cfd3fc56e2fe47e173a2288cf44431d9d23d313de7ea65edab2a6f4 -> terminated5d26ca8e0db9b2f731c7a82134cedbac4c2973f1326e6fd8936817a0e839fd07 [label=userauthfail]
+	"no response105ec65445a33f3b5eea841e26fdf42c8c209ac4968092736b3b7e9502418b64" -> "no response2bb1c0568f233bc2442f91a367f4a0dd19b4cdbac89d1c50ca4934e8e090b774" [label="disconnect
 newkeys
 ssh-userauth
 ssh-connection
@@ -216,17 +139,11 @@ userauthsuccess
 userauthbanner
 kexinit
 servicereqQuelconque"]
-	"no response
-105ec65445a33f3b5eea841e26fdf42c8c209ac4968092736b3b7e9502418b64" -> "51
-2bb1c0568f233bc2442f91a367f4a0dd19b4cdbac89d1c50ca4934e8e090b774" [label="userauthrequest_password
+	"no response105ec65445a33f3b5eea841e26fdf42c8c209ac4968092736b3b7e9502418b64" -> USERAUTH_FAILURE2bb1c0568f233bc2442f91a367f4a0dd19b4cdbac89d1c50ca4934e8e090b774 [label="userauthrequest_password
 userauthrequest_none
 userauthrequest_publickey"]
-	"no response
-105ec65445a33f3b5eea841e26fdf42c8c209ac4968092736b3b7e9502418b64" -> "terminated
-2bb1c0568f233bc2442f91a367f4a0dd19b4cdbac89d1c50ca4934e8e090b774" [label=userauthfail]
-	"no response
-058eeb87f9d4740a94f3b551ffa44945313b9c70c7b58a0e524b2204f5b8b215" -> "no response
-28a482176202d559ad2a126516a5902b1295de7f1983e8af448f87b169d35483" [label="disconnect
+	"no response105ec65445a33f3b5eea841e26fdf42c8c209ac4968092736b3b7e9502418b64" -> terminated2bb1c0568f233bc2442f91a367f4a0dd19b4cdbac89d1c50ca4934e8e090b774 [label=userauthfail]
+	"no response058eeb87f9d4740a94f3b551ffa44945313b9c70c7b58a0e524b2204f5b8b215" -> "no response28a482176202d559ad2a126516a5902b1295de7f1983e8af448f87b169d35483" [label="disconnect
 newkeys
 ssh-userauth
 ssh-connection
@@ -235,17 +152,11 @@ userauthsuccess
 userauthbanner
 kexinit
 servicereqQuelconque"]
-	"no response
-058eeb87f9d4740a94f3b551ffa44945313b9c70c7b58a0e524b2204f5b8b215" -> "51
-28a482176202d559ad2a126516a5902b1295de7f1983e8af448f87b169d35483" [label="userauthrequest_password
+	"no response058eeb87f9d4740a94f3b551ffa44945313b9c70c7b58a0e524b2204f5b8b215" -> USERAUTH_FAILURE28a482176202d559ad2a126516a5902b1295de7f1983e8af448f87b169d35483 [label="userauthrequest_password
 userauthrequest_none
 userauthrequest_publickey"]
-	"no response
-058eeb87f9d4740a94f3b551ffa44945313b9c70c7b58a0e524b2204f5b8b215" -> "terminated
-28a482176202d559ad2a126516a5902b1295de7f1983e8af448f87b169d35483" [label=userauthfail]
-	"no response
-7941bf4235139821d83d27aacc73e9f60955bfd931862558c0aad5d5fc2a825a" -> "no response
-8d1c52c807b70044d6c02912206adbc513f325bc2d42645de4e025e699319e03" [label="disconnect
+	"no response058eeb87f9d4740a94f3b551ffa44945313b9c70c7b58a0e524b2204f5b8b215" -> terminated28a482176202d559ad2a126516a5902b1295de7f1983e8af448f87b169d35483 [label=userauthfail]
+	"no response7941bf4235139821d83d27aacc73e9f60955bfd931862558c0aad5d5fc2a825a" -> "no response8d1c52c807b70044d6c02912206adbc513f325bc2d42645de4e025e699319e03" [label="disconnect
 ssh-userauth
 ssh-connection
 unimplemented
@@ -253,15 +164,64 @@ userauthsuccess
 userauthbanner
 kexinit
 servicereqQuelconque"]
-	"no response
-7941bf4235139821d83d27aacc73e9f60955bfd931862558c0aad5d5fc2a825a" -> "51
-8d1c52c807b70044d6c02912206adbc513f325bc2d42645de4e025e699319e03" [label="userauthrequest_password
+	"no response7941bf4235139821d83d27aacc73e9f60955bfd931862558c0aad5d5fc2a825a" -> USERAUTH_FAILURE8d1c52c807b70044d6c02912206adbc513f325bc2d42645de4e025e699319e03 [label="userauthrequest_password
 userauthrequest_none
 userauthrequest_publickey"]
-	"no response
-7941bf4235139821d83d27aacc73e9f60955bfd931862558c0aad5d5fc2a825a" -> "6
-8d1c52c807b70044d6c02912206adbc513f325bc2d42645de4e025e699319e03" [label=newkeys]
-	"no response
-7941bf4235139821d83d27aacc73e9f60955bfd931862558c0aad5d5fc2a825a" -> "terminated
-8d1c52c807b70044d6c02912206adbc513f325bc2d42645de4e025e699319e03" [label=userauthfail]
+	"no response7941bf4235139821d83d27aacc73e9f60955bfd931862558c0aad5d5fc2a825a" -> "SERVICE_ACCEPT+USERAUTH_BANNER8d1c52c807b70044d6c02912206adbc513f325bc2d42645de4e025e699319e03" [label=newkeys]
+	"no response7941bf4235139821d83d27aacc73e9f60955bfd931862558c0aad5d5fc2a825a" -> terminated8d1c52c807b70044d6c02912206adbc513f325bc2d42645de4e025e699319e03 [label=userauthfail]
+	Start [label=Start]
+	"no response4f935a0f03deea2fa71a98679eebce744bf19bd38379dece9d64ccc92a167834" [label="no response"]
+	"no response42d425378b82e26533e97b5b8c65ece1884221100ede983b3de5d2b59754f48b" [label="no response"]
+	USERAUTH_FAILURE42d425378b82e26533e97b5b8c65ece1884221100ede983b3de5d2b59754f48b [label=USERAUTH_FAILURE]
+	terminated42d425378b82e26533e97b5b8c65ece1884221100ede983b3de5d2b59754f48b [label=terminated]
+	USERAUTH_FAILURE0354cc2a88013d27b357fdeb3f07516215b897525572527a603d47fb8f24f338 [label=USERAUTH_FAILURE]
+	"no responsec7cc065a6787fc490de8e461e239a970ec2dac37998a43ac2ed73fc2275aaeb8" [label="no response"]
+	USERAUTH_FAILUREc7cc065a6787fc490de8e461e239a970ec2dac37998a43ac2ed73fc2275aaeb8 [label=USERAUTH_FAILURE]
+	terminatedc7cc065a6787fc490de8e461e239a970ec2dac37998a43ac2ed73fc2275aaeb8 [label=terminated]
+	"no response148f5ea816470f0e5584f52accacc926d06409f7fe2371da4d93d67fc8ca0eed" [label="no response"]
+	"no response6243a50701d83ebed176dfd143ccd0490acf00a534edffb1b1f5c914ce05bd89" [label="no response"]
+	USERAUTH_FAILURE6243a50701d83ebed176dfd143ccd0490acf00a534edffb1b1f5c914ce05bd89 [label=USERAUTH_FAILURE]
+	terminated6243a50701d83ebed176dfd143ccd0490acf00a534edffb1b1f5c914ce05bd89 [label=terminated]
+	"SERVICE_ACCEPT+USERAUTH_BANNER6243a50701d83ebed176dfd143ccd0490acf00a534edffb1b1f5c914ce05bd89" [label="SERVICE_ACCEPT+USERAUTH_BANNER"]
+	KEXINIT6243a50701d83ebed176dfd143ccd0490acf00a534edffb1b1f5c914ce05bd89 [label=KEXINIT]
+	"no responsecf72cb55a3d85127aee8ff7529c038ca331d992eaabb480ef0111f4baba75edd" [label="no response"]
+	"no responsed5ef10c11a5f0558e27b69ee071155492754a308f6a4d2d7d6f791b83437850c" [label="no response"]
+	USERAUTH_FAILUREd5ef10c11a5f0558e27b69ee071155492754a308f6a4d2d7d6f791b83437850c [label=USERAUTH_FAILURE]
+	"SERVICE_ACCEPT+USERAUTH_BANNERd5ef10c11a5f0558e27b69ee071155492754a308f6a4d2d7d6f791b83437850c" [label="SERVICE_ACCEPT+USERAUTH_BANNER"]
+	terminatedd5ef10c11a5f0558e27b69ee071155492754a308f6a4d2d7d6f791b83437850c [label=terminated]
+	"no responsea0bdfffe543fc6d311d6bcc7fbdac24a8d776e3ee20c15d2530a3973a1a4190f" [label="no response"]
+	"no response142262ccc729a176b7fd2f98a521545f0cb69e5fe4cb9af908b440fa66e89629" [label="no response"]
+	USERAUTH_FAILURE142262ccc729a176b7fd2f98a521545f0cb69e5fe4cb9af908b440fa66e89629 [label=USERAUTH_FAILURE]
+	"SERVICE_ACCEPT+USERAUTH_BANNER142262ccc729a176b7fd2f98a521545f0cb69e5fe4cb9af908b440fa66e89629" [label="SERVICE_ACCEPT+USERAUTH_BANNER"]
+	terminated142262ccc729a176b7fd2f98a521545f0cb69e5fe4cb9af908b440fa66e89629 [label=terminated]
+	USERAUTH_FAILUREf40533c27aecfd78a01503571f37d758602d204e5ca42b738660698c16e676c7 [label=USERAUTH_FAILURE]
+	"no response408ee69463901bbc3ae06400be6ff4aeadb2c06490fe9234e1ca6e5b7d952ce8" [label="no response"]
+	USERAUTH_FAILURE408ee69463901bbc3ae06400be6ff4aeadb2c06490fe9234e1ca6e5b7d952ce8 [label=USERAUTH_FAILURE]
+	terminated408ee69463901bbc3ae06400be6ff4aeadb2c06490fe9234e1ca6e5b7d952ce8 [label=terminated]
+	"no response05aca9d6bbc154f433a083d5135bc3d5099c015d73de9deaf27399774b4ef858" [label="no response"]
+	"no responseff99257af615e916daed68ebaf3e5df2e85e260fdff86fa33a4cfed11970da53" [label="no response"]
+	USERAUTH_FAILUREff99257af615e916daed68ebaf3e5df2e85e260fdff86fa33a4cfed11970da53 [label=USERAUTH_FAILURE]
+	terminatedff99257af615e916daed68ebaf3e5df2e85e260fdff86fa33a4cfed11970da53 [label=terminated]
+	"no responsec657dd22414c65b9d0152e26c2a4d252a61072128be6fa113dc89c2d5d00314e" [label="no response"]
+	"no responsed568fdb5c8f97ad5eb12cc314ed5d03d5eec8ac139e192dec2524610e38a099e" [label="no response"]
+	USERAUTH_FAILUREd568fdb5c8f97ad5eb12cc314ed5d03d5eec8ac139e192dec2524610e38a099e [label=USERAUTH_FAILURE]
+	terminatedd568fdb5c8f97ad5eb12cc314ed5d03d5eec8ac139e192dec2524610e38a099e [label=terminated]
+	terminatedf6c09c1d9d0dc6849a7b142f4f7f77f2fb2c8aeb48e24e220f5257dcd2fff4e4 [label=terminated]
+	USERAUTH_FAILURE64ee7d4a3cfd3fc56e2fe47e173a2288cf44431d9d23d313de7ea65edab2a6f4 [label=USERAUTH_FAILURE]
+	"no response5d26ca8e0db9b2f731c7a82134cedbac4c2973f1326e6fd8936817a0e839fd07" [label="no response"]
+	USERAUTH_FAILURE5d26ca8e0db9b2f731c7a82134cedbac4c2973f1326e6fd8936817a0e839fd07 [label=USERAUTH_FAILURE]
+	terminated5d26ca8e0db9b2f731c7a82134cedbac4c2973f1326e6fd8936817a0e839fd07 [label=terminated]
+	"no response105ec65445a33f3b5eea841e26fdf42c8c209ac4968092736b3b7e9502418b64" [label="no response"]
+	"no response2bb1c0568f233bc2442f91a367f4a0dd19b4cdbac89d1c50ca4934e8e090b774" [label="no response"]
+	USERAUTH_FAILURE2bb1c0568f233bc2442f91a367f4a0dd19b4cdbac89d1c50ca4934e8e090b774 [label=USERAUTH_FAILURE]
+	terminated2bb1c0568f233bc2442f91a367f4a0dd19b4cdbac89d1c50ca4934e8e090b774 [label=terminated]
+	"no response058eeb87f9d4740a94f3b551ffa44945313b9c70c7b58a0e524b2204f5b8b215" [label="no response"]
+	"no response28a482176202d559ad2a126516a5902b1295de7f1983e8af448f87b169d35483" [label="no response"]
+	USERAUTH_FAILURE28a482176202d559ad2a126516a5902b1295de7f1983e8af448f87b169d35483 [label=USERAUTH_FAILURE]
+	terminated28a482176202d559ad2a126516a5902b1295de7f1983e8af448f87b169d35483 [label=terminated]
+	"no response7941bf4235139821d83d27aacc73e9f60955bfd931862558c0aad5d5fc2a825a" [label="no response"]
+	"no response8d1c52c807b70044d6c02912206adbc513f325bc2d42645de4e025e699319e03" [label="no response"]
+	USERAUTH_FAILURE8d1c52c807b70044d6c02912206adbc513f325bc2d42645de4e025e699319e03 [label=USERAUTH_FAILURE]
+	"SERVICE_ACCEPT+USERAUTH_BANNER8d1c52c807b70044d6c02912206adbc513f325bc2d42645de4e025e699319e03" [label="SERVICE_ACCEPT+USERAUTH_BANNER"]
+	terminated8d1c52c807b70044d6c02912206adbc513f325bc2d42645de4e025e699319e03 [label=terminated]
 }
